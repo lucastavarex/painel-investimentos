@@ -124,7 +124,7 @@ function buildDropDownList(title, listItems) {
   const placeholderOption = document.createElement('option', 'cerapromedium');
   placeholderOption.value = '';
   placeholderOption.text = 'Defina uma área de planejamento';
-  placeholderOption.disabled = true;
+  placeholderOption.disabled = false;
   placeholderOption.selected = true; 
   dropDown.style.width = '250px'
 
