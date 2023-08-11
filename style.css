@@ -1,0 +1,638 @@
+@font-face {
+  font-family: 'CeraProBold';
+  src: url('./assets/fonte/Cera Pro Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CeraProMedium';
+  src: url('./assets/fonte/Cera Pro Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CeraProBold';
+  src: url('./assets/fonte/Cera Pro Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#filters {
+  display: flex;
+  align-items: center;
+}
+
+#filterResults {
+  font-size: 12px;
+  color: white;
+  background-color: #448EE4;
+
+}
+
+.theme {
+  background-color: #c9d4f0;
+}
+
+.select {
+  font-size: 13.5px;
+  padding-top:0.8vw;
+  padding-bottom: 0.4vw;
+  border: none;
+  outline: none;
+  box-shadow: none; 
+}
+
+
+.mapboxgl-ctrl-geocoder--input {
+  padding: 6px 30px;
+  margin-left: 5px;
+}
+
+.listings .item {
+  font-size: 14px;
+  word-wrap: break-word;
+  text-decoration: none;
+  border-bottom: solid rgb(34, 33, 33, .3) 1px;
+}
+
+.listings .item:last-child {
+  border-bottom: none;
+}
+
+.checkbox-container {
+  margin-left: 1vw;
+  /* Espaço à esquerda dos checkboxes */
+}
+
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  border-left: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: #2A395F;
+}
+
+
+.clearfix {
+  display: block;
+}
+
+.clearfix::after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.mapboxgl-popup-content {
+  font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+  text-align: left;
+  padding: 5;
+  width: 245px;
+}
+
+.mapboxgl-popup-content h3 {
+  color: black;
+  font-weight: 500;
+  margin: 0;
+  display: block;
+
+}
+
+.mapboxgl-ctrl-geocoder--input {
+  display: none
+}
+
+.mapboxgl-ctrl-geocoder--icon {
+  display: none
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox {
+
+  border-radius: 50%;
+  /* Makes it a circle */
+  /* display: flex; */
+  justify-content: center;
+  /* align-items: center; */
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  margin-bottom: 5px;
+}
+
+
+
+/* Estilo para os checkboxes */
+
+
+/* Estilo para o dropdown */
+.filter-option {
+  margin-right: 4vw;
+  background-color: white;
+  border-radius: 20px;
+ 
+}
+
+.checkbox-label {
+  background-color: white;
+  padding-top: 0.5vw;
+  padding-bottom: 0.4vw;
+  border-radius: 20px;
+}
+
+
+.main {
+  font-family: 'CeraProRegular', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.box2 {
+  width: calc(100% - 80px);
+  height: 1750px;
+  /* border: 1px solid black; */
+  margin: 20px;
+  border-radius: 20px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.box1 {
+  position: relative; /* Necessário para posicionar o texto corretamente */
+  width: calc(100% - 80px);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.box1 img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.image-text {
+  position: absolute;
+  top: 54%; /* Posiciona o texto no meio vertical da imagem */
+  left: 24%; /* Posiciona o texto no meio horizontal da imagem */
+  transform: translate(-50%, -50%); /* Centraliza o texto */
+  font-size: 3.5vw; /* Tamanho do texto */
+  color: white; /* Cor do texto */
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: 'CeraProBold', sans-serif;
+}
+.image-text2 {
+  position: absolute;
+  top: 88%; /* Posiciona o texto no meio vertical da imagem */
+  left: 17%; /* Posiciona o texto no meio horizontal da imagem */
+  transform: translate(-50%, -50%); /* Centraliza o texto */
+  font-size: 1.9vw; /* Tamanho do texto */
+  color: black; /* Cor do texto */
+  font-family: 'CeraProMedium', sans-serif;
+  line-height: 120%;
+}
+
+.botao {
+  position: absolute;
+  top: 88.8%; /* Posiciona o botão no meio vertical da imagem */
+  left: 91.5%; /* Posiciona o botão no centro horizontal da imagem */
+  transform: translateX(-50%); /* Centraliza o botão horizontalmente */
+}
+
+
+.botao button {
+  background-color: #00BFFF; /* Cor de fundo azul */
+  color: white; /* Cor do texto branco */
+  font-size: 1.5vw; /* Tamanho do texto */
+  font-weight: 700;
+  padding: 1.0vw 4vw 1.0vw 4vw; /* Espaçamento interno do botão */
+  border: none; /* Remove a borda */
+  border-radius: 4vw; /* Borda arredondada */
+  cursor: pointer; /* Cursor de mão ao passar o mouse */
+  white-space: nowrap;
+}
+
+.mapboxgl-ctrl-bottom-left{
+  display:none;
+}
+.mapboxgl-ctrl-bottom-right{
+  display:none;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+.cerapromedium{
+font-family: 'CeraProMedium', sans-serif;
+width: 250px;padding-right: 0px;
+}
+.checkbox-container {
+  background-color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 50px);
+  overflow: hidden;
+  padding:20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.menu img {
+  width: 100px;
+  /* Ajuste o tamanho da imagem conforme necessário */
+  height: auto;
+}
+
+.menu-links {
+  display: flex;
+  gap: 60px;
+  margin-left: auto;
+}
+
+.menu-links a {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-family: 'CeraProRegular', sans-serif;
+}
+
+.apple-popup .mapboxgl-popup-content {
+  border-radius: 20px;
+  padding-left: 22px;
+  padding-right: 18px;
+}
+
+/* ta bugando o pop-up pra mobile? */
+.mapboxgl-popup-close-button{
+  margin-right: 10px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.image-text3 {
+  font-size: 3.0vw; /* Tamanho do texto */
+  color: black; /* Cor do texto */
+  font-weight: 700;
+  font-family: 'CeraProRegular', sans-serif;
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px;
+}
+
+.boxmap {
+  width: calc(100% - 80px);
+  border-radius: 20px;
+  /* position: relative; */
+}
+
+.zoom-buttons {
+  position: absolute;
+  bottom: 92%; /* Centraliza verticalmente o grupo de botões */
+  right: 10px; /* Ajuste a distância da direita conforme necessário */
+  transform: translateY(90%); /* Desloca o grupo de botões para cima em 50% da altura */
+  z-index: 2;
+}
+
+.zoom-buttons button {
+  width: 40px;
+  height: 40px; 
+  margin-bottom: 5px; 
+  display: block;
+}
+
+.zoom-buttons img {
+  width: 100%;
+  height: 100%;
+}
+/* Estilos padrão para os filtros */
+.filters {
+  position: absolute;
+  z-index: 1;
+  left: 4vw;
+}
+
+#filters {
+  display: flex;
+  align-items: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-btn-saude{
+  background-color: #754EA6;
+  color: white;
+  font-size: 1.5vw;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0 10px;
+  font-family: 'CeraProMedium', sans-serif;
+}
+.page-btn-infra{
+  background-color: #4E81A6;
+  color: white;
+  font-size: 1.5vw;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0 10px;
+  font-family: 'CeraProMedium', sans-serif;
+}
+.page-btn-habit{
+  background-color: #6FA64E;
+  color: white;
+  font-size: 1.5vw;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0 10px;
+  font-family: 'CeraProMedium', sans-serif;
+}
+.page-btn-transp{
+  background-color: #A69D4E;
+  color: white;
+  font-size: 1.5vw;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0 10px;
+  font-family: 'CeraProMedium', sans-serif;
+}
+.centered-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh; /* Define a altura da div como 100% da altura da viewport */
+}
+
+.text-container {
+  text-align: center;
+  line-height: 120%;
+  font-size: 3.0vw; /* Tamanho do texto */
+  font-family: 'CeraProMedium', sans-serif;
+  color: black;
+}
+
+.text-saude-container {
+  position: absolute;
+  margin-left: 2vw;
+  top: 40%; /* Posição vertical no centro */
+  left: 42%; /* Posição horizontal no centro */
+  transform: translate(-50%, -50%); /* Centralizar o texto */
+  max-width: 100%; /* Limitar a largura do texto para não ultrapassar a imagem */
+  
+}
+
+.text-saude-content {
+  line-height: 120%;
+  text-align: center;
+  text-align: left;
+}
+
+
+/* Estilos para dividir o texto em duas linhas */
+
+
+.text-container span {
+  display: block;
+}
+
+
+#content1 {
+  display: block;
+}
+
+.content {
+  display: none;
+  width: calc(50%);
+  height: 350px;
+  border-radius: 20px;
+  padding-top: 12vw;
+  margin: 20px 50px; 
+  text-align: center; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content-retangulo {
+  position: relative;
+  z-index: 1;
+  margin-left: 250 ; /* Ajuste a margem direita para invadir a imagem ao lado */
+  background-size: 65%; /* Diminua o tamanho da imagem de fundo */
+  background-position: center 20%; /* Posiciona a imagem de fundo no centro vertical */
+}
+
+.content-thumbs {
+  position: relative;
+  z-index: 0;
+}
+
+.play-icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url('./assets/img/play.png');
+  background-size: cover;
+  background-position: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;/
+}
+
+
+
+.content-texto {
+  display: none;
+  width: calc(50%);
+  height: 350px;
+  border-radius: 20px;
+  padding: 20px; 
+  margin: 20px 50px; 
+  font-size: 16px; 
+  line-height: 1.5; 
+  overflow: auto; 
+}
+
+.saude-section {
+  display: flex; 
+  align-items: center;
+}
+
+  .content.show {
+    display: block;
+  }
+
+  .content-texto.show {
+    display: block;
+  }
+
+  /* AQUI COMEÇA A CEÇAO 3 */
+/* Estilo padrão dos botões */
+.page-btn {
+  background-color: white;
+  color: black;
+  font-size: 1.5vw;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0 10px;
+  font-family: 'CeraProMedium', sans-serif;
+  transition: background-color 0.3s; /* Transição suave para a mudança de cor */
+}
+
+/* Estilos para os botões de cada categoria */
+.page-btn-saude.active {
+  background-color: #754EA6; /* Vermelho para a categoria "Saúde" */
+}
+
+.page-btn-infra.active {
+  background-color: #4E81A6; /* Azul para a categoria "Infraestrutura" */
+}
+
+.page-btn-habit.active {
+  background-color: #6FA64E; /* Verde para a categoria "Habitação" */
+}
+
+.page-btn-transp.active {
+  background-color: #D2B64B; /* Amarelo para a categoria "Transporte" */
+}
+
+/* Estilo para as letras dos botões ativos */
+.page-btn.active {
+  color: white;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Cor e opacidade do fundo esmaecido */
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal {
+  position: relative;
+  max-width: 90%; /* Ajuste a largura máxima do modal conforme necessário */
+  max-height: 95%; /* Ajuste a altura máxima do modal conforme necessário */
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+ 
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.close-button2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Media query para ajustar o layout em dispositivos móveis */
+@media (max-width: 850px) {
+  .filters {
+    position: relative; /* Mudar para posição relativa */
+    left: auto; /* Resetar o deslocamento horizontal */
+    left: 4vw; 
+
+  }
+
+  #filters {
+    flex-direction: column; /* Empilhar verticalmente em dispositivos móveis */
+    align-items: stretch; /* Esticar na largura */
+  }
+
+  .boxmap {
+    flex-direction: column-reverse; /* Inverter a ordem dos elementos no layout */
+  }
+
+  */
+  .checkbox-label {
+    background-color: white;
+    padding-top: 0.5vw;
+    padding-bottom: 0.4vw;
+    border-radius: 20px;
+  }
+}
