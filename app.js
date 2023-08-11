@@ -126,7 +126,7 @@ function buildDropDownList(title, listItems) {
   placeholderOption.text = 'Defina uma área de planejamento';
   placeholderOption.disabled = false;
   placeholderOption.selected = true; 
-  dropDown.style.width = '250px'
+  dropDown.style.width = '270px'
 
   dropDown.appendChild(placeholderOption);
 

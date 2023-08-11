@@ -8,8 +8,8 @@
   <link href='https://api.mapbox.com/mapbox-assembly/v0.24.0/assembly.min.css' rel='stylesheet'>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <script src='https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
   <script
     src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.2.0/mapbox-gl-geocoder.min.js'></script>
   <script src='https://npmcdn.com/csv2geojson@latest/csv2geojson.js'></script>
@@ -17,218 +17,206 @@
   <link rel='stylesheet' href="style.css" />
 </head>
 
-<body>
-  <header>
-    <nav>
-      <div class="menu">
-        <img src="assets/img/logo.svg" alt="Imagem do Menu">
-        <div class="menu-links">
-          <a href="https://prefeitura.rio/">Prefeitura.rio</a>
-          <a href="https://www.dados.rio/">Dados.rio</a>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <div class="main">
-    <div class="box1">
-      <img src="assets/img/capa.png" alt="Imagem">
-      <div class="image-text">
-        <span style="display: block;line-height: 120%;">A GENTE <span style="color:#00BFFF">PRIORIZA</span></span>
-        <span style="display: block;">QUEM MAIS <span style="color:#00BFFF">PRECISA</span></span>
-      </div>
-      <div class="image-text2">
-        <span style="display: block;"><span><img src="assets/img/Vector.png" style="width: 15px;"> </span>Conheça as
-          iniciativas da</span>
-        <span style="display: block;">&nbsp&nbsp prefeitura para aprimorar a</span>
-        <span style="display: block;">&nbsp&nbsp qualidade de vida dos cariocas</span>
-      </div>
-      <div class="botao">
-        <button style="font-family: 'CeraProBold', sans-serif;"> Saiba mais </button>
-      </div>
-    </div>
-    <br>
-    <br>
-    <div class='flex-parent  relative scroll-hidden boxmap'>
-      <div class='flex-child flex-child--grow w-auto viewport-full-ml viewport-twothirds' id='map'>
-        <div class="filters">
-          <div class='flex-parent flex-parent--row'>
-            <form id="filters"></form>
+<body style="margin: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+  <div style="max-width: 1200px; ">
+    <header>
+      <nav>
+        <div class="menu">
+          <img src="assets/img/logo.svg" alt="Imagem do Menu">
+          <div class="menu-links">
+            <a href="https://prefeitura.rio/">Prefeitura.rio</a>
+            <a href="https://www.dados.rio/">Dados.rio</a>
           </div>
         </div>
-        <div class="zoom-buttons" style='z-index: 1;'>
-          <button id="zoom-in"><img src="assets/img/zoomin.png" alt="zoom"></button>
-          <button id="zoom-out"><img src="assets/img/zoomout.png" alt="zoom"></button>
+      </nav>
+    </header>
+
+    <div class="main">
+      <div class="box1">
+        <img src="assets/img/capa.png" alt="Imagem">
+        <div class="image-text">
+          <span style="display: block;line-height: 120%;">A GENTE <span style="color:#00BFFF">PRIORIZA</span></span>
+          <span style="display: block;">QUEM MAIS <span style="color:#00BFFF">PRECISA</span></span>
+        </div>
+        <div class="image-text2">
+          <span style="display: block;"><span><img src="assets/img/Vector.png" style="width: 15px;"> </span>Conheça as
+            iniciativas da</span>
+          <span style="display: block;">&nbsp&nbsp prefeitura para aprimorar a</span>
+          <span style="display: block;">&nbsp&nbsp qualidade de vida dos cariocas</span>
+        </div>
+        <div class="botao">
+          <button style="font-family: 'CeraProBold', sans-serif;"> Saiba mais </button>
         </div>
       </div>
-    </div>
-    <br>
-    <br>
-
-    <div class="box2">
-
-      <div class="pagination">
-        <button class="page-btn page-btn-saude active" data-target="content1">Saúde</button>
-        <button class="page-btn page-btn-infra" data-target="content2">Infraestrutura</button>
-        <button class="page-btn page-btn-habit" data-target="content3">Habitação</button>
-        <button class="page-btn page-btn-transp" data-target="content4">Transporte</button>
-      </div>
-
-
-
-      <div class="saude" style="font-family: 'CeraProBold', sans-serif;">
-        <div class="centered-div">
-          <div class="text-container" id="content1">
-            A gente prioriza quem <span> mais precisa </span>
+      <br>
+      <br>
+      <div class='flex-parent  relative scroll-hidden boxmap'>
+        <div class='flex-child flex-child--grow w-auto viewport-full-ml viewport-twothirds' id='map'>
+          <div class="filters">
+            <div class='flex-parent flex-parent--row'>
+              <form id="filters"></form>
+            </div>
+          </div>
+          <div class="zoom-buttons" style='z-index: 1;'>
+            <button id="zoom-in"><img src="assets/img/zoomin.png" alt="zoom"></button>
+            <button id="zoom-out"><img src="assets/img/zoomout.png" alt="zoom"></button>
           </div>
         </div>
+      </div>
+      <br>
+      <br>
 
-        <div class="saude-section">
-          <div class="content content-retangulo"
-            style="left: 20vw; background-image: url('./assets/img/Retangulo_maior.png');" id="content1">
-            <div class="text-saude-container">
-              <p class="text-saude-content">
-                <span style="font-size: 1.6vw;color: black; ">
-                  <span style="color: #754EA6;">A fila</span> do Sisreg<br>
-                  <span style="color:#754EA6;">vai andar!</span>
-                  <div style="padding-top:2.5vw"></div>
-                </span>
-              <div style="text-align: left;  line-height: 100%;">
-                <span style="font-size: 0.9vw; ">
-                  Para garantir mais médicos, mais exames e mais <br>
-                  cirurgia pra você, a Prefeitura inaugurou o mais <br>
-                  moderno complexo de saúde da América <br>
-                  Latina.
-                </span>
+      <div class="box2">
+
+        <div class="pagination">
+          <button class="page-btn page-btn-saude active" data-target="content1">Saúde</button>
+          <button class="page-btn page-btn-infra" data-target="content2">Infraestrutura</button>
+          <button class="page-btn page-btn-habit" data-target="content3">Habitação</button>
+          <button class="page-btn page-btn-transp" data-target="content4">Transporte</button>
+        </div>
+
+
+
+        <div class="saude" style="font-family: 'CeraProBold', sans-serif;">
+          <div class="centered-div" style="height: 250px;">
+            <div class="text-container" id="content1">
+              A gente prioriza quem <span> mais precisa </span>
+            </div>
+          </div>
+
+          <div class="saude-section">
+            <div class="content content-retangulo"
+              style="left: 210px;top: 80px; background-image: url('./assets/img/Retangulo_maior.png');" id="content1">
+            </div>
+
+            <div class="content content-thumbs" style="background-image: url('./assets/img/medico.png');" id="content1">
+              <div class="play-icon" id="play-button"></div>
+            </div>
+            <div class="overlay" id="overlay">
+              <div class="modal">
+                <blockquote class="instagram-media"
+                  data-instgrm-permalink="https://www.instagram.com/reel/Cb72CffAC5l/?utm_source=ig_embed&amp;utm_campaign=loading"
+                  data-instgrm-version="10">
+                </blockquote>
+                <script async src="//www.instagram.com/embed.js"></script>
+                <span class="close-button" id="close-button">&times;</span>
               </div>
-              </p>
             </div>
           </div>
 
-          <div class="content content-thumbs" style="background-image: url('./assets/img/medico.png');" id="content1">
-            <div class="play-icon" id="play-button"></div>
-          </div>
-          <div class="overlay" id="overlay">
-            <div class="modal">
-              <blockquote class="instagram-media"
-                data-instgrm-permalink="https://www.instagram.com/reel/Cb72CffAC5l/?utm_source=ig_embed&amp;utm_campaign=loading"
-                data-instgrm-version="10">
-              </blockquote>
-              <script async src="//www.instagram.com/embed.js"></script>
-              <span class="close-button" id="close-button">&times;</span>
+          <br><br>
+
+          <div class="saude-section">
+            <div class=" content content-thumbs" style="background-image: url('./assets/img/vacina.png');"
+              id="content1">
+              <div class="play-icon" id="play-button2"></div>
             </div>
+            <div class="overlay" id="overlay2">
+              <div class="modal">
+                <blockquote class="instagram-media"
+                  data-instgrm-permalink="https://www.instagram.com/reel/CuzMhQ2gNp2/?utm_source=ig_embed&amp;utm_campaign=loading"
+                  data-instgrm-version="14">
+                </blockquote>
+                <script async src="//www.instagram.com/embed.js"></script>
+                <span class="close-button2" id="close-button2">&times;</span>
+              </div>
+            </div>
+            <div class="content-texto" style="width: 565px;" id="content1">
+              <span style="color: #754EA6;"> —— Super Cento Carioca de Saúde </span><br><br>
+              <span style="font-size: 1.6vw;"> O maior e <span style="color: #754EA6;">mais moderno</span> complexo <br>
+                de Saúde da América Latina </span> <br><br>
+              O Super Centro Carioca de Saúde ajudou a
+              reduzir em 50% o tempo de espera por exames,
+              consultas e cirurgias na fila do SISREG.<br><br>
+              <img src="assets/img/purple_check.png" alt="zoom" style="padding-bottom: 10px;"> 113 mil consultas e
+              procedimentos por mês<br>
+
+              <img src="assets/img/purple_check.png" alt="zoom" style="padding-bottom: 10px;"> São 520
+              médicos especialistas
+              contratados<br>
+
+              <img src="assets/img/purple_check.png" alt="zoom" style="padding-bottom: 10px;"> Filas zeradas para
+              diversos
+              exames e procedimentos<br>
+
+            </div>
+          </div>
+
+          <br><br>
+
+          <div class="saude-section">
+            <div class=" content-texto" style="padding-top: 50px;" id="content1">
+              <span style="color: #754EA6;"> —— Hospital Ronaldo Gazolla </span><br><br>
+              <span style="font-size: 1.6vw;">Saúde de qualidade <span style="color: #754EA6;"> pra <br>
+                  quem mais precisa </span></span><br><br>
+              Super Centro Carioca de Saúde, Clínicas <br>
+              da Família recuperadas, mais médicos<br>
+              nas UPAs e hospitais municipais… Ainda <br>
+              não tá bom, mas quem precisa sabe que <br>
+              a Saúde Pública Carioca tá diferente.
+            </div>
+
+            <div class="content content-thumbs" style="background-image: url('./assets/img/hospital-ronaldo-gaz.png');"
+              id="content1">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="infraestrutura">
+          <div class="content" id="content2">
+            Conteúdo da Infraestrutura
+          </div>
+          <div class="content" id="content2">
+            Conteúdo da Infraestrutura
+          </div>
+          <div class="content" id="content2">
+            Conteúdo da Infraestrutura
           </div>
         </div>
 
-        <br><br>
-
-        <div class="saude-section">
-          <div class=" content content-thumbs" style="background-image: url('./assets/img/vacina.png');" id="content1">
-            <div class="play-icon" id="play-button2"></div>
+        <div class="habitacao">
+          <div class="content" id="content3">
+            Conteúdo da Habitação
           </div>
-          <div class="overlay" id="overlay2">
-            <div class="modal">
-              <blockquote class="instagram-media"
-                data-instgrm-permalink="https://www.instagram.com/reel/CuzMhQ2gNp2/?utm_source=ig_embed&amp;utm_campaign=loading"
-                data-instgrm-version="14">
-              </blockquote>
-              <script async src="//www.instagram.com/embed.js"></script>
-              <span class="close-button2" id="close-button2">&times;</span>
-            </div>
+          <div class="content" id="content3">
+            Conteúdo da Habitação
+          </div>
+          <div class="content" id="content3">
+            Conteúdo da Habitação
+          </div>
+        </div>
+
+        <div class="transporte">
+          <div class="content" id="content4">
+            Conteúdo do Transporte
+          </div>
+          <div class="content" id="content4">
+            Conteúdo do Transporte
+          </div>
+          <div class="content" id="content4">
+            Conteúdo do Transporte
+          </div>
+        </div>
+
+        <br><br><br>
+
+        <!-- <div class="saude-section text-container">
+          <div class="content-texto" id="content1">
+            <span style="font-size: 30px;"> AQUI VAI O FOOTER</span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, culpa repellendus. Tempora est, nesciunt
+            adipisci praesentium fugiat iste eaque, sed harum libero eius quasi qui facere doloribus? Magni, maxime
+            ducimus.
           </div>
           <div class="content-texto" id="content1">
-            <span style="color: #754EA6;"> —— Super Cento Carioca de Saúde </span><br><br>
-            <span style="font-size: 1.6vw;"> O maior e <span style="color: #754EA6;">mais moderno</span> complexo <br>
-              de Saúde da América Latina </span> <br><br>
-            O Super Centro Carioca de Saúde ajudou a
-            reduzir em 50% o tempo de espera por exames,
-            consultas e cirurgias na fila do SISREG.<br><br>
-            <img src="assets/img/purple_check.png" alt="zoom" style="padding-bottom: 10px;"> 113 mil consultas e
-            procedimentos por mês<br>
-
-            <img src="assets/img/purple_check.png" alt="zoom" style="padding-bottom: 10px;"> 2 mil médicos
-            contratados<br>
-
-            <img src="assets/img/purple_check.png" alt="zoom" style="padding-bottom: 10px;"> Filas zeradas para diversos
-            exames e procedimentos<br>
-
+            <span style="font-size: 30px;"> AQUI VAI O FOOTER</span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, culpa repellendus. Tempora est, nesciunt
+            adipisci praesentium fugiat iste eaque, sed harum libero eius quasi qui facere doloribus? Magni, maxime
+            ducimus.
           </div>
-        </div>
-
-        <br><br>
-
-        <div class="saude-section">
-          <div class=" content-texto" id="content1">
-            <span style="color: #754EA6;"> —— Hospital Ronaldo Gazolla </span><br><br>
-            <span style="font-size: 1.6vw;">Saúde de qualidade <span style="color: #754EA6;"> pra <br>
-                quem mais precisa </span></span><br><br>
-            Super Centro Carioca de Saúde, Clínicas <br>
-            da Família recuperadas, mais médicos<br>
-            nas UPAs e hospitais municipais… Ainda <br>
-            não tá bom, mas quem precisa sabe que <br>
-            a Saúde Pública Carioca tá diferente.
-          </div>
-
-          <div class="content content-thumbs" style="background-image: url('./assets/img/hospital-ronaldo-gaz.png');"
-            id="content1">
-          </div>
-        </div>
+        </div> -->
 
       </div>
-
-      <div class="infraestrutura">
-        <div class="content" id="content2">
-          Conteúdo da Infraestrutura
-        </div>
-        <div class="content" id="content2">
-          Conteúdo da Infraestrutura
-        </div>
-        <div class="content" id="content2">
-          Conteúdo da Infraestrutura
-        </div>
-      </div>
-
-      <div class="habitacao">
-        <div class="content" id="content3">
-          Conteúdo da Habitação
-        </div>
-        <div class="content" id="content3">
-          Conteúdo da Habitação
-        </div>
-        <div class="content" id="content3">
-          Conteúdo da Habitação
-        </div>
-      </div>
-
-      <div class="transporte">
-        <div class="content" id="content4">
-          Conteúdo do Transporte
-        </div>
-        <div class="content" id="content4">
-          Conteúdo do Transporte
-        </div>
-        <div class="content" id="content4">
-          Conteúdo do Transporte
-        </div>
-      </div>
-
-      <br><br><br>
-
-      <div class="saude-section text-container">
-        <div class="content-texto" id="content1">
-          <span style="font-size: 30px;"> AQUI VAI O FOOTER</span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, culpa repellendus. Tempora est, nesciunt
-          adipisci praesentium fugiat iste eaque, sed harum libero eius quasi qui facere doloribus? Magni, maxime
-          ducimus.
-        </div>
-        <div class="content-texto" id="content1">
-          <span style="font-size: 30px;"> AQUI VAI O FOOTER</span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, culpa repellendus. Tempora est, nesciunt
-          adipisci praesentium fugiat iste eaque, sed harum libero eius quasi qui facere doloribus? Magni, maxime
-          ducimus.
-        </div>
-      </div>
-
     </div>
 
 </body>
