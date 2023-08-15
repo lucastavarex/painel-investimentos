@@ -147,7 +147,7 @@
 .filter-option {
   margin-right: 4vw;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 120px;
  
 }
 
@@ -168,13 +168,19 @@
 }
 
 .box2 {
-  width: calc(100% - 80px);
-  margin: 20px;
+  width: calc(100% );
+ 
   border-radius: 20px;
   justify-content: center;
   align-items: center;
   position: relative;
 }
+
+.separador {
+  border-bottom: 1px solid #ccc; /* Define a linha cinza com uma borda inferior */
+  margin: 20px 0; /* Define margens para espaçamento ao redor da linha */
+}
+
 
 
 .box1 {
@@ -226,11 +232,11 @@
 .botao button {
   background-color: #00BFFF; /* Cor de fundo azul */
   color: white; /* Cor do texto branco */
-  font-size: 1.5vw; /* Tamanho do texto */
-  font-weight: 700;
+  font-size: 22px; /* Tamanho do texto */
+  font-weight: 700px;
   padding: 15px 35px 15px 35px;
   border: none; /* Remove a borda */
-  border-radius: 4vw; /* Borda arredondada */
+  border-radius: 40px; /* Borda arredondada */
   cursor: pointer; /* Cursor de mão ao passar o mouse */
   white-space: nowrap;
 }
@@ -384,6 +390,7 @@ width: 250px;padding-right: 0px;
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  border: 1px black;
 }
 
 .page-btn-saude{
@@ -438,8 +445,6 @@ width: 250px;padding-right: 0px;
 }
 
 .text-container {
-  /* padding-top: 100px;
-  padding-bottom: 100px; */
   text-align: center;
   line-height: 120%;
   font-size: 3.0vw; /* Tamanho do texto */
@@ -523,7 +528,7 @@ width: 250px;padding-right: 0px;
 
 .content-texto {
   display: none;
-  width: calc(50%);
+  width: 630px;
   height: 413px;
   border-radius: 20px;
   padding: 20px; 
@@ -533,9 +538,21 @@ width: 250px;padding-right: 0px;
   overflow: auto; 
 }
 
-.saude-section {
+.sections {
   display: flex; 
-  align-items: center;
+}
+
+#content1{
+  text-align: left;
+}
+#content2{
+  text-align: left;
+}
+#content3{
+  text-align: left;
+}
+#content4{
+  text-align: left;
 }
 
   .content.show {
@@ -619,6 +636,36 @@ width: 250px;padding-right: 0px;
   right: 10px;
   font-size: 24px;
   cursor: pointer;
+}
+
+.button-container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.button-box {
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.button-box button {
+  flex: 1;
+  outline: none;
+}
+
+.button-box button:first-child {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.button-box button:last-child {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 /* Media query para ajustar o layout em dispositivos móveis */

@@ -99,10 +99,10 @@ function createPopup(currentFeature) {
   if (popups[0]) popups[0].remove();
   new mapboxgl.Popup({className: "apple-popup", closeOnClick: true })
     .setLngLat(currentFeature.geometry.coordinates)
-    .setHTML('<h3>' + '<b>' + 'Título &nbsp&nbsp' +'</b>'+ currentFeature.properties[config.popupInfo[0]] + '</h3>'
-           + '<h3>' + '<b>' + 'Projeto &nbsp&nbsp' +'</b>'+ currentFeature.properties[config.popupInfo[1]] + '</h3>'
-           + '<h3>' + '<b>' + 'Bairro &nbsp&nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[2]] + '</h3>'
-           + '<h3>' + '<b>' + 'Situação &nbsp&nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[3]] +'</h3>') 
+    .setHTML('<h3>' + '<b>' + 'Título &nbsp' +'</b>'+ currentFeature.properties[config.popupInfo[0]] + '</h3>'
+           + '<h3>' + '<b>' + 'Projeto &nbsp' +'</b>'+ currentFeature.properties[config.popupInfo[1]] + '</h3>'
+           + '<h3>' + '<b>' + 'Bairro &nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[2]] + '</h3>'
+           + '<h3>' + '<b>' + 'Situação &nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[3]] +'</h3>') 
     .addTo(map);
 }
 

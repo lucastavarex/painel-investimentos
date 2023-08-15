@@ -17,7 +17,7 @@
   <link rel='stylesheet' href="style.css" />
 </head>
 
-<body style="margin: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+<body style="margin: 0; display: flex; justify-content: center; align-items: center; ">
   <div style="max-width: 1200px; ">
     <header>
       <nav>
@@ -67,24 +67,25 @@
       <br>
 
       <div class="box2">
-
-        <div class="pagination">
-          <button class="page-btn page-btn-saude active" data-target="content1">Saúde</button>
-          <button class="page-btn page-btn-infra" data-target="content2">Infraestrutura</button>
-          <button class="page-btn page-btn-habit" data-target="content3">Habitação</button>
-          <button class="page-btn page-btn-transp" data-target="content4">Transporte</button>
+        <div class="button-container">
+          <div class="pagination button-box">
+            <button class="page-btn page-btn-saude active" data-target="content1">Saúde</button>
+            <button class="page-btn page-btn-infra" data-target="content2">Infraestrutura</button>
+            <button class="page-btn page-btn-habit" data-target="content3">Habitação</button>
+            <button class="page-btn page-btn-transp" data-target="content4">Transporte</button>
+          </div>
         </div>
 
 
 
         <div class="saude" style="font-family: 'CeraProBold', sans-serif;">
           <div class="centered-div" style="height: 250px;">
-            <div class="text-container" id="content1">
+            <div class="text-container">
               A gente prioriza quem <span> mais precisa </span>
             </div>
           </div>
 
-          <div class="saude-section">
+          <div class="sections">
             <div class="content content-retangulo"
               style="left: 210px;top: 80px; background-image: url('./assets/img/Retangulo_maior.png');" id="content1">
             </div>
@@ -103,11 +104,10 @@
             </div>
           </div>
 
-          <br><br>
 
-          <div class="saude-section">
-            <div class=" content content-thumbs" style="background-image: url('./assets/img/vacina.png');"
-              id="content1">
+
+          <div class="sections">
+            <div class="content content-thumbs" style="background-image: url('./assets/img/vacina.png');" id="content1">
               <div class="play-icon" id="play-button2"></div>
             </div>
             <div class="overlay" id="overlay2">
@@ -120,14 +120,17 @@
                 <span class="close-button2" id="close-button2">&times;</span>
               </div>
             </div>
-            <div class="content-texto" style="width: 565px;" id="content1">
+            <div class="content content-texto" width="700px" id="content1">
               <span style="color: #754EA6;"> —— Super Cento Carioca de Saúde </span><br><br>
-              <span style="font-size: 1.6vw;"> O maior e <span style="color: #754EA6;">mais moderno</span> complexo <br>
-                de Saúde da América Latina </span> <br><br>
-              O Super Centro Carioca de Saúde ajudou a
-              reduzir em 50% o tempo de espera por exames,
-              consultas e cirurgias na fila do SISREG.<br><br>
-              <img src="assets/img/purple_check.png" alt="zoom" style="padding-bottom: 10px;"> 113 mil consultas e
+              <span style="font-size: 1.6vw; line-height: 110%"> O maior e <span style="color: #754EA6;">mais
+                  moderno</span> complexo
+                de Saúde da América Latina </span>
+              <div style=" padding-top: 10px;">
+                O Super Centro Carioca de Saúde ajudou a
+                reduzir em 50% o tempo de espera por exames,
+                consultas e cirurgias na fila do SISREG.<br><br>
+              </div>
+              <img src="assets/img/purple_check.png" alt="zoom" style="padding-bottom: 9px;"> 113 mil consultas e
               procedimentos por mês<br>
 
               <img src="assets/img/purple_check.png" alt="zoom" style="padding-bottom: 10px;"> São 520
@@ -141,10 +144,10 @@
             </div>
           </div>
 
-          <br><br>
 
-          <div class="saude-section">
-            <div class=" content-texto" style="padding-top: 50px;" id="content1">
+
+          <div class="sections">
+            <div class="content content-texto" style="padding-top: 50px;" id="content1">
               <span style="color: #754EA6;"> —— Hospital Ronaldo Gazolla </span><br><br>
               <span style="font-size: 1.6vw;">Saúde de qualidade <span style="color: #754EA6;"> pra <br>
                   quem mais precisa </span></span><br><br>
@@ -161,45 +164,262 @@
 
         </div>
 
-        <div class="infraestrutura">
-          <div class="content" id="content2">
-            Conteúdo da Infraestrutura
+        <div class="infraestrutura" style="font-family: 'CeraProBold', sans-serif;">
+          <div class="content centered-div" style="height: 250px;">
+            <div class="text-container" id="content2">
+              Da Zona Norte à Zona Oeste, <span>tem Bairro Maravilha!</span>
+            </div>
           </div>
-          <div class="content" id="content2">
-            Conteúdo da Infraestrutura
+
+          <div class="sections">
+            <div class="content content-thumbs" style="background-image: url('./assets/img/medico.png');" id="content2">
+              <div class="play-icon" id="play-button"></div>
+            </div>
+
+            <div class="content content-retangulo"
+              style="right:155px ; top: 90px; background-image: url('./assets/img/Retangulo_maior_azul.png');"
+              id="content2">
+            </div>
+
+            <div class="overlay" id="overlay">
+              <div class="modal">
+                <blockquote class="instagram-media"
+                  data-instgrm-permalink="https://www.instagram.com/reel/CjVrmR7g0J0/?utm_source=ig_embed&amp;utm_campaign=loading">
+                </blockquote>
+                <script async src="//www.instagram.com/embed.js"></script>
+                <span class="close-button" id="close-button">&times;</span>
+              </div>
+            </div>
           </div>
-          <div class="content" id="content2">
-            Conteúdo da Infraestrutura
+
+
+
+          <div class="sections">
+            <div class="content content-texto" id="content2">
+              <span style="color: #4E81A6;"> —— Urbanização pra quem mais precisa </span><br><br>
+              <span style="font-size: 1.6vw;line-height: 110%;"> 3 a cada 4 obras são <br> na <span
+                  style="color: #4E81A6;">Zona
+                  Oeste</span></span><br>
+
+              Diversos bairros das zonas Norte e Oeste estão recebendo serviços essenciais de urbanização pra que os
+              cariocas tenham dignidade e mais qualidade de vida.<br><br>
+              <img src="assets/img/blue_check.png" alt="zoom" style="padding-bottom: 10px;"> Sai lama, poeira e
+              enchente<br>
+
+              <img src="assets/img/blue_check.png" alt="zoom" style="padding-bottom: 10px;"> Sai lama, poeira e
+              enchente<br>
+
+              <img src="assets/img/blue_check.png" alt="zoom" style="padding-bottom: 10px;"> Mais de 1.200 ruas
+              serão urbanizadas na ZO e ZN<br>
+
+            </div>
+            <div class="content content-thumbs" style="background-image: url('./assets/img/vacina.png');" id="content2">
+              <div class="play-icon" id="play-button2"></div>
+            </div>
+            <div class="overlay" id="overlay2">
+              <div class="modal">
+                <blockquote class="instagram-media"
+                  data-instgrm-permalink="https://www.instagram.com/reel/CuzMhQ2gNp2/?utm_source=ig_embed&amp;utm_campaign=loading"
+                  data-instgrm-version="14">
+                </blockquote>
+                <script async src="//www.instagram.com/embed.js"></script>
+                <span class="close-button2" id="close-button2">&times;</span>
+              </div>
+            </div>
           </div>
+
+
+
+          <div class="sections">
+
+            <div class="content content-thumbs" style="background-image: url('./assets/img/foto3.jpg');" id="content2">
+            </div>
+
+            <div class="content content-texto" style="padding-top: 50px;" id="content2">
+              <span style="color: #4E81A6;"> —— Muito mais que uma obra! </span><br><br>
+              <span style="font-size: 1.6vw;"><span style="color: #4E81A6;">300 mil pessoas</span> serão <br> <span
+                  style="color: #4E81A6;">beneficiadas</span> na
+                Zona <br>Norte e na Zona Oeste
+              </span></span><br><br>
+              O programa tá urbanizando várias regiões da <br>
+              cidade, mas ele é muito mais que isso. É <br>
+              dignidade, é oportunidade, é emprego, é <br>
+              qualidade de vida.
+            </div>
+          </div>
+
         </div>
 
-        <div class="habitacao">
-          <div class="content" id="content3">
-            Conteúdo da Habitação
+        <div class="habitacao" style="font-family: 'CeraProBold', sans-serif;">
+          <div class="content centered-div" style="height: 250px;">
+            <div class="text-container">
+              Escrevendo uma nova <span> história com o Morar Carioca</span>
+            </div>
           </div>
-          <div class="content" id="content3">
-            Conteúdo da Habitação
+
+          <div class="sections">
+            <div class="content content-retangulo"
+              style="left: 210px;top: 80px; background-image: url('./assets/img/Retangulo_maior_verde.png');"
+              id="content3">
+            </div>
+
+            <div class="content content-thumbs" style="background-image: url('./assets/img/medico.png');" id="content3">
+              <div class="play-icon" id="play-button"></div>
+            </div>
+            <div class="overlay" id="overlay">
+              <div class="modal">
+                <blockquote class="instagram-media"
+                  data-instgrm-permalink="https://www.instagram.com/reel/CjVrmR7g0J0/?utm_source=ig_embed&amp;utm_campaign=loading">
+                </blockquote>
+                <script async src="//www.instagram.com/embed.js"></script>
+                <span class="close-button" id="close-button">&times;</span>
+              </div>
+            </div>
           </div>
-          <div class="content" id="content3">
-            Conteúdo da Habitação
+
+
+
+          <div class="sections">
+            <div class="content content-thumbs" style="background-image: url('./assets/img/vacina.png');" id="content3">
+              <div class="play-icon" id="play-button2"></div>
+            </div>
+            <div class="overlay" id="overlay2">
+              <div class="modal">
+                <blockquote class="instagram-media"
+                  data-instgrm-permalink="https://www.instagram.com/reel/CuzMhQ2gNp2/?utm_source=ig_embed&amp;utm_campaign=loading"
+                  data-instgrm-version="14">
+                </blockquote>
+                <script async src="//www.instagram.com/embed.js"></script>
+                <span class="close-button2" id="close-button2">&times;</span>
+              </div>
+            </div>
+            <div class="content content-texto" id="content3">
+              <span style="color: #6FA64E"> —— Lar doce lar </span><br><br>
+              <span style="font-size: 1.6vw;"><span style="color: #6FA64E">As obras</span> na Comunidade <br>
+                do Aço <span style="color: #6FA64E">já começaram</span></span><br>
+              É o Morar Carioca levando urbanização, dignidade <br>
+              e qualidade de vida pra mais de 700 famílias da <br> Zona
+              Oeste do Rio.<br><br>
+              <img src="assets/img/green_check.png" alt="zoom" style="padding-bottom: 10px;"> Beneficiamos 700 famílias
+              da Zona Oeste do Rio<br>
+
+              <img src="assets/img/green_check.png" alt="zoom" style="padding-bottom: 10px;"> Saneamento, pavimentação e
+              áreas de lazer<br>
+
+              <img src="assets/img/green_check.png" alt="zoom" style="padding-bottom: 10px;"> 44 novos blocos de
+              apartamentos<br>
+
+            </div>
           </div>
+
+
+
+          <div class="sections">
+            <div class="content content-texto" style="padding-top: 50px;" id="content3">
+              <span style="color: #6FA64E"> —— Hospital Ronaldo Gazolla </span><br><br>
+              <span style="font-size: 1.6vw;">Saúde de qualidade <span style="color: #6FA64E"> pra <br>
+                  quem mais precisa </span></span><br><br>
+              Super Centro Carioca de Saúde, Clínicas <br>
+              da Família recuperadas, mais médicos<br>
+              nas UPAs e hospitais municipais… Ainda <br>
+              não tá bom, mas quem precisa sabe que <br>
+              a Saúde Pública Carioca tá diferente.
+            </div>
+
+            <div class="content content-thumbs" style="background-image: url('./assets/img/foto3.jpg');" id="content3">
+            </div>
+          </div>
+
         </div>
 
-        <div class="transporte">
-          <div class="content" id="content4">
-            Conteúdo do Transporte
+        <div class="transporte" style="font-family: 'CeraProBold', sans-serif;">
+          <div class="content centered-div" style="height: 250px;">
+            <div class="text-container">
+              A nova era do transporte <span>público carioca começou!</span>
+            </div>
           </div>
-          <div class="content" id="content4">
-            Conteúdo do Transporte
+
+          <div class="sections">
+            <div class="content content-thumbs" style="background-image: url('./assets/img/medico.png');" id="content4">
+              <div class="play-icon" id="play-button"></div>
+            </div>
+
+            <div class="content content-retangulo"
+              style="right:155px ; top: 60px; background-image: url('./assets/img/Retangulo_maior_amarelo.png');"
+              id="content4">
+            </div>
+
+            <div class="overlay" id="overlay">
+              <div class="modal">
+                <blockquote class="instagram-media"
+                  data-instgrm-permalink="https://www.instagram.com/reel/CjVrmR7g0J0/?utm_source=ig_embed&amp;utm_campaign=loading">
+                </blockquote>
+                <script async src="//www.instagram.com/embed.js"></script>
+                <span class="close-button" id="close-button">&times;</span>
+              </div>
+            </div>
           </div>
-          <div class="content" id="content4">
-            Conteúdo do Transporte
+
+
+
+          <div class="sections">
+            <div class="content content-texto" id="content4">
+              <span style="color: #A69D4E;"> —— BRT pra crer! </span><br><br>
+              <span style="font-size: 1.6vw;"> A transformação também vai chegar na Transoeste</span>
+
+              Estamos refazendo as pistas do corredor Transoeste e transformando cinco estações em terminais.<br><br>
+              <img src="assets/img/yellow_check.png" alt="zoom" style="padding-bottom: 10px;"> Menos tempo de espera:
+              intervalos inferiores a 10 minutos<br>
+
+              <img src="assets/img/yellow_check.png" alt="zoom" style="padding-bottom: 10px;"> Mais passageiros: 320 mil
+              cariocas viajando diariamente<br>
+
+              <img src="assets/img/yellow_check.png" alt="zoom" style="padding-bottom: 10px;"> Devolvemos 75 linhas para
+              as ruas da cidade<br>
+
+            </div>
+            <div class="content content-thumbs" style="background-image: url('./assets/img/vacina.png');" id="content4">
+              <div class="play-icon" id="play-button2"></div>
+            </div>
+            <div class="overlay" id="overlay2">
+              <div class="modal">
+                <blockquote class="instagram-media"
+                  data-instgrm-permalink="https://www.instagram.com/reel/CuzMhQ2gNp2/?utm_source=ig_embed&amp;utm_campaign=loading"
+                  data-instgrm-version="14">
+                </blockquote>
+                <script async src="//www.instagram.com/embed.js"></script>
+                <span class="close-button2" id="close-button2">&times;</span>
+              </div>
+            </div>
           </div>
+
+
+
+          <div class="sections">
+
+            <div class="content content-thumbs" style="background-image: url('./assets/img/foto3.jpg');" id="content4">
+            </div>
+
+            <div class="content content-texto" style="padding-top: 50px;" id="content4">
+              <span style="color: #A69D4E;"> —— Transporte como você merece</span><br><br>
+              <span style="font-size: 1.6vw;"> 99% das<span style="color: #A69D4E;"> estações revitalizadas</span>
+              </span></span><br><br>
+              Desde 2021 a Prefeitura está investindo na <br>
+              reconstrução do sistema. Estações reformadas <br>
+              e reabertas, construção de novos terminais, <br>
+              pista nova na Transoeste, a Transbrasil e o <br>
+              Terminal Gentileza ficando prontos e novos <br>
+              BRTs na pista.
+            </div>
+          </div>
+
         </div>
 
-        <br><br><br>
 
-        <!-- <div class="saude-section text-container">
+        <div class="separador"></div>
+
+
+        <div class="sections text-container">
           <div class="content-texto" id="content1">
             <span style="font-size: 30px;"> AQUI VAI O FOOTER</span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, culpa repellendus. Tempora est, nesciunt
@@ -212,7 +432,7 @@
             adipisci praesentium fugiat iste eaque, sed harum libero eius quasi qui facere doloribus? Magni, maxime
             ducimus.
           </div>
-        </div> -->
+        </div>
 
       </div>
     </div>
