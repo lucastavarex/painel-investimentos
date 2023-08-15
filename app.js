@@ -32,45 +32,49 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener('DOMContentLoaded', function() {
   const buttons = document.querySelectorAll('.page-btn');
   const contents = document.querySelectorAll('.content');
-  
-  // Função para remover a classe "active" de todos os botões
-  function removeActiveClassFromButtons() {
-  buttons.forEach(btn => {
-  btn.classList.remove('active');
-  });
+  const titles = document.querySelectorAll('.title');
+
+  // Function to show content based on button click
+  function showContent(target) {
+    contents.forEach(content => {
+      if (content.id === target) {
+        content.style.display = 'block';
+      } else {
+        content.style.display = 'none';
+      }
+    });
   }
-  
-  // Inicializa o botão de "Saúde" como ativo (colorido)
-  const saudeButton = document.querySelector('.page-btn-saude');
-  saudeButton.classList.add('active');
-  
-  // Remove a classe "active" de todos os botões, exceto o de "Saúde"
-  buttons.forEach(button => {
-  if (button !== saudeButton) {
-  button.classList.remove('active');
+  function showTitle(target) {
+    titles.forEach(title => {
+      if (title.id === target) {
+        title.style.display = 'block';
+      } else {
+        title.style.display = 'none';
+      }
+    });
   }
-  });
-  
+
+  // Add event listeners to buttons
   buttons.forEach(button => {
-  button.addEventListener('click', () => {
-  const target = button.getAttribute('data-target');
-   // Mostra o conteúdo correspondente
-   contents.forEach(content => {
-    if (content.id === target) {
-      content.style.display = 'block';
-    } else {
-      content.style.display = 'none';
-    }
+    button.addEventListener('click', () => {
+      const target = button.getAttribute('data-target');
+
+      // Show the corresponding content
+      showContent(target);
+      showTitle(target)
+
+      // Update active button state
+      buttons.forEach(btn => {
+        btn.classList.remove('active');
+      });
+      button.classList.add('active');
+    });
   });
 
-  // Remove a classe "active" de todos os botões
-  removeActiveClassFromButtons();
+  // Initialize the first button as active
+  buttons[0].click();
+});
 
-  // Adiciona a classe "active" apenas ao botão clicado
-  button.classList.add('active');
-});
-});
-});
 
 
 let geojsonData = {};

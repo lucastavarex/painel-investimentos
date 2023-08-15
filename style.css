@@ -555,6 +555,72 @@ width: 250px;padding-right: 0px;
   text-align: left;
 }
 
+.section_text_transp {
+  display: inline-block;
+  position: relative;
+  background: white;
+ 
+}
+
+.section_text_transp::after {
+  content: 'nova era';
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  background: #D2B64B;
+  border-radius: 20px;
+}
+.section_text_habit {
+  display: inline-block;
+  position: relative;
+  background: white;
+ 
+}
+
+.section_text_habit::after {
+  content: 'Morar Carioca';
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  background: #6FA64E;
+  border-radius: 20px;
+}
+.section_text_infra {
+  display: inline-block;
+  position: relative;
+  background: white;
+ 
+}
+
+.section_text_infra::after {
+  content: 'Bairro Maravilha!';
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  background: #4E81A6;
+  border-radius: 20px;
+}
+.section_text_saude {
+  display: inline-block;
+  position: relative;
+  background: white;
+ 
+}
+
+.section_text_saude::after {
+  content: ' prioriza';
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  background: #754EA6;
+  border-radius: 20px;
+}
+
+.map-container {
+  max-height: 700px; /* Defina a altura máxima desejada em pixels */
+  overflow: hidden; /* Para cortar qualquer conteúdo que ultrapasse a altura máxima */
+}
+
   .content.show {
     display: block;
   }
