@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const contents = document.querySelectorAll('.content');
   const titles = document.querySelectorAll('.title');
 
-  // Function to show content based on button click
+  // Função para mostrar o conteúdo de cada
   function showContent(target) {
     contents.forEach(content => {
       if (content.id === target) {
@@ -68,16 +68,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Add event listeners to buttons
+  // Add event listeners aos botões
   buttons.forEach(button => {
     button.addEventListener('click', () => {
       const target = button.getAttribute('data-target');
 
-      // Show the corresponding content
       showContent(target);
       showTitle(target)
 
-      // Update active button state
       buttons.forEach(btn => {
         btn.classList.remove('active');
       });
@@ -85,10 +83,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Initialize the first button as active
   buttons[0].click();
 });
-
 
 
 let geojsonData = {};
@@ -141,7 +137,7 @@ function buildDropDownList(title, listItems) {
 
   const placeholderOption = document.createElement('option', 'cerapromedium');
   placeholderOption.value = '';
-  placeholderOption.text = 'Defina uma área de planejamento';
+  placeholderOption.text = 'Selecione um bairro';
   placeholderOption.disabled = false;
   placeholderOption.selected = true; 
   dropDown.style.width = '270px'
