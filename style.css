@@ -369,34 +369,15 @@ width: 250px;padding-right: 0px;
   /* position: relative; */
 }
 
-.zoom-buttons {
-  position: absolute;
-  bottom: 94%; /* Centraliza verticalmente o grupo de botões */
-  right: 22px; /* Ajuste a distância da direita conforme necessário */
-  transform: translateY(90%); /* Desloca o grupo de botões para cima em 50% da altura */
-  z-index: 2;
-}
-
 .select-arrow{
    display:none;
 }
 
-.zoom-buttons button {
-  width: 40px;
-  height: 40px; 
-  margin-bottom: 5px; 
-  display: block;
-}
-
-.zoom-buttons img {
-  width: 100%;
-  height: 100%;
-}
 /* Estilos padrão para os filtros */
 .filters {
   position: absolute;
   z-index: 1;
-  left: 4vw;
+  left: 23px;
 }
 
 #filters {
@@ -634,11 +615,6 @@ width: 250px;padding-right: 0px;
   border-radius: 20px;
 }
 
-.map-container {
-  max-height: 700px; /* Defina a altura máxima desejada em pixels */
-  overflow: hidden; /* Para cortar qualquer conteúdo que ultrapasse a altura máxima */
-}
-
   .content.show {
     display: block;
   }
@@ -750,6 +726,33 @@ width: 250px;padding-right: 0px;
 .button-box button:last-child {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+/* Add a class to the map container to adjust its positioning */
+.map-container {
+  position: relative; /* Add this line to make it a reference for absolute positioning */
+  max-height: 700px;
+  overflow: hidden;
+}
+
+/* Adjust the position of the zoom buttons */
+.zoom-buttons {
+  position: absolute;
+  top: 20px; /* Adjust the top position as needed */
+  right: 20px; /* Adjust the right position as needed */
+  z-index: 2;
+}
+
+.zoom-buttons button {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.zoom-buttons img {
+  width: 100%;
+  height: 100%;
 }
 
 /* Media query para ajustar o layout em dispositivos móveis */
