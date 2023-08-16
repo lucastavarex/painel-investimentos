@@ -2,6 +2,18 @@
 mapboxgl.accessToken = config.accessToken;
 const columnHeaders = config.sideBarInfo;
 
+//feature do botão de saiba mais para scrollar para baixo
+
+document.addEventListener('DOMContentLoaded', function() {
+  var saibaMaisButton = document.querySelector('.botao button');
+  var mapContainer = document.getElementById('map');
+
+  saibaMaisButton.addEventListener('click', function(event) {
+    event.preventDefault();
+    mapContainer.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
 document.addEventListener("DOMContentLoaded", function() {
   var playButton = document.getElementById("play-button");
   var overlay = document.getElementById("overlay");

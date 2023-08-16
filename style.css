@@ -16,10 +16,22 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'CeraProRegular';
+  src: url('./assets/fonte/Cera Pro Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 #filters {
   display: flex;
   align-items: center;
+}
+
+.description{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: 'CeraProRegular', sans-serif;
 }
 
 #filterResults {
@@ -56,6 +68,12 @@
   word-wrap: break-word;
   text-decoration: none;
   border-bottom: solid rgb(34, 33, 33, .3) 1px;
+}
+
+.title{
+  text-align: center !important;
+  margin: 50px!important;
+  padding-top: 50px!important;
 }
 
 .listings .item:last-child {
