@@ -47,8 +47,8 @@
 
 .select {
   font-size: 13.5px;
-  padding-top:0.8vw;
-  padding-bottom: 0.4vw;
+  padding-top: 9px;
+  align-items: center;
   border: none;
   outline: none;
   box-shadow: none; 
@@ -273,10 +273,11 @@
 .bold {
   font-weight: bold;
 }
+
 .cerapromedium{
 font-family: 'CeraProMedium', sans-serif;
-width: 250px;padding-right: 0px;
 }
+
 .checkbox-container {
   background-color: white;
   padding-right: 20px;
@@ -316,7 +317,7 @@ width: 250px;padding-right: 0px;
   font-family: 'CeraProRegular', sans-serif;
 }
 
-.apple-popup .mapboxgl-popup-content {
+.mapa-popup .mapboxgl-popup-content {
   border-radius: 20px;
   padding-left: 22px;
   padding-right: 18px;
@@ -713,6 +714,10 @@ width: 250px;padding-right: 0px;
   overflow: hidden;
 }
 
+.page-btn .page-btn-saude .active{
+  font-family: 'CeraProRegular', sans-serif;
+}
+
 .button-box button {
   flex: 1;
   outline: none;
@@ -754,6 +759,26 @@ width: 250px;padding-right: 0px;
   width: 100%;
   height: 100%;
 }
+
+.mapa-popup hr {
+  margin: 10px 0; /* Adjust the margin as needed */
+  border: none;
+  border-top: 1px solid #ccc; /* Line color and style */
+}
+
+/* Pras bolinhas dos filtros ficarem redondinhas*/
+.checkbox-container .checkbox {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50%;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+}
+
+
 
 /* Media query para ajustar o layout em dispositivos móveis */
 @media (max-width: 850px) {

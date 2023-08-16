@@ -27,6 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
     overlay.style.display = "none";
   });
 });
+
+
 document.addEventListener("DOMContentLoaded", function() {
   var playButton2 = document.getElementById("play-button2");
   var overlay2 = document.getElementById("overlay2");
@@ -113,9 +115,9 @@ function createPopup(currentFeature) {
   const popups = document.getElementsByClassName('mapboxgl-popup');
   
   if (popups[0]) popups[0].remove();
-  new mapboxgl.Popup({className: "apple-popup", closeOnClick: true })
+  new mapboxgl.Popup({className: "mapa-popup", closeOnClick: true })
     .setLngLat(currentFeature.geometry.coordinates)
-    .setHTML('<h3>' + '<b>' + 'Título &nbsp' +'</b>'+ currentFeature.properties[config.popupInfo[0]] + '</h3>'
+    .setHTML('<h3>' + '<b>' + currentFeature.properties[config.popupInfo[0]] + '</b>' + '</h3>' + '<hr>'
            + '<h3>' + '<b>' + 'Projeto &nbsp' +'</b>'+ currentFeature.properties[config.popupInfo[1]] + '</h3>'
            + '<h3>' + '<b>' + 'Bairro &nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[2]] + '</h3>'
            + '<h3>' + '<b>' + 'Situação &nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[3]] +'</h3>') 
