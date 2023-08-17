@@ -778,6 +778,30 @@ font-family: 'CeraProMedium', sans-serif;
   align-items: center;
 }
 
+.container-footer {
+  overflow: hidden; /* Clear floats */
+  margin-bottom: 80px;
+}
+
+.texto-footer {
+  float: left;
+}
+
+.redes_sociais_icones {
+  float: right;
+  margin-left: 10px; /* Espaçamento entre o ícone e o texto */
+}
+.footer_logo{
+ text-align: center;
+  
+}
+.columns-container {
+  display: flex; /* Usar flexbox para criar as colunas lado a lado */
+}
+
+.column {
+  flex: 1; /* Faz as colunas ocuparem o mesmo espaço horizontal */
+}
 
 
 /* Media query para ajustar o layout em dispositivos móveis */

@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const contents = document.querySelectorAll('.content');
   const titles = document.querySelectorAll('.title');
 
-  // Função para mostrar o conteúdo de cada
+  // Função para mostrar o conteúdo de cada aba
   function showContent(target) {
     contents.forEach(content => {
       if (content.id === target) {
