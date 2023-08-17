@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var playButton = document.getElementById("play-button");
   var overlay = document.getElementById("overlay");
   var closeButton = document.getElementById("close-button");
+  var videoIframe = document.querySelector(".instagram-media iframe"); // Seleciona o elemento de vídeo do Instagram
 
   playButton.addEventListener("click", function() {
     overlay.style.display = "flex";
@@ -47,6 +48,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
   closeButton.addEventListener("click", function() {
     overlay.style.display = "none";
+    
+    // Pausa o vídeo do Instagram ao fechar o pop-up
+    if (videoIframe) {
+      videoIframe.contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
+    }
   });
 });
 
@@ -62,6 +68,85 @@ document.addEventListener("DOMContentLoaded", function() {
 
   closeButton2.addEventListener("click", function() {
     overlay2.style.display = "none";
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  var playButton3 = document.getElementById("play-button3");
+  var overlay3 = document.getElementById("overlay3");
+  var closeButton3 = document.getElementById("close-button3");
+
+  playButton3.addEventListener("click", function() {
+    overlay3.style.display = "flex";
+  });
+
+  closeButton3.addEventListener("click", function() {
+    overlay3.style.display = "none";
+  });
+});
+document.addEventListener("DOMContentLoaded", function() {
+  var playButton4 = document.getElementById("play-button4");
+  var overlay4 = document.getElementById("overlay4");
+  var closeButton4 = document.getElementById("close-button4");
+
+  playButton4.addEventListener("click", function() {
+    overlay4.style.display = "flex";
+  });
+
+  closeButton4.addEventListener("click", function() {
+    overlay4.style.display = "none";
+  });
+});
+document.addEventListener("DOMContentLoaded", function() {
+  var playButton5 = document.getElementById("play-button5");
+  var overlay5 = document.getElementById("overlay5");
+  var closeButton5 = document.getElementById("close-button5");
+
+  playButton5.addEventListener("click", function() {
+    overlay5.style.display = "flex";
+  });
+
+  closeButton5.addEventListener("click", function() {
+    overlay5.style.display = "none";
+  });
+});
+document.addEventListener("DOMContentLoaded", function() {
+  var playButton6 = document.getElementById("play-button6");
+  var overlay6 = document.getElementById("overlay6");
+  var closeButton6 = document.getElementById("close-button6");
+
+  playButton6.addEventListener("click", function() {
+    overlay6.style.display = "flex";
+  });
+
+  closeButton6.addEventListener("click", function() {
+    overlay6.style.display = "none";
+  });
+});
+document.addEventListener("DOMContentLoaded", function() {
+  var playButton7 = document.getElementById("play-button7");
+  var overlay7 = document.getElementById("overlay7");
+  var closeButton7 = document.getElementById("close-button7");
+
+  playButton7.addEventListener("click", function() {
+    overlay7.style.display = "flex";
+  });
+
+  closeButton7.addEventListener("click", function() {
+    overlay7.style.display = "none";
+  });
+});
+document.addEventListener("DOMContentLoaded", function() {
+  var playButton8 = document.getElementById("play-button8");
+  var overlay8 = document.getElementById("overlay8");
+  var closeButton8 = document.getElementById("close-button8");
+
+  playButton8.addEventListener("click", function() {
+    overlay8.style.display = "flex";
+  });
+
+  closeButton8.addEventListener("click", function() {
+    overlay8.style.display = "none";
   });
 });
 
