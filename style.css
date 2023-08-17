@@ -197,6 +197,9 @@
 .separador {
   border-bottom: 1px solid #ccc; /* Define a linha cinza com uma borda inferior */
   margin: 20px 0; /* Define margens para espaçamento ao redor da linha */
+  width: 1080px;
+  justify-content: center;
+  margin-left: 70px;
 }
 
 
@@ -779,8 +782,11 @@ font-family: 'CeraProMedium', sans-serif;
 }
 
 .container-footer {
-  overflow: hidden; /* Clear floats */
-  margin-bottom: 80px;
+  overflow: hidden; 
+  margin: 0 auto; 
+  max-width: 1080px; 
+  margin-left: 70px;
+  padding-bottom: 80px; 
 }
 
 .texto-footer {
@@ -789,7 +795,6 @@ font-family: 'CeraProMedium', sans-serif;
 
 .redes_sociais_icones {
   float: right;
-  margin-left: 10px; /* Espaçamento entre o ícone e o texto */
 }
 .footer_logo{
  text-align: center;
