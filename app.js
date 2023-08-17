@@ -2,6 +2,28 @@
 mapboxgl.accessToken = config.accessToken;
 const columnHeaders = config.sideBarInfo;
 
+//slide antes e depois
+(function() {
+  var containers = document.getElementsByClassName('antesDepois');
+  for (var i = 0, qtd = containers.length; i < qtd; i++) {
+    var container = containers[i];
+    var depois = container.getElementsByClassName('depois')[0];
+    var depoisImg = depois.getAttribute('data-src');
+    depois.style.backgroundImage = "url('" + depoisImg + "')";
+    container.addEventListener("mousemove", comparaPosicao, false);
+    container.addEventListener("touchstart", comparaPosicao, false);
+    container.addEventListener("touchmove", comparaPosicao, false);
+  }
+})();
+
+function comparaPosicao(e) {
+  var retangulo = this.getBoundingClientRect();
+  var posicao = ((e.pageX - retangulo.left) / this.offsetWidth) * 100;
+  if (posicao <= 100) {
+    this.getElementsByClassName('depois')[0].style.width = posicao + "%";
+  }
+}
+
 //feature do botão de saiba mais para scrollar para baixo
 
 document.addEventListener('DOMContentLoaded', function() {
