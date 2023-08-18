@@ -221,10 +221,16 @@ const map = new mapboxgl.Map({
   zoom: config.zoom,
 });
 
-function flyToLocation(currentFeature) {
+function flyToCentroMapa(currentFeature) {
   map.flyTo({
     center: currentFeature,
-    zoom: 11,
+    zoom: 10,
+  });
+}
+function flyToBairro(currentFeature) {
+  map.flyTo({
+    center: currentFeature,
+    zoom: 12,
   });
 }
 
@@ -255,6 +261,21 @@ function buildDropDownList(title, listItems) {
 
   const dropDown = document.createElement('select');
   dropDown.classList.add('select', 'filter-option','cerapromedium');
+
+  dropDown.addEventListener('change', function() {
+    const selectedValue = this.value;
+
+     const selectedFeature = geojsonData.features.find(
+      (feature) => feature.properties.Bairro === selectedValue
+    );
+    
+    if(selectedValue){
+    flyToBairro(selectedFeature.geometry.coordinates);
+  }
+  else{
+    flyToCentroMapa([-43.45273, -22.90996]);
+  }
+  });
 
   const placeholderOption = document.createElement('option', 'cerapromedium');
   placeholderOption.value = '';
@@ -642,8 +663,6 @@ function makeGeoJSON(csvData) {
       const features = map.queryRenderedFeatures(e.point, {
         layers: ['locationData'],
       });
-      const clickedPoint = features[0].geometry.coordinates;
-    
       createPopup(features[0]);
     });
 
