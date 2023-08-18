@@ -304,6 +304,7 @@ function buildDropDownList(title, listItems) {
 }
 
 
+
 function buildCheckbox(title, listItems) {
   const filtersDiv = document.getElementById('filters');
   const mainDiv = document.createElement('div');
@@ -552,7 +553,6 @@ const geocoder = new MapboxGeocoder({
 map.on('load', () => {
   map.addControl(geocoder, 'top-right');
 
-  console.log('loaded');
   $(document).ready(() => {
     console.log('ready');
     $.ajax({
@@ -563,9 +563,7 @@ map.on('load', () => {
         makeGeoJSON(csvData);
       },
       error: function (request, status, error) {
-        console.log(request);
-        console.log(status);
-        console.log(error);
+      
       },
     });
   });
