@@ -399,7 +399,6 @@ font-family: 'CeraProMedium', sans-serif;
 .page-btn-saude{
   background-color: #754EA6;
   color: white;
-  font-size: 1.5vw;
   padding: 10px 20px;
   border: none;
   border-radius: 20px;
@@ -410,7 +409,7 @@ font-family: 'CeraProMedium', sans-serif;
 .page-btn-infra{
   background-color: #4E81A6;
   color: white;
-  font-size: 1.5vw;
+  
   padding: 10px 20px;
   border: none;
   border-radius: 20px;
@@ -421,7 +420,7 @@ font-family: 'CeraProMedium', sans-serif;
 .page-btn-habit{
   background-color: #6FA64E;
   color: white;
-  font-size: 1.5vw;
+  
   padding: 10px 20px;
   border: none;
   border-radius: 20px;
@@ -432,7 +431,7 @@ font-family: 'CeraProMedium', sans-serif;
 .page-btn-transp{
   background-color: #A69D4E;
   color: white;
-  font-size: 1.5vw;
+  
   padding: 10px 20px;
   border: none;
   border-radius: 20px;
@@ -616,7 +615,7 @@ font-family: 'CeraProMedium', sans-serif;
 .page-btn {
   background-color: white;
   color: black;
-  font-size: 1.5vw;
+  font-size: 20px;
   padding: 10px 20px;
   border: none;
   border-radius: 30px;
@@ -664,9 +663,8 @@ font-family: 'CeraProMedium', sans-serif;
 
 .modal {
   position: relative;
-  max-width: 90%; /* Ajuste a largura máxima do modal conforme necessário */
-  max-height: 95%; /* Ajuste a altura máxima do modal conforme necessário */
-  background-color: #fff;
+  
+  /* background-color: #fff; */
   border-radius: 20px;
   padding: 30px;
  
@@ -679,6 +677,7 @@ font-family: 'CeraProMedium', sans-serif;
   font-size: 24px;
   cursor: pointer;
 }
+
 .close-button2 {
   position: absolute;
   top: 10px;
