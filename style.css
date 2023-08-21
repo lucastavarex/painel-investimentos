@@ -776,6 +776,11 @@ font-family: 'CeraProMedium', sans-serif;
   right: 20px; /* Adjust the right position as needed */
   z-index: 2;
 }
+#full-screen{
+  width:35px;
+  height:35px;
+  padding-left: 6px;
+}
 
 .zoom-buttons button {
   width: 40px;

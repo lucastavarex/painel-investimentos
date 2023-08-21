@@ -1,6 +1,33 @@
-
 mapboxgl.accessToken = config.accessToken;
-const columnHeaders = config.sideBarInfo;
+
+const fullScreenButton = document.getElementById('full-screen');
+const mapContainer = document.getElementById('map');
+
+fullScreenButton.addEventListener('click', () => {
+  if (mapContainer.requestFullscreen) {
+    mapContainer.requestFullscreen();
+  } else if (mapContainer.mozRequestFullScreen) {
+    mapContainer.mozRequestFullScreen();
+  } else if (mapContainer.webkitRequestFullscreen) {
+    mapContainer.webkitRequestFullscreen();
+  } else if (mapContainer.msRequestFullscreen) {
+    mapContainer.msRequestFullscreen();
+  }
+
+  // Esconder o botão de entrada em tela cheia
+  fullScreenButton.style.display = 'none';
+});
+
+// Adicione um listener para verificar quando o modo de tela cheia é ativado/saído
+document.addEventListener('fullscreenchange', () => {
+  // Verifique o estado de tela cheia e ajuste a visibilidade do botão de entrada em tela cheia
+  if (document.fullscreenElement) {
+    fullScreenButton.style.display = 'none';
+  } else {
+    fullScreenButton.style.display = 'block';
+  }
+});
+
 
 //slide antes e depois
 (function() {
@@ -227,12 +254,63 @@ function flyToCentroMapa(currentFeature) {
     zoom: 10,
   });
 }
+
+
 function flyToBairro(currentFeature) {
   map.flyTo({
     center: currentFeature,
     zoom: 12,
   });
 }
+
+// Defina uma variável global para armazenar a referência à camada da linha de contorno atual
+let boundaryLineLayerId = null;
+
+function highlightBairro(bairro) {
+  // Remova a camada da linha de contorno anterior, se existir
+  if (boundaryLineLayerId !== null) {
+    map.removeLayer(boundaryLineLayerId);
+    map.removeSource(boundaryLineLayerId);
+    boundaryLineLayerId = null;
+  }
+
+  const coordinates = boundaryVertices[bairro];
+
+  if (!coordinates) {
+    console.log("Coordenadas não encontradas para o bairro " + bairro);
+    return;
+  }
+
+  console.log("Coordinates for " + bairro + ": " + JSON.stringify(coordinates));
+
+  const boundaryPolygon = {
+    type: 'Feature',
+    geometry: {
+      type: 'Polygon',
+      coordinates: [coordinates]
+    }
+  };
+
+  const newBoundaryLineLayerId = 'boundary-line-layer-' + bairro;
+  map.addSource(newBoundaryLineLayerId, {
+    type: 'geojson',
+    data: boundaryPolygon
+  });
+
+  map.addLayer({
+    id: newBoundaryLineLayerId,
+    type: 'line',
+    source: newBoundaryLineLayerId,
+    paint: {
+      'line-color': '#000000', // Escolha a cor da linha de contorno
+      'line-width': 4 // Escolha a largura da linha de contorno
+    }
+  });
+
+  // Atualize a referência à camada da linha de contorno atual
+  boundaryLineLayerId = newBoundaryLineLayerId;
+}
+
 
 function createPopup(currentFeature) {
   const popups = document.getElementsByClassName('mapboxgl-popup');
@@ -264,6 +342,8 @@ function buildDropDownList(title, listItems) {
 
   dropDown.addEventListener('change', function() {
     const selectedValue = this.value;
+
+    highlightBairro(selectedValue);
 
      const selectedFeature = geojsonData.features.find(
       (feature) => feature.properties.Bairro === selectedValue
