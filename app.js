@@ -16,15 +16,24 @@ fullScreenButton.addEventListener('click', () => {
 
   // Esconder o botão de entrada em tela cheia
   fullScreenButton.style.display = 'none';
+  map.flyTo({
+    center: [-43.58273, -22.83996],
+    zoom: 10.5, 
+  });
 });
 
-// Adicione um listener para verificar quando o modo de tela cheia é ativado/saído
 document.addEventListener('fullscreenchange', () => {
   // Verifique o estado de tela cheia e ajuste a visibilidade do botão de entrada em tela cheia
   if (document.fullscreenElement) {
     fullScreenButton.style.display = 'none';
   } else {
     fullScreenButton.style.display = 'block';
+
+    // Se o mapa não estiver em tela cheia, ajuste o zoom de volta para 10
+    map.flyTo({
+      center: config.center, // Defina o centro do mapa como necessário
+      zoom: 10, 
+    });
   }
 });
 
