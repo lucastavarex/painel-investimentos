@@ -322,7 +322,8 @@ function createPopup(currentFeature) {
            + '<h3>' + '<b>' + 'Projeto &nbsp' +'</b>'+ currentFeature.properties[config.popupInfo[1]] + '</h3>'
            + '<h3>' + '<b>' + 'Bairro &nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[2]] + '</h3>'
            + '<h3>' + '<b>' + 'Situação &nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[3]] +'</h3>' 
-           + '<h3>' + '<b>' + 'Investimento &nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[4]] +'</h3>') 
+           + '<h3>' + '<b>' + 'Investimento &nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[4]] +'</h3>'
+           + '<h3>' + '<b>' + 'Beneficiados &nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[5]] +'</h3>') 
     .addTo(map);
 }
 

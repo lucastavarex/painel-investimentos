@@ -6,7 +6,7 @@ const config = {
   CSV: './assets/csv/obras.csv',
   center: [-43.45273, -22.90996],
   zoom: 10.00,
-  popupInfo: ['Titulo', 'Projeto', 'Bairro', 'Situação', 'Investimento'],
+  popupInfo: ['Titulo', 'Projeto', 'Bairro', 'Situação', 'Investimento', 'Beneficiados'],
   filters: [
     {
       type: 'dropdown',
