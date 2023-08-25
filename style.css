@@ -222,7 +222,7 @@
 .image-text {
   position: absolute;
   top: 54%; /* Posiciona o texto no meio vertical da imagem */
-  left: 24%; /* Posiciona o texto no meio horizontal da imagem */
+  left: 21%; /* Posiciona o texto no meio horizontal da imagem */
   transform: translate(-50%, -50%); /* Centraliza o texto */
   font-size: 42px; /* Tamanho do texto */
   color: white; /* Cor do texto */

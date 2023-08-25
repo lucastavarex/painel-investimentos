@@ -1,333 +1,333 @@
-AP,Projeto,Titulo,Beneficiados,Investimento,Bairro,Situação,Latitude,Longitude
-3,BRT,Fazenda Botafogo,-,-,Acari,Em andamento,-22.8231663943310,-43.350002488631
-3,Saúde,Hospital Municipal Ronaldo Gazolla,-,-,Acari,Concluído,-22.824962016641738,-43.3474834476196
-2,Saúde,Cms Nicola Albano,-,-,Alto da Boa Vista,Em licitação,-22.965667567128623,-43.27767834761601
-2,Morar Carioca,"Rua Leopoldo, Andaraí",-,-,Andaraí,Concluído,-22.9301218721547,-43.253896903390
-5,Bairro Maravilha,Vila Catiri,-,"R$ 7.171.608,70",Bangu,Em andamento,"-22.8468401500087, -43.47160383200355",-43.471603832004
-5,Bairro Maravilha,Comunidade Mangueiral - Vila Aliança,-,"R$ 6.014.579,17",Bangu,Em andamento,-22.8664563802543,-43.480211574332
-5,Morar Carioca,"Parque Das Mangueiras, Murundu E Parque Real (Comunidade Do 77) - Bangu E Padre Migue",-,-,Bangu,Em licitação,0.0000000000000,0.000000000000
-5,Morar Carioca,Condomínio Das Garças - Bangu,-,-,Bangu,Em andamento,-22.8533889536533,-43.452650891801
-5,Morar Carioca,Caminho Feliz - Bangu,-,-,Bangu,Em andamento,-22.8424861062912,-43.490552261110
-5,Morar Carioca,"Praça Jacarta, Bangu",-,-,Bangu,Concluído,-22.8453545244993,-43.490529734074
-5,Morar Carioca,"Praça Marcos Gonçalves Pinto, Bangu",-,-,Bangu,Concluído,-22.8535576665679,-43.454946203392
-5,Saúde,Hospital Da Mulher Mariska Ribeiro,-,-,Bangu,Concluído,-22.875978069611097,-43.472999003436875
-5,Saúde,Caps Iii Lima Barreto,-,-,Bangu,Concluído,-22.869651090686464,-43.457474518526496
-5,Saúde,Cms Dr. Eithel Pinheiro De Oliveira Lima,-,-,Bangu,Concluído,-22.867640435584047,-43.483790290201824
-5,Saúde,Cms Athayde José Da Fonseca,-,-,Bangu,Concluído,-22.84724972478403,-43.465534688092234
-4,BRT,Aeroporto De Jacarepaguá,-,-,Barra da Tijuca,Concluído,-22.9895280066734,-43.366213851324
-4,BRT,Afrânio Costa,-,-,Barra da Tijuca,Concluído,-23.0003371332018,-43.335159332270
-4,BRT,Américas Park,-,-,Barra da Tijuca,Concluído,-23.0002042848075,-43.389568901579
-4,BRT,Barra Shopping Expresso,-,-,Barra da Tijuca,Concluído,-23.0004847852320,-43.359535830377
-4,BRT,Barra Shopping Parador,-,-,Barra da Tijuca,Concluído,-23.0005519251912,-43.359662627254
-4,BRT,Bosque Da Barra,-,-,Barra da Tijuca,Concluído,-23.0000843568543,-43.377542047615
-4,BRT,Bosque Marapendi,-,-,Barra da Tijuca,Concluído,-23.0000843568543,-43.377531318779
-4,BRT,Golfe Olímpico,-,-,Barra da Tijuca,Concluído,-22.9998232285759,-43.412589491797
-4,BRT,Ilha Pura,-,-,Barra da Tijuca,Concluído,-22.9893541215672,-43.417679289943
-4,BRT,Interlagos,-,-,Barra da Tijuca,Concluído,-23.0007045373348,-43.417429059252
-4,BRT,Lourenço Jorge,-,-,Barra da Tijuca,Concluído,-22.9944295286169,-43.365978362961
-4,BRT,Novo Leblon,-,-,Barra da Tijuca,Concluído,-23.0002625644553,-43.383259776399
-4,BRT,Olof Palme,-,-,Barra da Tijuca,Concluído,-22.9816581964269,-43.410248050696
-4,BRT,Parque Das Rosas,-,-,Barra da Tijuca,Concluído,-22.9999517678472,-43.352404159212
-4,BRT,Paulo Malta Rezende,-,-,Barra da Tijuca,Concluído,-23.0011003895825,-43.329125518729
-4,BRT,Pedra De Itaúna,-,-,Barra da Tijuca,Concluído,-23.0026114311422,-43.424224993586
-4,BRT,Pontões/Barra Sul,-,-,Barra da Tijuca,Concluído,-23.0053198703727,-43.431988418728
-4,BRT,Ricardo Marinho,-,-,Barra da Tijuca,Concluído,-23.0000001882149,-43.346574389893
-4,BRT,Rio 2,-,-,Barra da Tijuca,Concluído,-22.9730424768175,-43.382109276970
-4,BRT,Riocentro,-,-,Barra da Tijuca,Concluído,-22.9766680604979,-43.406346572707
-4,BRT,Riomar,-,-,Barra da Tijuca,Concluído,-22.9997058561836,-43.406928661058
-4,BRT,Riviera,-,-,Barra da Tijuca,Concluído,-23.0000462845585,-43.341958159212
-4,BRT,Santa Mônica Jardins,-,-,Barra da Tijuca,Concluído,-23.0000693401584,-43.398505232223
-4,BRT,Via Parque,-,-,Barra da Tijuca,Concluído,-22.9836697195608,-43.365664730377
-4,Saúde,Hospital Municipal Lourenço Jorge,-,-,Barra da Tijuca,Concluído,-22.994791716028246,-43.363859388344316
-4,Saúde,Cer Barra (Lourenço Jorge),-,-,Barra da Tijuca,Concluído,-22.994400530877197,-43.36524058623419
-1,BRT,Benfica,-,-,Benfica,Em andamento,-22.8871043156077,-43.231507564721
-1,Saúde,Super Centro – Centro Carioca De Especialidades,-,-,Benfica,Concluído,-22.896909576137066,-43.23780998994537
-1,Saúde,Super Centro – Por Imagem (Ccdti),-,-,Benfica,Concluído,-22.896909576137066,-43.23780998994537
-1,Saúde,Super Centro – Centro Carioca Do Olho (Cco),-,-,Benfica,Concluído,-22.896909576137066,-43.23780998994537
-1,Saúde,Clínica Da Família Medalhista Olímpico Mauricio Silva,-,-,Benfica,Concluído,-22.888002944676675,-43.23535693598125
-3,Bairro Maravilha,Bonsucesso,-,"R$ 36.905.759,47",Bonsucesso,Em andamento,-22.8650759585641,-43.253094921572
-3,BRT,Hospital De Bonsucesso,-,-,Bonsucesso,Em andamento,-22.8655638571418,-43.247924546120
-3,Morar Carioca,"Const. Clube Everest, Higienópolis",-,-,Bonsucesso,Em andamento,-22.8768252075266,-43.256268045967
-2,Saúde,Hospital Rocha Maia,-,-,Botafogo,Concluído,-22.953266950833054,-43.176918116925755
-2,Saúde,Cms Rocha Maia,-,-,Botafogo,-,-22.95312067128209,-43.176809801580525
-2,Saúde,Super Centro Carioca De Vacinação / Crie Myrtes Amorelli Gonzaga (Mag),-,-,Botafogo,Concluído,-22.953358933592764,-43.17721921692583
-2,Saúde,Caps Franco Basaglia,-,-,Botafogo,Concluído,-22.95304062673874,-43.1758365611075
-2,Saúde,Cms Dom Helder Câmara,-,-,Botafogo,Concluído,-22.95172833097432,-43.18641080343475
-3,BRT,Pedro Taques,-,-,Brás de Pina,Concluído,-22.8351055806299,-43.301016046386
-1,BRT,Caju,-,-,Caju,Em andamento,-22.8817880359606,-43.219060837543
-1,BRT,Gentileza,-,-,Caju,Em andamento,-22.8949955811874,-43.212290797968
-1,BRT,Into,-,-,Caju,Em andamento,-22.8934014006838,-43.215428268732
-1,Saúde,Cf Fernando Antônio Braga Lopes,-,-,Caju,Concluído,-22.87585309940235,-43.222109761109465
-1,Saúde,Clínica Da Família São Sebastião,-,-,Caju,Concluído,-22.879330860688754,-43.21574658994569
-4,Morar Carioca,Parque Nobre Camorim - Camorim,-,-,Camorim,Em andamento,-22.9802392315337,-43.419135074598
-3,BRT,Pinto Teles,-,-,Campinho,Concluído,-22.8881325766989,-43.345996805237
-5,Bairro Maravilha,Fernando De Magalhães,-,"R$ 1.195.957,74",Campo Grande,Concluído,-22.9348517845683,-43.553535674329
-5,Bairro Maravilha,Rua Senhora,-,"R$ 9.869.345,99",Campo Grande,Em andamento,-22.8939854403869,-43.546851768782
-5,Bairro Maravilha,Comunidade Restinga,-,"R$ 2.985.579,40",Campo Grande,Em andamento,0.0000000000000,0.000000000000
-5,Bairro Maravilha,Rua Amaro Cavalcante,-,"R$ 7.863.928,91",Campo Grande,Em andamento,-22.9103208151421,-43.536105292627
-5,Bairro Maravilha,Quadra 100 - Loteamento Carobinha,-,"R$ 20.793.578,90",Campo Grande,Em andamento,"-22.85048132924018, -43.53310840501693",-43.533108405017
-5,BRT,Cândido Magalhães,-,-,Campo Grande,Concluído,-22.9074193637600,-43.564134218781
-5,BRT,Parque Da Esperança,-,-,Campo Grande,Concluído,-22.9066982551990,-43.571857132226
-5,BRT,Pina Rangel,-,-,Campo Grande,Concluído,-22.9073319386391,-43.575595118731
-5,BRT,Prefeito Alim Pedro,-,-,Campo Grande,Concluído,-22.9007315265370,-43.566995133055
-5,Saúde,Cms Dr. Oswaldo Vilella,-,-,Campo Grande,Concluído,-22.874797592705374,-43.55838823227332
-5,Saúde,Cms Pedro Nava,-,-,Campo Grande,Concluído,-22.854137535797168,-43.54134353227371
-5,Saúde,"Clínica Da Família Agenor De Miranda Araujo Neto ""Cazuza""",-,-,Campo Grande,Concluído,-22.946403280637274,-43.57637727459872
-2,Saúde,Cms Manoel José Ferreira,-,-,Catete,Concluído,-22.92610076583607,-43.17858081692658
-1,Saúde,Hospital Municipal Souza Aguiar,-,-,Centro,Concluído,-22.908140991603986,-43.18967683041815
-1,Saúde,Cer Centro (Souza Aguar),-,-,Centro,Concluído,-22.908392317902624,-43.19046944576329
-1,Saúde,Cms Oswaldo Cruz,-,-,Centro,Concluído,-22.91274413922205,-43.190756461108506
-1,Saúde,Cms Marcolino Candau,-,-,Cidade Nova,Concluído,-22.90939897580299,-43.20078615925423
-3,Saúde,Clínica Da Família Wilma Costa,-,-,Cocotá,Concluído,-22.803472722891676,-43.178896191801726
-2,Saúde,Cms João Barros Barreto,-,-,Copacabana,Concluído,-22.966935733748837,-43.18731210343439
-2,Saúde,Clínica Da Família Cantagalo Pavão Pavãozinho,-,-,Copacabana,Concluído,-22.981367278596252,-43.19631904390715
-3,BRT,Cidade Alta,-,-,Cordovil,Em andamento,-22.8198349791641,-43.294678864892
-3,BRT,Missões,-,-,Cordovil,Em andamento,-22.8150623015441,-43.289670732228
-3,Saúde,Clínica Da Família Nilda Campos De Lima,-,-,Cordovil,Concluído,-22.827443220425007,-43.30240543227432
-5,Bairro Maravilha,Comunidade Nova Conquista,-,"R$ 11.400.269,89",Cosmos,Em andamento,0.0000000000000,0.000000000000
-5,BRT,Cosmos,-,-,Cosmos,Concluído,-22.9083728854198,-43.606071918365
-5,BRT,Júlia Miguel,-,-,Cosmos,Concluído,-22.9083556735043,-43.624445268748
-5,BRT,Parque São Paulo,-,-,Cosmos,Concluído,-22.9104347942301,-43.622909957833
-5,Saúde,Cms Dr. Mario Rodrigues Cid,-,-,Cosmos,Concluído,-22.891244843737542,-43.60576631481743
-5,Saúde,Clínica Da Família Rogério Rocco,-,-,Cosmos,Concluído,-22.891574433410437,-43.609153865457905
-3,Morar Carioca,Centro Social União De Costa Barros - Lagartixa (Costa Barros),-,-,Costa Barros,Em andamento,-22.8264590861824,-43.363449441244
-4,BRT,Arroio Pavuna,-,-,Curicica,Concluído,-22.9551314701376,-43.377393218780
-4,BRT,Curicica,-,-,Curicica,Concluído,-22.9596051858607,-43.388652745762
-4,BRT,Leila Diniz,-,-,Curicica,Concluído,-22.9527682965610,-43.390646425245
-4,BRT,Praça Do Bandolim,-,-,Curicica,Concluído,-22.9584953945996,-43.383520934070
-3,Saúde,Clínica Da Família Bárbara Starfield,-,-,Del Castilho,Concluído,-22.877966588540602,-43.26881261507369
-5,BRT,Deodoro,-,-,Deodoro,Em andamento,-22.8546749280517,-43.383450342717
-3,Bairro Maravilha,Obras Bairro Maravilha Encantado,-,"R$ 2.849.740,00",Encantado,Concluído,-22.8972322938610,-43.307104545495
-3,Morar Carioca,"Avenida Marechal Rondon, Morro Da Matriz, Engenho Novo",-,-,Engenho Novo,Concluído,-22.9051321551606,-43.264886914838
-1,Morar Carioca,Frei Caneca ,-,-,Estácio,Em andamento,-22.9150558542597,-43.199942689896
-1,Saúde,Clínica Da Família Medalhista Olímpico Ricardo Lucarelli Souza,-,-,Estácio,Concluído,-22.914377981969913,-43.20117781692686
-3,BRT,Galeão/Tom Jobim I,-,-,Galeão,Concluído,-22.8108363156780,-43.251497274602
-3,BRT,Galeão/Tom Jobim Ii,-,-,Galeão,Concluído,-22.8144298621198,-43.246277514783
-3,Saúde,Hospital Municipal Nossa Senhora Do Loreto,-,-,Galeão,Concluído,-22.81455135856618,-43.2253633439115
-1,Saúde,Clínica Da Família Nélio De Oliveira,-,-,Gamboa,Concluído,-22.897238810441966,-43.19606085925464
-2,Saúde,Cms Píndaro De Carvalho Rodrigues,-,-,Gávea,Concluído,-22.97939643339047,-43.22958981877926
-3,BRT,Guadalupe,-,-,Guadalupe,Em andamento,-22.8445135756110,-43.376518359895
-3,BRT,Jardim Guadalupe,-,-,Guadalupe,Em andamento,-22.8401714150122,-43.369549816929
-5,Bairro Maravilha,Jardim Maravilha,-,-,Guaratiba,Em andamento,0.0000000000000,0.000000000000
-5,Bairro Maravilha,Comunidade Guaratibinha,-,"R$ 2.376.232,45",Guaratiba,Em andamento,0.0000000000000,0.000000000000
-5,Bairro Maravilha,Comunidade Campo Do Saco,-,"R$ 11.865.718,09",Guaratiba,Em andamento,-22.9819078702789,-43.597116110847
-5,BRT,Ilha De Guaratiba,-,-,Guaratiba,Concluído,-23.0075569139839,-43.539767595525
-5,BRT,Magarça,-,-,Guaratiba,Em andamento,-22.9684837273057,-43.622082632271
-5,BRT,Mato Alto,-,-,Guaratiba,Em andamento,-22.9934724357425,-43.595859248140
-5,BRT,Pinto D'Água,-,-,Guaratiba,Em andamento,-22.9645347375503,-43.647561458444
-5,Morar Carioca,Caminho De Dentro - Guaratiba,-,-,Guaratiba,Em andamento,-22.9598738920326,-43.579343347616
-5,Morar Carioca,Largo Do Correia - Guaratiba,-,-,Guaratiba,Em andamento,-22.9558917917552,-43.577307088089
-5,Morar Carioca,"Rua Alex Carrel, Guaratiba",-,-,Guaratiba,Concluído,-22.9739567666777,-43.643225232224
-5,Saúde,Cms Dr. Woodrow Pimentel Pantoja,-,-,Guaratiba,Concluído,-22.955188815736964,-43.609699603434855
-5,Saúde,Cms Maia Bittencourt,-,-,Guaratiba,Concluído,-22.99194749561001,-43.59293150343377
-5,Saúde,Clinica Da Familia Alkindar Soares Pereira Filho,-,-,Guaratiba,Concluído,-22.975479469131493,-43.648221005288384
-5,Saúde,Clínica Da Família Dr. Hans Jürgen Fernando Dohmann,-,-,Guaratiba,Concluído,-22.98413033722077,-43.66009923041605
-5,BRT,Ctex,-,-,Ilha de Guaratiba,Concluído,-23.0051608502288,-43.558504376451
-5,BRT,Embrapa,-,-,Ilha de Guaratiba,Concluído,-22.9994024595505,-43.582353647615
-3,Saúde,Caps Iii Torquato Neto,-,-,Inhaúma,Concluído,-22.870043269334456,-43.27300364009064
-3,Saúde,Cms Rodolpho Rocco,-,-,Inhaúma,Concluído,-22.871545858705698,-43.27256778412716
-3,Saúde,Upa Del Castilho,-,-,Inhaúma,Concluído,-22.872685489478492,-43.27159513412722
-5,BRT,Ana Gonzaga,-,-,Inhoaíba,Concluído,-22.9110272183940,-43.589642962963
-5,BRT,Icurana,-,-,Inhoaíba,Concluído,-22.9148838182982,-43.605731616927
-5,BRT,Inhoaíba,-,-,Inhoaíba,Concluído,-22.9084689302135,-43.595722066474
-5,BRT,São Jorge,-,-,Inhoaíba,Concluído,-22.9106495650613,-43.584235203390
-5,BRT,Vilar Carioca,-,-,Inhoaíba,Concluído,-22.9139576500143,-43.601416559904
-5,Saúde,Cms Dr. Mário Vitor De Assis Pacheco,-,-,Inhoaíba,Concluído,-22.910368624444477,-43.58408013041801
-5,Saúde,Cms Edgard Magalhães Gomes,-,-,Inhoaíba,Concluído,-22.908033017091075,-43.59637847645408
-5,Saúde,Cms Adão Pereira Nunes,-,-,Inhoaíba,Concluído,-22.923827656674764,-43.60140640528991
-5,Saúde,Clínica Da Família Antônio Gonçalves Villa Sobrinho,-,-,Inhoaíba,Concluído,-22.891963870397788,-43.59046494576381
-3,BRT,Ceasa,-,-,Irajá,Em andamento,-22.8303426040064,-43.337070411051
-3,BRT,Marambaia,-,-,Irajá,Concluído,-22.8528336591626,-43.320296632274
-3,BRT,Margaridas,-,-,Irajá,Em andamento,-22.8201077421133,-43.324278847620
-3,Saúde,Hospital Municipal Francisco Da Silva Telles,-,-,Irajá,Concluído,-22.830635625293382,-43.328119618783326
-4,Bairro Maravilha,Muzema - Rio Das Pedras,-,"R$ 4.006.478,53",Itanhangá,Em andamento,"-22.97847564590302, -43.33326379795014",-43.333263797950
-5,Saúde,Caps Neusa Santos Souza,-,-,Jabour,Concluído,-22.880517508906916,-43.49195571878189
-4,BRT,Asa Branca,-,-,Jacarepaguá,Concluído,-22.9629905345271,-43.393787203434
-4,BRT,Centro Metropolitano,-,-,Jacarepaguá,Concluído,-22.9731284316722,-43.365715862961
-4,BRT,Colônia,-,-,Jacarepaguá,Concluído,-22.9407823739172,-43.394758020635
-4,BRT,Minha Praia,-,-,Jacarepaguá,Concluído,-22.9666578035380,-43.397081803389
-4,BRT,Morro Do Outeiro,-,-,Jacarepaguá,Concluído,-22.9713482306465,-43.401304501542
-4,BRT,Outeiro Santo,-,-,Jacarepaguá,Concluído,-22.9277480361081,-43.396039361060
-4,BRT,Pedro Corrêa,-,-,Jacarepaguá,Concluído,-22.9673931428809,-43.390566359213
-4,BRT,Recanto Das Palmeiras,-,-,Jacarepaguá,Concluído,-22.9480363655864,-43.372363430378
-4,BRT,Rede Sarah,-,-,Jacarepaguá,Concluído,-22.9719004990414,-43.376813924839
-4,BRT,Ventura,-,-,Jacarepaguá,Concluído,-22.9476426244079,-43.391697816884
-4,BRT,Vila Sapê,-,-,Jacarepaguá,Concluído,-22.9519874108234,-43.374552474554
-4,Saúde,Hospital Municipal Raphael De Paula Souza,-,-,Jacarepaguá,Concluído,-22.953890793048334,-43.39220826110735
-4,Saúde,Clínica Da Família Arthur Bispo Do Rosário,-,-,Jacarepaguá,Concluído,-22.93735492739422, -43.389881659253675
-4,Saúde,Hospital Municipal Álvaro Ramos,-,-,Jacarepaguá,Concluído,-22.94061297503334,-43.393792945762485
-4,Saúde,Capsad Iii Antonio Carlos Mussum,-,-,Jacarepaguá,Concluído,-22.936514527318288,-43.38800308454127
-4,Saúde,Capsi Eliza Santa Roza,-,-,Jacarepaguá,Concluído,-22.936112586505498,-43.38759234576248
-4,Saúde,Clínica Da Família Helena Besserman Vianna,-,-,Jacarepaguá,Concluído,-22.97369657700962,-43.329969574597996
-3,Saúde,Clínica Da Família Anthidio Dias Da Silveira,-,-,Jacarezinho,Concluído,-22.883555383948888,-43.25407693041891
-3,Saúde,Cms Nagib Jorge Farah,-,-,Jardim América,Concluído,-22.807512680451865,-43.321452061111174
-5,BRT,Marechal Fontenelle,-,-,Jardim Sulacap,Concluído,-22.8856924093549,-43.400837291800
-5,Saúde,Cms Professor Masao Goto,-,-,Jardim Sulacap,Concluído,-22.88686461114687,-43.39939907274605
-2,Saúde,Hospital Municipal Miguel Couto,-,-,Lagoa,Concluído,-22.97737694976597,-43.224054818779386
-2,Saúde,Cer Leblon (Miguel Couto),-,-,Lagoa,Concluído,-22.977585160369383,-43.224369088089055
-2,Morar Carioca,Chapéu Mangueira (Leme),-,-,Leme,Em andamento,-22.9605586144340,-43.169483014877
-2,Saúde,Cms Chapéu Mangueira Babilônia,-,-,Leme,Concluído,-22.959532759065894,-43.17122730343457
-3,Saúde,Cms Antenor Nascentes,-,-,Lins de Vasconcelos,Concluído,-22.906323089220212,-43.274106016927
-3,BRT,Campinho,-,-,Madureira,Concluído,-22.8820341419311,-43.341891874600
-3,BRT,Madureira/Manaceia,-,-,Madureira,Concluído,-22.8767926858863,-43.335896496020
-3,BRT,Mercadão,-,-,Madureira,Concluído,-22.8699969999549,-43.335546932273
-3,BRT,Otaviano,-,-,Madureira,Concluído,-22.8657014646613,-43.334370732227
-3,BRT,Vila Queiroz,-,-,Madureira,Concluído,-22.8612269301384,-43.330351145721
-5,BRT,Magalhães Bastos,-,-,Magalhães Bastos,Concluído,-22.8678445245699,-43.413080629600
-1,Saúde,Hospital Municipal Barata Ribeiro,-,-,Mangueira,Concluído,-22.899935447324697,-43.24031227459968
-3,BRT,Fiocruz,-,-,Manguinhos,Em andamento,-22.8755309856498,-43.243032188325
-3,BRT,Baixa Do Sapateiro,-,-,Maré,Em andamento,-22.8498619318069,-43.241907748737
-3,BRT,Maré,-,-,Maré,Concluído,-22.8468671468724,-43.243659445765
-3,BRT,Piscinão De Ramos,-,-,Maré,Em andamento,-22.8407243655862,-43.249973732228
-3,BRT,Rubens Vaz,-,-,Maré,Em andamento,-22.8534574375124,-43.247287813881
-3,Saúde,Cms Américo Veloso,-,-,Maré,Em andamento,-22.841570916944132,-43.24957004391082
-3,Saúde,Cms Vila Do João,-,-,Maré,Concluído,-22.873408366434088,-43.240080485981665
-3,Saúde,Clínica Da Família Adib Jatene,-,-,Maré,Concluído,-22.86559126478251,-43.23927815925544
-3,Saúde,Clínica Da Família Jeremias Moraes Da Silva,-,-,Maré,Concluído,-22.854514734816327,-43.23966888994637
-3,Saúde,Hospital Municipal Salgado Filho,-,-,Méier,Concluído,-22.900305583635486,-43.27804378994514
-3,Bairro Maravilha,Olaria,-,"R$ 39.124.678,77",Olaria,Em andamento,-22.8398279649873,-43.257416158990
-3,BRT,Olaria,-,-,Olaria,Concluído,-22.8484119003604,-43.265398545722
-5,Bairro Maravilha,Bairro Maravilha Village Dos Mouras ,-,"R$ 7.442.892,11",Paciência,Concluído,-22.9367360465759,-43.633396782444
-5,Bairro Maravilha,Morada 2001,-,"R$ 20.358.237,84",Paciência,Em andamento,0.0000000000000,0.000000000000
-5,Bairro Maravilha,Estrada Dos Vieiras,-,"R$ 29.537.066,74",Paciência,Em andamento,-22.9241107422293,-43.628089203166
-5,BRT,31 De Outubro,-,-,Paciência,Concluído,-22.9180454588415,-43.639128247617
-5,BRT,Cesarinho,-,-,Paciência,Concluído,-22.9200144912244,-43.643507635480
-5,BRT,Santa Eugênia,-,-,Paciência,Concluído,-22.9166217027204,-43.632759045720
-5,Saúde,Upa Paciência,-,-,Paciência,Concluído,-22.927040947576714, -43.634886261108065
-5,Saúde,Cms Décio Amaral Filho,-,-,Paciência,Concluído,-22.911214783560347,-43.65772141692684
-5,Bairro Maravilha,Vila Vintém,-,"R$ 16.454.726,04",Padre Miguel,Em andamento,-22.8700531120804,-43.443013672266
-5,Saúde,Cms Padre Miguel,-,-,Padre Miguel,Concluído,-22.87278940093107,-43.448630430418945
-1,Saúde,Cms Manoel Arthur Villaboim,-,-,Paquetá,Concluído,-22.761212119386233,-43.108392374603355
-3,Saúde,Clínica Da Família Eidimir Thiago De Souza,-,-,Parada de Lucas,Concluído,-22.823056391396744,-43.30952163227455
-3,Morar Carioca,Parque Nova Cidade Acari (Parque Linear E Entreprédios) - Costa Barros,-,-,Parque Colúmbia,Em andamento,-22.8164859688889,-43.345427529269
-4,Bairro Maravilha,Rua Maença - Jacarepaguá,-,"R$ 444.409,35",Pechincha,Em andamento,-22.9286897233551,-43.354220594344
-3,BRT,Ibiapina,-,-,Penha,Concluído,-22.8422221178430,-43.272642918783
-3,BRT,Marinha Mercante,-,-,Penha,Em andamento,-22.8333482651821,-43.260763145722
-3,BRT,Penha I,-,-,Penha,Concluído,-22.8416022502455,-43.275461745559
-3,BRT,Penha Ii,-,-,Penha,Concluído,-22.8416577924177,-43.277455818163
-3,Morar Carioca,Vila Cruzeiro (Complexo Da Penha),-,-,Penha,Em licitação,0.0000000000000,0.000000000000
-3,Saúde,Cms José Paranhos Fontenelle,-,-,Penha,Em andamento,-22.84154159198997,-43.269698205291924
-3,Saúde,Cms São Godofredo,-,-,Penha,Concluído,-22.84128614153986,-43.27075071878301
-3,Saúde,Clínica Da Família Dr. Felippe Cardoso,-,-,Penha,Concluído,-22.84276506671305,-43.27895487460151
-3,BRT,Guaporé,-,-,Penha Circular,Concluído,-22.8374646112763,-43.289727803438
-3,BRT,Lobo Junior,-,-,Penha Circular,Em andamento,-22.8229539688384,-43.276876335933
-3,BRT,Mercado São Sebastião,-,-,Penha Circular,Em andamento,-22.8190285075874,-43.281329429222
-3,BRT,Pastor José Santos,-,-,Penha Circular,Concluído,-22.8337541781044,-43.283393045091
-3,BRT,Praça Do Carmo,-,-,Penha Circular,Concluído,-22.8386713145296,-43.295003503392
-3,Saúde,Hospital Municipal Da Piedade,-,-,Piedade,Concluído,-22.89163036996073,-43.30968565925478
-3,Saúde,Cms Parque Royal,-,-,Portuguesa,Concluído,-22.794388324604846,-43.20952953042107
-2,Saúde,Policlínica Hélio Pellegrino,-,-,Praça da Bandeira,Concluído,-22.914041112865863,-43.213286761108606
-4,BRT,Capitão Menezes,-,-,Praça Seca,Concluído,-22.8926730524968,-43.348624003436
-4,BRT,Ipase,-,-,Praça Seca,Concluído,-22.9045200868561,-43.357069361109
-4,BRT,Praça Seca,-,-,Praça Seca,Concluído,-22.8979899115295,-43.352808078248
-4,Morar Carioca,Morro Da Reunião - Tanque,-,-,Praça Seca,Em andamento,-22.9095270864537,-43.355320771079
-3,Bairro Maravilha,Ramos,-,"R$ 19.484.649,93",Ramos,Em andamento,-22.8484586654957,-43.260091474332
-3,BRT,Cardoso De Moraes,-,-,Ramos,Concluído,-22.8571793204053,-43.258063603437
-3,BRT,Santa Luzia,-,-,Ramos,Concluído,-22.8546547529226,-43.253692254104
-3,Saúde,Cms Maria Cristina Roma Paugartten,-,-,Ramos,Concluído,-22.851612164594776,-43.251708032273704
-5,Saúde,Hospital Municipal Albert Schweitzer,-,-,Realengo,Concluído,-22.866495337342478,-43.4420204052913
-5,Saúde,Clínica Da Família Nildo Eymar De Almeida Aguiar,-,-,Realengo,Concluído,-22.8629821902332,-43.444811016928334
-5,Saúde,Clínica Da Família Armando Palhares Aguinaga,-,-,Realengo,Concluído,-22.878656313815387,-43.43016810343671
-4,Bairro Maravilha,Rua Do Sol,-,"R$ 787.645,06",Recreio dos Bandeirantes,Concluído,-23.0277664400725,-43.472532574327
-4,BRT,Benvindo De Novaes,-,-,Recreio dos Bandeirantes,Concluído,-23.0142102309982,-43.466832807142
-4,BRT,Catedral Do Recreio,-,-,Recreio dos Bandeirantes,Concluído,-23.0034986628478,-43.433998118779
-4,BRT,Gelson Fonseca,-,-,Recreio dos Bandeirantes,Concluído,-23.0095352734466,-43.448631274597
-4,BRT,Gilka Machado,-,-,Recreio dos Bandeirantes,Concluído,-23.0167713367550,-43.477033676451
-4,BRT,Gláucio Gil,-,-,Recreio dos Bandeirantes,Concluído,-23.0120491778611,-43.458511189942
-4,BRT,Guignard,-,-,Recreio dos Bandeirantes,Concluído,-23.0105151745386,-43.452640832270
-4,BRT,Guiomar Novaes,-,-,Recreio dos Bandeirantes,Concluído,-23.0182430617133,-43.482644089942
-4,BRT,Nova Barra,-,-,Recreio dos Bandeirantes,Concluído,-23.0154905814836,-43.471467274552
-4,BRT,Recreio Shopping,-,-,Recreio dos Bandeirantes,Concluído,-23.0187412912932,-43.487204170866
-4,BRT,Salvador Allende,-,-,Recreio dos Bandeirantes,Concluído,-23.0011034647057,-43.443193957833
-1,Saúde,Clínica Da Família Estácio De Sá,-,-,Rio Comprido,Concluído,-22.92395731235067,-43.213790132272045
-3,Bairro Maravilha,Rocha Miranda,-,"R$ 12.547.578,20",Rocha Miranda,Em andamento,-22.8492163576475,-43.348920666119
-2,Saúde,Upa Rocinha,-,-,Rocinha,Concluído,-22.989108197954447,-43.25220960343391
-2,Saúde,Cms Dr. Albert Sabin,-,-,Rocinha,Concluído,-22.985729458636893,-43.24517966692496
-2,Saúde,Clínica Da Família Maria Do Socorro Silva E Souza,-,-,Rocinha,Concluído,-22.989182174775948,-43.252397188088665
-2,Saúde,Clínica Da Família Rinaldo De Lamare,-,-,Rocinha,Concluído,-22.993104144603745,-43.25267437459747
-3,Saúde,Clínica Da Família Cabo Edney Canazaro De Oliveira,-,-,Sampaio,Concluído,-22.903634570858163,-43.26135274761766
-5,Bairro Maravilha,Loteamento Recanto Feliz,-,"R$ 10.544.671,41",Santa Cruz,Em andamento,-22.9054918802591,-43.689820164852
-5,Bairro Maravilha,Loteamento Campo Verde,-,"R$ 10.930.614,06",Santa Cruz,Em andamento,-22.9056124398104,-43.707999274330
-5,Bairro Maravilha,Bela Vista,-,"R$ 19.996.529,01",Santa Cruz,Em andamento,-22.8817821107384,-43.671887816660
-5,Bairro Maravilha,Vila Nova,-,-,Santa Cruz,Em andamento,-22.9366731456885,-43.669467314809
-5,Bairro Maravilha,Colina Dos Pássaros,-,-,Santa Cruz,Em andamento,0.0000000000000,0.000000000000
-5,Bairro Maravilha,Comunidade Santa Veridiana,-,-,Santa Cruz,Em andamento,0.0000000000000,0.000000000000
-5,Bairro Maravilha,Rua Das Flores,-,"R$ 9.099.049,66",Santa Cruz,Em andamento,-22.9418970953609,-43.691282245494
-5,Bairro Maravilha,Comunidade Canaã,-,"R$ 6.135.427,25",Santa Cruz,Em andamento,0.0000000000000,0.000000000000
-5,Bairro Maravilha,Rua Maria Loroza,-,"R$ 16.798.295,90",Santa Cruz,Em andamento,"-22.954313852202432, -43.6733968013152",-43.673396801315
-5,Bairro Maravilha,Comunidade Green Ville,-,"R$ 6.235.490,78",Santa Cruz,Em andamento,0.0000000000000,0.000000000000
-5,Bairro Maravilha,Bosque Flor Do Cida,-,"R$ 5.820.813,64",Santa Cruz,Em andamento,"-22.93768565476627, -43.70114366083664",-43.701143660837
-5,Bairro Maravilha,Loteamento Estrela D'Alva,-,"R$ 8.025.710,97",Santa Cruz,Em andamento,0.0000000000000,0.000000000000
-5,BRT,Cajueiros,-,-,Santa Cruz,Concluído,-22.9307291882102,-43.673551747617
-5,BRT,Cesarão I,-,-,Santa Cruz,Concluído,-22.9343384608817,-43.665370332272
-5,BRT,Cesarão Ii,-,-,Santa Cruz,Concluído,-22.9334305995224,-43.662029590693
-5,BRT,Cesarão Iii,-,-,Santa Cruz,Concluído,-22.9315802795637,-43.657373632272
-5,BRT,Curral Falso,-,-,Santa Cruz,Em andamento,-22.9363227256623,-43.667004376453
-5,BRT,Gastão Rangel,-,-,Santa Cruz,Concluído,-22.9272230666647,-43.677622918781
-5,BRT,General Olímpio,-,-,Santa Cruz,Concluído,-22.9220619914900,-43.679769478308
-5,BRT,Santa Cruz,-,-,Santa Cruz,Em licitação,-22.9339799842970,-43.665399254059
-5,BRT,Santa Veridiana,-,-,Santa Cruz,Concluído,-22.9403932565426,-43.665205003389
-5,BRT,Três Pontes,-,-,Santa Cruz,Concluído,-22.9252841885283,-43.650003003390
-5,BRT,Vendas De Varanda,-,-,Santa Cruz,Concluído,-22.9352036951156,-43.649220316177
-5,BRT,Vila Paciência,-,-,Santa Cruz,Concluído,-22.9194190694138,-43.657328439641
-5,Saúde,Capsad Júlio César Carvalho,-,-,Santa Cruz,Concluído,-22.916086566992515,-43.6800400511466
-5,Saúde,Clínica Da Família Sérgio Arouca,-,-,Santa Cruz,Em andamento,-22.918321931685085,-43.69401716110834
-1,Saúde,Cms Ernani Agrícola,-,-,Santa Teresa,Concluído,-22.921101945214033,-43.18929871878093
-5,Bairro Maravilha,Rua Azaleias,-,"R$ 747.660,11",Santíssimo,Em andamento,-22.8776264818835,-43.525419087824
-5,Bairro Maravilha,Village Santissimo,-,"R$ 2.034.681,25",Santíssimo,Em andamento,-22.8769942960557,-43.515387716660
-5,Saúde,Clínica Da Família Sônia Maria Ferreira Machado,-,-,Santíssimo,Concluído,-22.873710591044627,-43.51485868994583
-1,Saúde,Cms José Messias Do Carmo,-,-,Santo Cristo,Concluído,-22.900513296050338,-43.20034896667145
-2,Saúde,Cms Vila Canoas,-,-,São Conrado,Concluído,-22.99535655872233,-43.269745888088494
-1,Saúde,Cms Ernesto Zeferino Tibau Jr.,-,-,São Cristóvão,Concluído,-22.899720247073834,-43.222433016927226
-1,Saúde,Clínica Da Familia Estivadores,-,-,São Cristóvão,Concluído,-22.901372182729105,-43.22428620343611
-3,Saúde,Clínica Da Família Dona Zica,-,-,São Francisco Xavier,Concluído,-22.90110491717355,-43.24302540529025
-5,Saúde,Upa Senador Camará,-,-,Senador Camará,Concluído,-22.882232096922504,-43.48334988994562
-5,Bairro Maravilha,Sítio Do Coronel,-,"R$ 6.239.854,63",Sepetiba,Em andamento,0.0000000000000,0.000000000000
-5,Bairro Maravilha,Loteamento Bernardo E Maria Gorda,-,"R$ 14.714.766,55",Sepetiba,Em andamento,0.0000000000000,0.000000000000
-5,Bairro Maravilha,Caminho Da Guarda,-,"R$ 4.423.618,65",Sepetiba,Em andamento,"-22.967338325961492, -43.71125741665729",-43.711257416657
-5,Saúde,Clínica Da Família Valéria Gomes Esteves,-,-,Sepetiba,Concluído,-22.960959997304506,-43.705174974598386
-4,BRT,Tanque,-,-,Tanque,Concluído,-22.9155709829488,-43.361349678981
-4,Morar Carioca,"Ladeira Da Reunião, Caxangá - Tanque",-,-,Tanque,Em andamento,-22.9126987745320,-43.359618945763
-4,Saúde,Cms Jorge Saldanha Bandeira De Mello,-,-,Tanque,Concluído,-22.919644261288816,-43.35984391692675
-4,BRT,André Rocha,-,-,Taquara,Concluído,-22.9294844385201,-43.373427118781
-4,BRT,Aracy Cabral,-,-,Taquara,Concluído,-22.9199482617541,-43.368226689945
-4,BRT,Boiúna,-,-,Taquara,Concluído,-22.9154329906305,-43.398023430418
-4,BRT,Divina Providência,-,-,Taquara,Concluído,-22.9405043749145,-43.372497959254
-4,BRT,Merck,-,-,Taquara,Concluído,-22.9347696037460,-43.371965074554
-4,BRT,Santa Efigênia,-,-,Taquara,Concluído,-22.9363728451623,-43.371769274554
-4,BRT,Taquara,-,-,Taquara,Concluído,-22.9232894815818,-43.373980281321
-4,Morar Carioca,Meringuava (Taquara),-,-,Taquara,Em andamento,-22.9148559361094,-43.384795945763
-2,Saúde,Cms Nilza Rosa,-,-,Tijuca,Concluído,-22.940167956033008,-43.24360641369155
-2,Saúde,Cms Hélio Pellegrino,-,-,Tijuca,Concluído,-22.914100406194535,-43.21325457459966
-4,BRT,Dom Bosco,-,-,Vargem Grande,Concluído,-23.0180535852841,-43.509016432269
-4,BRT,Notre Dame,-,-,Vargem Grande,Concluído,-23.0203067457214,-43.500206818728
-4,BRT,Pontal,-,-,Vargem Grande,Concluído,-23.0160719091788,-43.516011916882
-4,BRT,Recanto Das Garças,-,-,Vargem Grande,Concluído,-23.0207264954580,-43.496590545717
-4,Bairro Maravilha,Comunidade Vila Palmares,-,"R$ 2.966.619,57",Vargem Pequena,Concluído,0.0000000000000,0.000000000000
-4,Bairro Maravilha,Comunidade Gongolo,-,"R$ 5.644.451,58",Vargem Pequena,Em andamento,0.0000000000000,0.000000000000
-4,BRT,Tapebuias,-,-,Vargem Pequena,Concluído,-22.9909884970126,-43.430060415446
-1,BRT,Vasco Da Gama,-,-,Vasco da Gama,Em andamento,-22.8887818300226,-43.230639645721
-3,BRT,Vaz Lobo,-,-,Vaz Lobo,Concluído,-22.8544983116892,-43.328037677012
-3,BRT,Vicente De Carvalho,-,-,Vicente de Carvalho,Concluído,-22.8527283323429,-43.313110189898
-2,Saúde,Cms Rodolpho Perissé / Vidigal,-,-,Vidigal,Concluído,-22.99473538167697,-43.239085474597395
-3,BRT,Vigário Geral,-,-,Vigário Geral,Em andamento,-22.8045906652891,-43.305335970866
-3,BRT,Vila Kosmos,-,-,Vila da Penha,Concluído,-22.8494224324821,-43.308124078249
-2,Saúde,Hospital Municipal Jesus,-,-,Vila Isabel,Concluído,-22.911416613497867,-43.243501088090675
-2,Saúde,Cms Maria Augusta Estrella,-,-,Vila Isabel,Concluído,-22.91594593769814,-43.25322154576308
-2,Saúde,Clínica Da Família Recanto Do Trovador,-,-,Vila Isabel,Concluído,-22.915324354676944,-43.260817601581465
-5,Bairro Maravilha,Ana Maria Nacinovic,-,"R$ 2.184.846,56",Vila Kennedy,Concluído,-22.8605007291882,-43.482589865084
-5,BRT,Padre João Cribbin,-,-,Vila Militar,Concluído,-22.8759150793928,-43.405182303391
-5,BRT,Vila Militar,-,-,Vila Militar,Concluído,-22.8620499452187,-43.401286588051
-3,Saúde,Cms Necker Pinto,-,-,Zumbi,Concluído,-22.82086817736889,-43.17769516111079
-#N/A,Morar Carioca,Favela Pousada Dos Cavaleiros - Santíssimo,-,-,-,-,0.0000000000000,0.000000000000
-#N/A,Morar Carioca,"Morro São José, Sanatório, Grota, Prof. Burlamaqui - Madureira",-,-,-,-,0.0000000000000,0.000000000000
-#N/A,Morar Carioca,Favela Fé Em Deus - Anchieta,-,-,-,-,0.0000000000000,0.000000000000
-#N/A,Morar Carioca,Favela Santa Maura - Jacarepaguá,-,-,-,-,0.0000000000000,0.000000000000
-#N/A,Morar Carioca,Pica Pau (Estrada Do Catonho Ii) - Taquara,-,-,-,-,0.0000000000000,0.000000000000
-#N/A,Morar Carioca,"Morro Do Fubá, Fazenda Da Bica - Cascadura",-,-,-,-,0.0000000000000,0.000000000000
-#N/A,Morar Carioca,Favela Solar Dos Teixeiras E Amigos Dos Teixeiras - Realengo,-,-,-,-,0.0000000000000,0.000000000000
-#N/A,Morar Carioca,Village Costa Barros (Terra Nostra) - Costa Barros,-,-,-,-,0.0000000000000,0.000000000000
-#N/A,Morar Carioca,Favela Nova Maracá - Tomás Coelho,-,-,-,-,0.0000000000000,0.000000000000
-#N/A,Morar Carioca,"Morro Do Alemão (Trecho), Nova Brasília (Capão) - Alemão",-,-,-,-,0.0000000000000,0.000000000000
-#N/A,Morar Carioca,Parque Bela Vista - Honório Gurgel,-,-,-,-,0.0000000000000,0.000000000000
-#N/A,Saúde,Cms Mourão Filho,-,-,-,Concluído,-23.06586393026902,-43.568628805286146
+AP,Orgao,Projeto,Titulo,Beneficiados,Investimento,Bairro,Situação,Latitude,Longitude
+5,SMI,Bairro Maravilha,Vila Catiri,-,"R$ 7.171.608,70",Bangu,Em andamento,"-22.8468401500087, -43.47160383200355",-43.471603832004
+5,SMI,Bairro Maravilha,Comunidade Mangueiral - Vila Aliança,-,"R$ 6.014.579,17",Bangu,Em andamento,-22.8664563802543,-43.480211574332
+3,SMI,Bairro Maravilha,Bonsucesso,-,"R$ 36.905.759,47",Bonsucesso,Em andamento,-22.8650759585641,-43.253094921572
+5,SMI,Bairro Maravilha,Fernando De Magalhães,-,"R$ 1.195.957,74",Campo Grande,Concluído,-22.9348517845683,-43.553535674329
+5,SMI,Bairro Maravilha,Rua Senhora,-,"R$ 9.869.345,99",Campo Grande,Em andamento,-22.8939854403869,-43.546851768782
+5,SMI,Bairro Maravilha,Comunidade Restinga,-,"R$ 2.985.579,40",Campo Grande,Em andamento,0.0000000000000,0.000000000000
+5,SMI,Bairro Maravilha,Rua Amaro Cavalcante,-,"R$ 7.863.928,91",Campo Grande,Em andamento,-22.9103208151421,-43.536105292627
+5,SMI,Bairro Maravilha,Quadra 100 - Loteamento Carobinha,-,"R$ 20.793.578,90",Campo Grande,Em andamento,"-22.85048132924018, -43.53310840501693",-43.533108405017
+5,SMI,Bairro Maravilha,Comunidade Nova Conquista,-,"R$ 11.400.269,89",Cosmos,Em andamento,0.0000000000000,0.000000000000
+3,SMI,Bairro Maravilha,Obras Bairro Maravilha Encantado,-,"R$ 2.849.740,00",Encantado,Concluído,-22.8972322938610,-43.307104545495
+5,SMI,Bairro Maravilha,Jardim Maravilha,-,-,Guaratiba,Em andamento,0.0000000000000,0.000000000000
+5,SMI,Bairro Maravilha,Comunidade Guaratibinha,-,"R$ 2.376.232,45",Guaratiba,Em andamento,0.0000000000000,0.000000000000
+5,SMI,Bairro Maravilha,Comunidade Campo Do Saco,-,"R$ 11.865.718,09",Guaratiba,Em andamento,-22.9819078702789,-43.597116110847
+4,SMI,Bairro Maravilha,Muzema - Rio Das Pedras,-,"R$ 4.006.478,53",Itanhangá,Em andamento,"-22.97847564590302, -43.33326379795014",-43.333263797950
+3,SMI,Bairro Maravilha,Olaria,-,"R$ 39.124.678,77",Olaria,Em andamento,-22.8398279649873,-43.257416158990
+5,SMI,Bairro Maravilha,Bairro Maravilha Village Dos Mouras ,-,"R$ 7.442.892,11",Paciência,Concluído,-22.9367360465759,-43.633396782444
+5,SMI,Bairro Maravilha,Morada 2001,-,"R$ 20.358.237,84",Paciência,Em andamento,0.0000000000000,0.000000000000
+5,SMI,Bairro Maravilha,Estrada Dos Vieiras,-,"R$ 29.537.066,74",Paciência,Em andamento,-22.9241107422293,-43.628089203166
+5,SMI,Bairro Maravilha,Vila Vintém,-,"R$ 16.454.726,04",Padre Miguel,Em andamento,-22.8700531120804,-43.443013672266
+4,SMI,Bairro Maravilha,Rua Maença - Jacarepaguá,-,"R$ 444.409,35",Pechincha,Em andamento,-22.9286897233551,-43.354220594344
+3,SMI,Bairro Maravilha,Ramos,-,"R$ 19.484.649,93",Ramos,Em andamento,-22.8484586654957,-43.260091474332
+4,SMI,Bairro Maravilha,Rua Do Sol,-,"R$ 787.645,06",Recreio dos Bandeirantes,Concluído,-23.0277664400725,-43.472532574327
+3,SMI,Bairro Maravilha,Rocha Miranda,-,"R$ 12.547.578,20",Rocha Miranda,Em andamento,-22.8492163576475,-43.348920666119
+5,SMI,Bairro Maravilha,Loteamento Recanto Feliz,-,"R$ 10.544.671,41",Santa Cruz,Em andamento,-22.9054918802591,-43.689820164852
+5,SMI,Bairro Maravilha,Loteamento Campo Verde,-,"R$ 10.930.614,06",Santa Cruz,Em andamento,-22.9056124398104,-43.707999274330
+5,SMI,Bairro Maravilha,Bela Vista,-,"R$ 19.996.529,01",Santa Cruz,Em andamento,-22.8817821107384,-43.671887816660
+5,SMI,Bairro Maravilha,Vila Nova,-,-,Santa Cruz,Em andamento,-22.9366731456885,-43.669467314809
+5,SMI,Bairro Maravilha,Colina Dos Pássaros,-,-,Santa Cruz,Em andamento,0.0000000000000,0.000000000000
+5,SMI,Bairro Maravilha,Comunidade Santa Veridiana,-,-,Santa Cruz,Em andamento,0.0000000000000,0.000000000000
+5,SMI,Bairro Maravilha,Rua Das Flores,-,"R$ 9.099.049,66",Santa Cruz,Em andamento,-22.9418970953609,-43.691282245494
+5,SMI,Bairro Maravilha,Comunidade Canaã,-,"R$ 6.135.427,25",Santa Cruz,Em andamento,0.0000000000000,0.000000000000
+5,SMI,Bairro Maravilha,Rua Maria Loroza,-,"R$ 16.798.295,90",Santa Cruz,Em andamento,"-22.954313852202432, -43.6733968013152",-43.673396801315
+5,SMI,Bairro Maravilha,Comunidade Green Ville,-,"R$ 6.235.490,78",Santa Cruz,Em andamento,0.0000000000000,0.000000000000
+5,SMI,Bairro Maravilha,Bosque Flor Do Cida,-,"R$ 5.820.813,64",Santa Cruz,Em andamento,"-22.93768565476627, -43.70114366083664",-43.701143660837
+5,SMI,Bairro Maravilha,Loteamento Estrela D'Alva,-,"R$ 8.025.710,97",Santa Cruz,Em andamento,0.0000000000000,0.000000000000
+5,SMI,Bairro Maravilha,Rua Azaleias,-,"R$ 747.660,11",Santíssimo,Em andamento,-22.8776264818835,-43.525419087824
+5,SMI,Bairro Maravilha,Village Santissimo,-,"R$ 2.034.681,25",Santíssimo,Em andamento,-22.8769942960557,-43.515387716660
+5,SMI,Bairro Maravilha,Sítio Do Coronel,-,"R$ 6.239.854,63",Sepetiba,Em andamento,0.0000000000000,0.000000000000
+5,SMI,Bairro Maravilha,Loteamento Bernardo E Maria Gorda,-,"R$ 14.714.766,55",Sepetiba,Em andamento,0.0000000000000,0.000000000000
+5,SMI,Bairro Maravilha,Caminho Da Guarda,-,"R$ 4.423.618,65",Sepetiba,Em andamento,"-22.967338325961492, -43.71125741665729",-43.711257416657
+4,SMI,Bairro Maravilha,Comunidade Vila Palmares,-,"R$ 2.966.619,57",Vargem Pequena,Concluído,0.0000000000000,0.000000000000
+4,SMI,Bairro Maravilha,Comunidade Gongolo,-,"R$ 5.644.451,58",Vargem Pequena,Em andamento,0.0000000000000,0.000000000000
+5,SMI,Bairro Maravilha,Ana Maria Nacinovic,-,"R$ 2.184.846,56",Vila Kennedy,Concluído,-22.8605007291882,-43.482589865084
+3,SMI,BRT,Fazenda Botafogo,-,-,Acari,Em andamento,-22.8231663943310,-43.350002488631
+4,SMI,BRT,Aeroporto De Jacarepaguá,-,-,Barra da Tijuca,Concluído,-22.9895280066734,-43.366213851324
+4,SMI,BRT,Afrânio Costa,-,-,Barra da Tijuca,Concluído,-23.0003371332018,-43.335159332270
+4,SMI,BRT,Américas Park,-,-,Barra da Tijuca,Concluído,-23.0002042848075,-43.389568901579
+4,SMI,BRT,Barra Shopping Expresso,-,-,Barra da Tijuca,Concluído,-23.0004847852320,-43.359535830377
+4,SMI,BRT,Barra Shopping Parador,-,-,Barra da Tijuca,Concluído,-23.0005519251912,-43.359662627254
+4,SMI,BRT,Bosque Da Barra,-,-,Barra da Tijuca,Concluído,-23.0000843568543,-43.377542047615
+4,SMI,BRT,Bosque Marapendi,-,-,Barra da Tijuca,Concluído,-23.0000843568543,-43.377531318779
+4,SMI,BRT,Golfe Olímpico,-,-,Barra da Tijuca,Concluído,-22.9998232285759,-43.412589491797
+4,SMI,BRT,Ilha Pura,-,-,Barra da Tijuca,Concluído,-22.9893541215672,-43.417679289943
+4,SMI,BRT,Interlagos,-,-,Barra da Tijuca,Concluído,-23.0007045373348,-43.417429059252
+4,SMI,BRT,Lourenço Jorge,-,-,Barra da Tijuca,Concluído,-22.9944295286169,-43.365978362961
+4,SMI,BRT,Novo Leblon,-,-,Barra da Tijuca,Concluído,-23.0002625644553,-43.383259776399
+4,SMI,BRT,Olof Palme,-,-,Barra da Tijuca,Concluído,-22.9816581964269,-43.410248050696
+4,SMI,BRT,Parque Das Rosas,-,-,Barra da Tijuca,Concluído,-22.9999517678472,-43.352404159212
+4,SMI,BRT,Paulo Malta Rezende,-,-,Barra da Tijuca,Concluído,-23.0011003895825,-43.329125518729
+4,SMI,BRT,Pedra De Itaúna,-,-,Barra da Tijuca,Concluído,-23.0026114311422,-43.424224993586
+4,SMI,BRT,Pontões/Barra Sul,-,-,Barra da Tijuca,Concluído,-23.0053198703727,-43.431988418728
+4,SMI,BRT,Ricardo Marinho,-,-,Barra da Tijuca,Concluído,-23.0000001882149,-43.346574389893
+4,SMI,BRT,Rio 2,-,-,Barra da Tijuca,Concluído,-22.9730424768175,-43.382109276970
+4,SMI,BRT,Riocentro,-,-,Barra da Tijuca,Concluído,-22.9766680604979,-43.406346572707
+4,SMI,BRT,Riomar,-,-,Barra da Tijuca,Concluído,-22.9997058561836,-43.406928661058
+4,SMI,BRT,Riviera,-,-,Barra da Tijuca,Concluído,-23.0000462845585,-43.341958159212
+4,SMI,BRT,Santa Mônica Jardins,-,-,Barra da Tijuca,Concluído,-23.0000693401584,-43.398505232223
+4,SMI,BRT,Via Parque,-,-,Barra da Tijuca,Concluído,-22.9836697195608,-43.365664730377
+1,SMI,BRT,Benfica,-,-,Benfica,Em andamento,-22.8871043156077,-43.231507564721
+3,SMI,BRT,Hospital De Bonsucesso,-,-,Bonsucesso,Em andamento,-22.8655638571418,-43.247924546120
+3,SMI,BRT,Pedro Taques,-,-,Brás de Pina,Concluído,-22.8351055806299,-43.301016046386
+1,SMI,BRT,Caju,-,-,Caju,Em andamento,-22.8817880359606,-43.219060837543
+1,SMI,BRT,Gentileza,-,-,Caju,Em andamento,-22.8949955811874,-43.212290797968
+1,SMI,BRT,Into,-,-,Caju,Em andamento,-22.8934014006838,-43.215428268732
+3,SMI,BRT,Pinto Teles,-,-,Campinho,Concluído,-22.8881325766989,-43.345996805237
+5,SMI,BRT,Cândido Magalhães,-,-,Campo Grande,Concluído,-22.9074193637600,-43.564134218781
+5,SMI,BRT,Parque Da Esperança,-,-,Campo Grande,Concluído,-22.9066982551990,-43.571857132226
+5,SMI,BRT,Pina Rangel,-,-,Campo Grande,Concluído,-22.9073319386391,-43.575595118731
+5,SMI,BRT,Prefeito Alim Pedro,-,-,Campo Grande,Concluído,-22.9007315265370,-43.566995133055
+3,SMI,BRT,Cidade Alta,-,-,Cordovil,Em andamento,-22.8198349791641,-43.294678864892
+3,SMI,BRT,Missões,-,-,Cordovil,Em andamento,-22.8150623015441,-43.289670732228
+5,SMI,BRT,Cosmos,-,-,Cosmos,Concluído,-22.9083728854198,-43.606071918365
+5,SMI,BRT,Júlia Miguel,-,-,Cosmos,Concluído,-22.9083556735043,-43.624445268748
+5,SMI,BRT,Parque São Paulo,-,-,Cosmos,Concluído,-22.9104347942301,-43.622909957833
+4,SMI,BRT,Arroio Pavuna,-,-,Curicica,Concluído,-22.9551314701376,-43.377393218780
+4,SMI,BRT,Curicica,-,-,Curicica,Concluído,-22.9596051858607,-43.388652745762
+4,SMI,BRT,Leila Diniz,-,-,Curicica,Concluído,-22.9527682965610,-43.390646425245
+4,SMI,BRT,Praça Do Bandolim,-,-,Curicica,Concluído,-22.9584953945996,-43.383520934070
+5,SMI,BRT,Deodoro,-,-,Deodoro,Em andamento,-22.8546749280517,-43.383450342717
+3,SMI,BRT,Galeão/Tom Jobim I,-,-,Galeão,Concluído,-22.8108363156780,-43.251497274602
+3,SMI,BRT,Galeão/Tom Jobim Ii,-,-,Galeão,Concluído,-22.8144298621198,-43.246277514783
+3,SMI,BRT,Guadalupe,-,-,Guadalupe,Em andamento,-22.8445135756110,-43.376518359895
+3,SMI,BRT,Jardim Guadalupe,-,-,Guadalupe,Em andamento,-22.8401714150122,-43.369549816929
+5,SMI,BRT,Ilha De Guaratiba,-,-,Guaratiba,Concluído,-23.0075569139839,-43.539767595525
+5,SMI,BRT,Magarça,-,-,Guaratiba,Em andamento,-22.9684837273057,-43.622082632271
+5,SMI,BRT,Mato Alto,-,-,Guaratiba,Em andamento,-22.9934724357425,-43.595859248140
+5,SMI,BRT,Pinto D'Água,-,-,Guaratiba,Em andamento,-22.9645347375503,-43.647561458444
+5,SMI,BRT,Ctex,-,-,Ilha de Guaratiba,Concluído,-23.0051608502288,-43.558504376451
+5,SMI,BRT,Embrapa,-,-,Ilha de Guaratiba,Concluído,-22.9994024595505,-43.582353647615
+5,SMI,BRT,Ana Gonzaga,-,-,Inhoaíba,Concluído,-22.9110272183940,-43.589642962963
+5,SMI,BRT,Icurana,-,-,Inhoaíba,Concluído,-22.9148838182982,-43.605731616927
+5,SMI,BRT,Inhoaíba,-,-,Inhoaíba,Concluído,-22.9084689302135,-43.595722066474
+5,SMI,BRT,São Jorge,-,-,Inhoaíba,Concluído,-22.9106495650613,-43.584235203390
+5,SMI,BRT,Vilar Carioca,-,-,Inhoaíba,Concluído,-22.9139576500143,-43.601416559904
+3,SMI,BRT,Ceasa,-,-,Irajá,Em andamento,-22.8303426040064,-43.337070411051
+3,SMI,BRT,Marambaia,-,-,Irajá,Concluído,-22.8528336591626,-43.320296632274
+3,SMI,BRT,Margaridas,-,-,Irajá,Em andamento,-22.8201077421133,-43.324278847620
+4,SMI,BRT,Asa Branca,-,-,Jacarepaguá,Concluído,-22.9629905345271,-43.393787203434
+4,SMI,BRT,Centro Metropolitano,-,-,Jacarepaguá,Concluído,-22.9731284316722,-43.365715862961
+4,SMI,BRT,Colônia,-,-,Jacarepaguá,Concluído,-22.9407823739172,-43.394758020635
+4,SMI,BRT,Minha Praia,-,-,Jacarepaguá,Concluído,-22.9666578035380,-43.397081803389
+4,SMI,BRT,Morro Do Outeiro,-,-,Jacarepaguá,Concluído,-22.9713482306465,-43.401304501542
+4,SMI,BRT,Outeiro Santo,-,-,Jacarepaguá,Concluído,-22.9277480361081,-43.396039361060
+4,SMI,BRT,Pedro Corrêa,-,-,Jacarepaguá,Concluído,-22.9673931428809,-43.390566359213
+4,SMI,BRT,Recanto Das Palmeiras,-,-,Jacarepaguá,Concluído,-22.9480363655864,-43.372363430378
+4,SMI,BRT,Rede Sarah,-,-,Jacarepaguá,Concluído,-22.9719004990414,-43.376813924839
+4,SMI,BRT,Ventura,-,-,Jacarepaguá,Concluído,-22.9476426244079,-43.391697816884
+4,SMI,BRT,Vila Sapê,-,-,Jacarepaguá,Concluído,-22.9519874108234,-43.374552474554
+5,SMI,BRT,Marechal Fontenelle,-,-,Jardim Sulacap,Concluído,-22.8856924093549,-43.400837291800
+3,SMI,BRT,Campinho,-,-,Madureira,Concluído,-22.8820341419311,-43.341891874600
+3,SMI,BRT,Madureira/Manaceia,-,-,Madureira,Concluído,-22.8767926858863,-43.335896496020
+3,SMI,BRT,Mercadão,-,-,Madureira,Concluído,-22.8699969999549,-43.335546932273
+3,SMI,BRT,Otaviano,-,-,Madureira,Concluído,-22.8657014646613,-43.334370732227
+3,SMI,BRT,Vila Queiroz,-,-,Madureira,Concluído,-22.8612269301384,-43.330351145721
+5,SMI,BRT,Magalhães Bastos,-,-,Magalhães Bastos,Concluído,-22.8678445245699,-43.413080629600
+3,SMI,BRT,Fiocruz,-,-,Manguinhos,Em andamento,-22.8755309856498,-43.243032188325
+3,SMI,BRT,Baixa Do Sapateiro,-,-,Maré,Em andamento,-22.8498619318069,-43.241907748737
+3,SMI,BRT,Maré,-,-,Maré,Concluído,-22.8468671468724,-43.243659445765
+3,SMI,BRT,Piscinão De Ramos,-,-,Maré,Em andamento,-22.8407243655862,-43.249973732228
+3,SMI,BRT,Rubens Vaz,-,-,Maré,Em andamento,-22.8534574375124,-43.247287813881
+3,SMI,BRT,Olaria,-,-,Olaria,Concluído,-22.8484119003604,-43.265398545722
+5,SMI,BRT,31 De Outubro,-,-,Paciência,Concluído,-22.9180454588415,-43.639128247617
+5,SMI,BRT,Cesarinho,-,-,Paciência,Concluído,-22.9200144912244,-43.643507635480
+5,SMI,BRT,Santa Eugênia,-,-,Paciência,Concluído,-22.9166217027204,-43.632759045720
+3,SMI,BRT,Ibiapina,-,-,Penha,Concluído,-22.8422221178430,-43.272642918783
+3,SMI,BRT,Marinha Mercante,-,-,Penha,Em andamento,-22.8333482651821,-43.260763145722
+3,SMI,BRT,Penha I,-,-,Penha,Concluído,-22.8416022502455,-43.275461745559
+3,SMI,BRT,Penha Ii,-,-,Penha,Concluído,-22.8416577924177,-43.277455818163
+3,SMI,BRT,Guaporé,-,-,Penha Circular,Concluído,-22.8374646112763,-43.289727803438
+3,SMI,BRT,Lobo Junior,-,-,Penha Circular,Em andamento,-22.8229539688384,-43.276876335933
+3,SMI,BRT,Mercado São Sebastião,-,-,Penha Circular,Em andamento,-22.8190285075874,-43.281329429222
+3,SMI,BRT,Pastor José Santos,-,-,Penha Circular,Concluído,-22.8337541781044,-43.283393045091
+3,SMI,BRT,Praça Do Carmo,-,-,Penha Circular,Concluído,-22.8386713145296,-43.295003503392
+4,SMI,BRT,Capitão Menezes,-,-,Praça Seca,Concluído,-22.8926730524968,-43.348624003436
+4,SMI,BRT,Ipase,-,-,Praça Seca,Concluído,-22.9045200868561,-43.357069361109
+4,SMI,BRT,Praça Seca,-,-,Praça Seca,Concluído,-22.8979899115295,-43.352808078248
+3,SMI,BRT,Cardoso De Moraes,-,-,Ramos,Concluído,-22.8571793204053,-43.258063603437
+3,SMI,BRT,Santa Luzia,-,-,Ramos,Concluído,-22.8546547529226,-43.253692254104
+4,SMI,BRT,Benvindo De Novaes,-,-,Recreio dos Bandeirantes,Concluído,-23.0142102309982,-43.466832807142
+4,SMI,BRT,Catedral Do Recreio,-,-,Recreio dos Bandeirantes,Concluído,-23.0034986628478,-43.433998118779
+4,SMI,BRT,Gelson Fonseca,-,-,Recreio dos Bandeirantes,Concluído,-23.0095352734466,-43.448631274597
+4,SMI,BRT,Gilka Machado,-,-,Recreio dos Bandeirantes,Concluído,-23.0167713367550,-43.477033676451
+4,SMI,BRT,Gláucio Gil,-,-,Recreio dos Bandeirantes,Concluído,-23.0120491778611,-43.458511189942
+4,SMI,BRT,Guignard,-,-,Recreio dos Bandeirantes,Concluído,-23.0105151745386,-43.452640832270
+4,SMI,BRT,Guiomar Novaes,-,-,Recreio dos Bandeirantes,Concluído,-23.0182430617133,-43.482644089942
+4,SMI,BRT,Nova Barra,-,-,Recreio dos Bandeirantes,Concluído,-23.0154905814836,-43.471467274552
+4,SMI,BRT,Recreio Shopping,-,-,Recreio dos Bandeirantes,Concluído,-23.0187412912932,-43.487204170866
+4,SMI,BRT,Salvador Allende,-,-,Recreio dos Bandeirantes,Concluído,-23.0011034647057,-43.443193957833
+5,SMI,BRT,Cajueiros,-,-,Santa Cruz,Concluído,-22.9307291882102,-43.673551747617
+5,SMI,BRT,Cesarão I,-,-,Santa Cruz,Concluído,-22.9343384608817,-43.665370332272
+5,SMI,BRT,Cesarão Ii,-,-,Santa Cruz,Concluído,-22.9334305995224,-43.662029590693
+5,SMI,BRT,Cesarão Iii,-,-,Santa Cruz,Concluído,-22.9315802795637,-43.657373632272
+5,SMI,BRT,Curral Falso,-,-,Santa Cruz,Em andamento,-22.9363227256623,-43.667004376453
+5,SMI,BRT,Gastão Rangel,-,-,Santa Cruz,Concluído,-22.9272230666647,-43.677622918781
+5,SMI,BRT,General Olímpio,-,-,Santa Cruz,Concluído,-22.9220619914900,-43.679769478308
+5,SMI,BRT,Santa Cruz,-,-,Santa Cruz,Em licitação,-22.9339799842970,-43.665399254059
+5,SMI,BRT,Santa Veridiana,-,-,Santa Cruz,Concluído,-22.9403932565426,-43.665205003389
+5,SMI,BRT,Três Pontes,-,-,Santa Cruz,Concluído,-22.9252841885283,-43.650003003390
+5,SMI,BRT,Vendas De Varanda,-,-,Santa Cruz,Concluído,-22.9352036951156,-43.649220316177
+5,SMI,BRT,Vila Paciência,-,-,Santa Cruz,Concluído,-22.9194190694138,-43.657328439641
+4,SMI,BRT,Tanque,-,-,Tanque,Concluído,-22.9155709829488,-43.361349678981
+4,SMI,BRT,André Rocha,-,-,Taquara,Concluído,-22.9294844385201,-43.373427118781
+4,SMI,BRT,Aracy Cabral,-,-,Taquara,Concluído,-22.9199482617541,-43.368226689945
+4,SMI,BRT,Boiúna,-,-,Taquara,Concluído,-22.9154329906305,-43.398023430418
+4,SMI,BRT,Divina Providência,-,-,Taquara,Concluído,-22.9405043749145,-43.372497959254
+4,SMI,BRT,Merck,-,-,Taquara,Concluído,-22.9347696037460,-43.371965074554
+4,SMI,BRT,Santa Efigênia,-,-,Taquara,Concluído,-22.9363728451623,-43.371769274554
+4,SMI,BRT,Taquara,-,-,Taquara,Concluído,-22.9232894815818,-43.373980281321
+4,SMI,BRT,Dom Bosco,-,-,Vargem Grande,Concluído,-23.0180535852841,-43.509016432269
+4,SMI,BRT,Notre Dame,-,-,Vargem Grande,Concluído,-23.0203067457214,-43.500206818728
+4,SMI,BRT,Pontal,-,-,Vargem Grande,Concluído,-23.0160719091788,-43.516011916882
+4,SMI,BRT,Recanto Das Garças,-,-,Vargem Grande,Concluído,-23.0207264954580,-43.496590545717
+4,SMI,BRT,Tapebuias,-,-,Vargem Pequena,Concluído,-22.9909884970126,-43.430060415446
+1,SMI,BRT,Vasco Da Gama,-,-,Vasco da Gama,Em andamento,-22.8887818300226,-43.230639645721
+3,SMI,BRT,Vaz Lobo,-,-,Vaz Lobo,Concluído,-22.8544983116892,-43.328037677012
+3,SMI,BRT,Vicente De Carvalho,-,-,Vicente de Carvalho,Concluído,-22.8527283323429,-43.313110189898
+3,SMI,BRT,Vigário Geral,-,-,Vigário Geral,Em andamento,-22.8045906652891,-43.305335970866
+3,SMI,BRT,Vila Kosmos,-,-,Vila da Penha,Concluído,-22.8494224324821,-43.308124078249
+5,SMI,BRT,Padre João Cribbin,-,-,Vila Militar,Concluído,-22.8759150793928,-43.405182303391
+5,SMI,BRT,Vila Militar,-,-,Vila Militar,Concluído,-22.8620499452187,-43.401286588051
+2,SMH,Morar Carioca,"Rua Leopoldo, Andaraí",-,-,Andaraí,Concluído,-22.9301218721547,-43.253896903390
+5,SMH,Morar Carioca,"Parque Das Mangueiras, Murundu E Parque Real (Comunidade Do 77) - Bangu E Padre Migue",-,-,Bangu,Em licitação,0.0000000000000,0.000000000000
+5,SMH,Morar Carioca,Condomínio Das Garças - Bangu,-,-,Bangu,Em andamento,-22.8533889536533,-43.452650891801
+5,SMH,Morar Carioca,Caminho Feliz - Bangu,-,-,Bangu,Em andamento,-22.8424861062912,-43.490552261110
+5,SMH,Morar Carioca,"Praça Jacarta, Bangu",-,-,Bangu,Concluído,-22.8453545244993,-43.490529734074
+5,SMH,Morar Carioca,"Praça Marcos Gonçalves Pinto, Bangu",-,-,Bangu,Concluído,-22.8535576665679,-43.454946203392
+3,SMH,Morar Carioca,"Const. Clube Everest, Higienópolis",-,-,Bonsucesso,Em andamento,-22.8768252075266,-43.256268045967
+4,SMH,Morar Carioca,Parque Nobre Camorim - Camorim,-,-,Camorim,Em andamento,-22.9802392315337,-43.419135074598
+3,SMH,Morar Carioca,Centro Social União De Costa Barros - Lagartixa (Costa Barros),-,-,Costa Barros,Em andamento,-22.8264590861824,-43.363449441244
+3,SMH,Morar Carioca,"Avenida Marechal Rondon, Morro Da Matriz, Engenho Novo",-,-,Engenho Novo,Concluído,-22.9051321551606,-43.264886914838
+1,SMH,Morar Carioca,Frei Caneca ,-,-,Estácio,Em andamento,-22.9150558542597,-43.199942689896
+5,SMH,Morar Carioca,Caminho De Dentro - Guaratiba,-,-,Guaratiba,Em andamento,-22.9598738920326,-43.579343347616
+5,SMH,Morar Carioca,Largo Do Correia - Guaratiba,-,-,Guaratiba,Em andamento,-22.9558917917552,-43.577307088089
+5,SMH,Morar Carioca,"Rua Alex Carrel, Guaratiba",-,-,Guaratiba,Concluído,-22.9739567666777,-43.643225232224
+2,SMH,Morar Carioca,Chapéu Mangueira (Leme),-,-,Leme,Em andamento,-22.9605586144340,-43.169483014877
+3,SMH,Morar Carioca,Parque Nova Cidade Acari (Parque Linear E Entreprédios) - Costa Barros,-,-,Parque Colúmbia,Em andamento,-22.8164859688889,-43.345427529269
+3,SMH,Morar Carioca,Vila Cruzeiro (Complexo Da Penha),-,-,Penha,Em licitação,0.0000000000000,0.000000000000
+4,SMH,Morar Carioca,Morro Da Reunião - Tanque,-,-,Praça Seca,Em andamento,-22.9095270864537,-43.355320771079
+4,SMH,Morar Carioca,"Ladeira Da Reunião, Caxangá - Tanque",-,-,Tanque,Em andamento,-22.9126987745320,-43.359618945763
+4,SMH,Morar Carioca,Meringuava (Taquara),-,-,Taquara,Em andamento,-22.9148559361094,-43.384795945763
+#N/A,SMH,Morar Carioca,Favela Pousada Dos Cavaleiros - Santíssimo,-,-,-,-,0.0000000000000,0.000000000000
+#N/A,SMH,Morar Carioca,"Morro São José, Sanatório, Grota, Prof. Burlamaqui - Madureira",-,-,-,-,0.0000000000000,0.000000000000
+#N/A,SMH,Morar Carioca,Favela Fé Em Deus - Anchieta,-,-,-,-,0.0000000000000,0.000000000000
+#N/A,SMH,Morar Carioca,Favela Santa Maura - Jacarepaguá,-,-,-,-,0.0000000000000,0.000000000000
+#N/A,SMH,Morar Carioca,Pica Pau (Estrada Do Catonho Ii) - Taquara,-,-,-,-,0.0000000000000,0.000000000000
+#N/A,SMH,Morar Carioca,"Morro Do Fubá, Fazenda Da Bica - Cascadura",-,-,-,-,0.0000000000000,0.000000000000
+#N/A,SMH,Morar Carioca,Favela Solar Dos Teixeiras E Amigos Dos Teixeiras - Realengo,-,-,-,-,0.0000000000000,0.000000000000
+#N/A,SMH,Morar Carioca,Village Costa Barros (Terra Nostra) - Costa Barros,-,-,-,-,0.0000000000000,0.000000000000
+#N/A,SMH,Morar Carioca,Favela Nova Maracá - Tomás Coelho,-,-,-,-,0.0000000000000,0.000000000000
+#N/A,SMH,Morar Carioca,"Morro Do Alemão (Trecho), Nova Brasília (Capão) - Alemão",-,-,-,-,0.0000000000000,0.000000000000
+#N/A,SMH,Morar Carioca,Parque Bela Vista - Honório Gurgel,-,-,-,-,0.0000000000000,0.000000000000
+3,SME,Saúde,Hospital Municipal Ronaldo Gazolla,-,-,Acari,Concluído,-22.824962016641738,-43.3474834476196
+2,SME,Saúde,Cms Nicola Albano,-,-,Alto da Boa Vista,Em licitação,-22.965667567128623,-43.27767834761601
+5,SME,Saúde,Hospital Da Mulher Mariska Ribeiro,-,-,Bangu,Concluído,-22.875978069611097,-43.472999003436875
+5,SME,Saúde,Caps Iii Lima Barreto,-,-,Bangu,Concluído,-22.869651090686464,-43.457474518526496
+5,SME,Saúde,Cms Dr. Eithel Pinheiro De Oliveira Lima,-,-,Bangu,Concluído,-22.867640435584047,-43.483790290201824
+5,SME,Saúde,Cms Athayde José Da Fonseca,-,-,Bangu,Concluído,-22.84724972478403,-43.465534688092234
+4,SME,Saúde,Hospital Municipal Lourenço Jorge,-,-,Barra da Tijuca,Concluído,-22.994791716028246,-43.363859388344316
+4,SME,Saúde,Cer Barra (Lourenço Jorge),-,-,Barra da Tijuca,Concluído,-22.994400530877197,-43.36524058623419
+1,SME,Saúde,Super Centro – Centro Carioca De Especialidades,-,-,Benfica,Concluído,-22.896909576137066,-43.23780998994537
+1,SME,Saúde,Super Centro – Por Imagem (Ccdti),-,-,Benfica,Concluído,-22.896909576137066,-43.23780998994537
+1,SME,Saúde,Super Centro – Centro Carioca Do Olho (Cco),-,-,Benfica,Concluído,-22.896909576137066,-43.23780998994537
+1,SME,Saúde,Clínica Da Família Medalhista Olímpico Mauricio Silva,-,-,Benfica,Concluído,-22.888002944676675,-43.23535693598125
+2,SME,Saúde,Hospital Rocha Maia,-,-,Botafogo,Concluído,-22.953266950833054,-43.176918116925755
+2,SME,Saúde,Cms Rocha Maia,-,-,Botafogo,-,-22.95312067128209,-43.176809801580525
+2,SME,Saúde,Super Centro Carioca De Vacinação / Crie Myrtes Amorelli Gonzaga (Mag),-,-,Botafogo,Concluído,-22.953358933592764,-43.17721921692583
+2,SME,Saúde,Caps Franco Basaglia,-,-,Botafogo,Concluído,-22.95304062673874,-43.1758365611075
+2,SME,Saúde,Cms Dom Helder Câmara,-,-,Botafogo,Concluído,-22.95172833097432,-43.18641080343475
+1,SME,Saúde,Cf Fernando Antônio Braga Lopes,-,-,Caju,Concluído,-22.87585309940235,-43.222109761109465
+1,SME,Saúde,Clínica Da Família São Sebastião,-,-,Caju,Concluído,-22.879330860688754,-43.21574658994569
+5,SME,Saúde,Cms Dr. Oswaldo Vilella,-,-,Campo Grande,Concluído,-22.874797592705374,-43.55838823227332
+5,SME,Saúde,Cms Pedro Nava,-,-,Campo Grande,Concluído,-22.854137535797168,-43.54134353227371
+5,SME,Saúde,"Clínica Da Família Agenor De Miranda Araujo Neto ""Cazuza""",-,-,Campo Grande,Concluído,-22.946403280637274,-43.57637727459872
+2,SME,Saúde,Cms Manoel José Ferreira,-,-,Catete,Concluído,-22.92610076583607,-43.17858081692658
+1,SME,Saúde,Hospital Municipal Souza Aguiar,-,-,Centro,Concluído,-22.908140991603986,-43.18967683041815
+1,SME,Saúde,Cer Centro (Souza Aguar),-,-,Centro,Concluído,-22.908392317902624,-43.19046944576329
+1,SME,Saúde,Cms Oswaldo Cruz,-,-,Centro,Concluído,-22.91274413922205,-43.190756461108506
+1,SME,Saúde,Cms Marcolino Candau,-,-,Cidade Nova,Concluído,-22.90939897580299,-43.20078615925423
+3,SME,Saúde,Clínica Da Família Wilma Costa,-,-,Cocotá,Concluído,-22.803472722891676,-43.178896191801726
+2,SME,Saúde,Cms João Barros Barreto,-,-,Copacabana,Concluído,-22.966935733748837,-43.18731210343439
+2,SME,Saúde,Clínica Da Família Cantagalo Pavão Pavãozinho,-,-,Copacabana,Concluído,-22.981367278596252,-43.19631904390715
+3,SME,Saúde,Clínica Da Família Nilda Campos De Lima,-,-,Cordovil,Concluído,-22.827443220425007,-43.30240543227432
+5,SME,Saúde,Cms Dr. Mario Rodrigues Cid,-,-,Cosmos,Concluído,-22.891244843737542,-43.60576631481743
+5,SME,Saúde,Clínica Da Família Rogério Rocco,-,-,Cosmos,Concluído,-22.891574433410437,-43.609153865457905
+3,SME,Saúde,Clínica Da Família Bárbara Starfield,-,-,Del Castilho,Concluído,-22.877966588540602,-43.26881261507369
+1,SME,Saúde,Clínica Da Família Medalhista Olímpico Ricardo Lucarelli Souza,-,-,Estácio,Concluído,-22.914377981969913,-43.20117781692686
+3,SME,Saúde,Hospital Municipal Nossa Senhora Do Loreto,-,-,Galeão,Concluído,-22.81455135856618,-43.2253633439115
+1,SME,Saúde,Clínica Da Família Nélio De Oliveira,-,-,Gamboa,Concluído,-22.897238810441966,-43.19606085925464
+2,SME,Saúde,Cms Píndaro De Carvalho Rodrigues,-,-,Gávea,Concluído,-22.97939643339047,-43.22958981877926
+5,SME,Saúde,Cms Dr. Woodrow Pimentel Pantoja,-,-,Guaratiba,Concluído,-22.955188815736964,-43.609699603434855
+5,SME,Saúde,Cms Maia Bittencourt,-,-,Guaratiba,Concluído,-22.99194749561001,-43.59293150343377
+5,SME,Saúde,Clinica Da Familia Alkindar Soares Pereira Filho,-,-,Guaratiba,Concluído,-22.975479469131493,-43.648221005288384
+5,SME,Saúde,Clínica Da Família Dr. Hans Jürgen Fernando Dohmann,-,-,Guaratiba,Concluído,-22.98413033722077,-43.66009923041605
+3,SME,Saúde,Caps Iii Torquato Neto,-,-,Inhaúma,Concluído,-22.870043269334456,-43.27300364009064
+3,SME,Saúde,Cms Rodolpho Rocco,-,-,Inhaúma,Concluído,-22.871545858705698,-43.27256778412716
+3,SME,Saúde,Upa Del Castilho,-,-,Inhaúma,Concluído,-22.872685489478492,-43.27159513412722
+5,SME,Saúde,Cms Dr. Mário Vitor De Assis Pacheco,-,-,Inhoaíba,Concluído,-22.910368624444477,-43.58408013041801
+5,SME,Saúde,Cms Edgard Magalhães Gomes,-,-,Inhoaíba,Concluído,-22.908033017091075,-43.59637847645408
+5,SME,Saúde,Cms Adão Pereira Nunes,-,-,Inhoaíba,Concluído,-22.923827656674764,-43.60140640528991
+5,SME,Saúde,Clínica Da Família Antônio Gonçalves Villa Sobrinho,-,-,Inhoaíba,Concluído,-22.891963870397788,-43.59046494576381
+3,SME,Saúde,Hospital Municipal Francisco Da Silva Telles,-,-,Irajá,Concluído,-22.830635625293382,-43.328119618783326
+5,SME,Saúde,Caps Neusa Santos Souza,-,-,Jabour,Concluído,-22.880517508906916,-43.49195571878189
+4,SME,Saúde,Hospital Municipal Raphael De Paula Souza,-,-,Jacarepaguá,Concluído,-22.953890793048334,-43.39220826110735
+4,SME,Saúde,Clínica Da Família Arthur Bispo Do Rosário,-,-,Jacarepaguá,Concluído,-22.93735492739422, -43.389881659253675
+4,SME,Saúde,Hospital Municipal Álvaro Ramos,-,-,Jacarepaguá,Concluído,-22.94061297503334,-43.393792945762485
+4,SME,Saúde,Capsad Iii Antonio Carlos Mussum,-,-,Jacarepaguá,Concluído,-22.936514527318288,-43.38800308454127
+4,SME,Saúde,Capsi Eliza Santa Roza,-,-,Jacarepaguá,Concluído,-22.936112586505498,-43.38759234576248
+4,SME,Saúde,Clínica Da Família Helena Besserman Vianna,-,-,Jacarepaguá,Concluído,-22.97369657700962,-43.329969574597996
+3,SME,Saúde,Clínica Da Família Anthidio Dias Da Silveira,-,-,Jacarezinho,Concluído,-22.883555383948888,-43.25407693041891
+3,SME,Saúde,Cms Nagib Jorge Farah,-,-,Jardim América,Concluído,-22.807512680451865,-43.321452061111174
+5,SME,Saúde,Cms Professor Masao Goto,-,-,Jardim Sulacap,Concluído,-22.88686461114687,-43.39939907274605
+2,SME,Saúde,Hospital Municipal Miguel Couto,-,-,Lagoa,Concluído,-22.97737694976597,-43.224054818779386
+2,SME,Saúde,Cer Leblon (Miguel Couto),-,-,Lagoa,Concluído,-22.977585160369383,-43.224369088089055
+2,SME,Saúde,Cms Chapéu Mangueira Babilônia,-,-,Leme,Concluído,-22.959532759065894,-43.17122730343457
+3,SME,Saúde,Cms Antenor Nascentes,-,-,Lins de Vasconcelos,Concluído,-22.906323089220212,-43.274106016927
+1,SME,Saúde,Hospital Municipal Barata Ribeiro,-,-,Mangueira,Concluído,-22.899935447324697,-43.24031227459968
+3,SME,Saúde,Cms Américo Veloso,-,-,Maré,Em andamento,-22.841570916944132,-43.24957004391082
+3,SME,Saúde,Cms Vila Do João,-,-,Maré,Concluído,-22.873408366434088,-43.240080485981665
+3,SME,Saúde,Clínica Da Família Adib Jatene,-,-,Maré,Concluído,-22.86559126478251,-43.23927815925544
+3,SME,Saúde,Clínica Da Família Jeremias Moraes Da Silva,-,-,Maré,Concluído,-22.854514734816327,-43.23966888994637
+3,SME,Saúde,Hospital Municipal Salgado Filho,-,-,Méier,Concluído,-22.900305583635486,-43.27804378994514
+5,SME,Saúde,Upa Paciência,-,-,Paciência,Concluído,-22.927040947576714, -43.634886261108065
+5,SME,Saúde,Cms Décio Amaral Filho,-,-,Paciência,Concluído,-22.911214783560347,-43.65772141692684
+5,SME,Saúde,Cms Padre Miguel,-,-,Padre Miguel,Concluído,-22.87278940093107,-43.448630430418945
+1,SME,Saúde,Cms Manoel Arthur Villaboim,-,-,Paquetá,Concluído,-22.761212119386233,-43.108392374603355
+3,SME,Saúde,Clínica Da Família Eidimir Thiago De Souza,-,-,Parada de Lucas,Concluído,-22.823056391396744,-43.30952163227455
+3,SME,Saúde,Cms José Paranhos Fontenelle,-,-,Penha,Em andamento,-22.84154159198997,-43.269698205291924
+3,SME,Saúde,Cms São Godofredo,-,-,Penha,Concluído,-22.84128614153986,-43.27075071878301
+3,SME,Saúde,Clínica Da Família Dr. Felippe Cardoso,-,-,Penha,Concluído,-22.84276506671305,-43.27895487460151
+3,SME,Saúde,Hospital Municipal Da Piedade,-,-,Piedade,Concluído,-22.89163036996073,-43.30968565925478
+3,SME,Saúde,Cms Parque Royal,-,-,Portuguesa,Concluído,-22.794388324604846,-43.20952953042107
+2,SME,Saúde,Policlínica Hélio Pellegrino,-,-,Praça da Bandeira,Concluído,-22.914041112865863,-43.213286761108606
+3,SME,Saúde,Cms Maria Cristina Roma Paugartten,-,-,Ramos,Concluído,-22.851612164594776,-43.251708032273704
+5,SME,Saúde,Hospital Municipal Albert Schweitzer,-,-,Realengo,Concluído,-22.866495337342478,-43.4420204052913
+5,SME,Saúde,Clínica Da Família Nildo Eymar De Almeida Aguiar,-,-,Realengo,Concluído,-22.8629821902332,-43.444811016928334
+5,SME,Saúde,Clínica Da Família Armando Palhares Aguinaga,-,-,Realengo,Concluído,-22.878656313815387,-43.43016810343671
+1,SME,Saúde,Clínica Da Família Estácio De Sá,-,-,Rio Comprido,Concluído,-22.92395731235067,-43.213790132272045
+2,SME,Saúde,Upa Rocinha,-,-,Rocinha,Concluído,-22.989108197954447,-43.25220960343391
+2,SME,Saúde,Cms Dr. Albert Sabin,-,-,Rocinha,Concluído,-22.985729458636893,-43.24517966692496
+2,SME,Saúde,Clínica Da Família Maria Do Socorro Silva E Souza,-,-,Rocinha,Concluído,-22.989182174775948,-43.252397188088665
+2,SME,Saúde,Clínica Da Família Rinaldo De Lamare,-,-,Rocinha,Concluído,-22.993104144603745,-43.25267437459747
+3,SME,Saúde,Clínica Da Família Cabo Edney Canazaro De Oliveira,-,-,Sampaio,Concluído,-22.903634570858163,-43.26135274761766
+5,SME,Saúde,Capsad Júlio César Carvalho,-,-,Santa Cruz,Concluído,-22.916086566992515,-43.6800400511466
+5,SME,Saúde,Clínica Da Família Sérgio Arouca,-,-,Santa Cruz,Em andamento,-22.918321931685085,-43.69401716110834
+1,SME,Saúde,Cms Ernani Agrícola,-,-,Santa Teresa,Concluído,-22.921101945214033,-43.18929871878093
+5,SME,Saúde,Clínica Da Família Sônia Maria Ferreira Machado,-,-,Santíssimo,Concluído,-22.873710591044627,-43.51485868994583
+1,SME,Saúde,Cms José Messias Do Carmo,-,-,Santo Cristo,Concluído,-22.900513296050338,-43.20034896667145
+2,SME,Saúde,Cms Vila Canoas,-,-,São Conrado,Concluído,-22.99535655872233,-43.269745888088494
+1,SME,Saúde,Cms Ernesto Zeferino Tibau Jr.,-,-,São Cristóvão,Concluído,-22.899720247073834,-43.222433016927226
+1,SME,Saúde,Clínica Da Familia Estivadores,-,-,São Cristóvão,Concluído,-22.901372182729105,-43.22428620343611
+3,SME,Saúde,Clínica Da Família Dona Zica,-,-,São Francisco Xavier,Concluído,-22.90110491717355,-43.24302540529025
+5,SME,Saúde,Upa Senador Camará,-,-,Senador Camará,Concluído,-22.882232096922504,-43.48334988994562
+5,SME,Saúde,Clínica Da Família Valéria Gomes Esteves,-,-,Sepetiba,Concluído,-22.960959997304506,-43.705174974598386
+4,SME,Saúde,Cms Jorge Saldanha Bandeira De Mello,-,-,Tanque,Concluído,-22.919644261288816,-43.35984391692675
+2,SME,Saúde,Cms Nilza Rosa,-,-,Tijuca,Concluído,-22.940167956033008,-43.24360641369155
+2,SME,Saúde,Cms Hélio Pellegrino,-,-,Tijuca,Concluído,-22.914100406194535,-43.21325457459966
+2,SME,Saúde,Cms Rodolpho Perissé / Vidigal,-,-,Vidigal,Concluído,-22.99473538167697,-43.239085474597395
+2,SME,Saúde,Hospital Municipal Jesus,-,-,Vila Isabel,Concluído,-22.911416613497867,-43.243501088090675
+2,SME,Saúde,Cms Maria Augusta Estrella,-,-,Vila Isabel,Concluído,-22.91594593769814,-43.25322154576308
+2,SME,Saúde,Clínica Da Família Recanto Do Trovador,-,-,Vila Isabel,Concluído,-22.915324354676944,-43.260817601581465
+3,SME,Saúde,Cms Necker Pinto,-,-,Zumbi,Concluído,-22.82086817736889,-43.17769516111079
+#N/A,SME,Saúde,Cms Mourão Filho,-,-,-,Concluído,-23.06586393026902,-43.568628805286146
