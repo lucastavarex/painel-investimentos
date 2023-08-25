@@ -337,36 +337,53 @@ function buildDropDownList(title, listItems) {
   mainDiv.appendChild(filterTitle);
 
   const selectContainer = document.createElement('div');
-  selectContainer.classList.add('flex-parent', 'flex-parent--row'); 
+  selectContainer.classList.add('flex-parent', 'flex-parent--row');
 
   const dropDown = document.createElement('select');
-  dropDown.classList.add('select', 'filter-option','cerapromedium');
+  dropDown.classList.add('select', 'filter-option', 'cerapromedium');
+  dropDown.style.width = '270px';
 
   dropDown.addEventListener('change', function() {
     const selectedValue = this.value;
 
-    highlightBairro(selectedValue);
+    if (selectedValue === 'Todos') {
+      // Set the dropdown text back to the default when "Todos" is selected
+      this.selectedIndex = 0;
 
-     const selectedFeature = geojsonData.features.find(
-      (feature) => feature.properties.Bairro === selectedValue
-    );
-    
-    if(selectedValue){
-    flyToBairro(selectedFeature.geometry.coordinates);
-  }
-  else{
-    flyToCentroMapa([-43.45273, -22.90996]);
-  }
+      // Call the function to fly to the center of the map
+      flyToCentroMapa([-43.45273, -22.90996]);
+    }
+
+    // Update the map or other related functionality based on the selected option
+    if (selectedValue != 'Todos') {
+      highlightBairro(selectedValue);
+      const selectedFeature = geojsonData.features.find(
+        (feature) => feature.properties.Bairro === selectedValue
+      );
+      flyToBairro(selectedFeature.geometry.coordinates);
+    }
   });
 
-  const placeholderOption = document.createElement('option', 'cerapromedium');
+  const placeholderOption = document.createElement('option');
   placeholderOption.value = '';
-  placeholderOption.text = 'Selecione um bairro';
-  placeholderOption.disabled = false;
-  placeholderOption.selected = true; 
-  dropDown.style.width = '270px'
+  placeholderOption.text = 'Selecione um Bairro';
+  placeholderOption.disabled = true;
+  placeholderOption.selected = true;
 
   dropDown.appendChild(placeholderOption);
+
+  const allOption = document.createElement('option');
+  allOption.textContent = 'Todos';
+  allOption.value = 'Todos';
+  dropDown.appendChild(allOption);
+
+  for (let i = 0; i < listItems.length; i++) {
+    const opt = listItems[i];
+    const el = document.createElement('option');
+    el.textContent = opt;
+    el.value = opt;
+    dropDown.appendChild(el);
+  }
 
   const selectArrow = document.createElement('div');
   selectArrow.classList.add('select-arrow');
@@ -375,15 +392,10 @@ function buildDropDownList(title, listItems) {
   selectContainer.appendChild(selectArrow);
   mainDiv.appendChild(selectContainer);
 
-  for (let i = 0; i < listItems.length; i++) {
-    const opt = listItems[i];
-    const el1 = document.createElement('option');
-    el1.textContent = opt;
-    el1.value = opt;
-    dropDown.appendChild(el1);
-  }
   filtersDiv.appendChild(mainDiv);
 }
+
+
 
 
 
