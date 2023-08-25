@@ -6,7 +6,7 @@ const config = {
   CSV: './assets/csv/obras.csv',
   center: [-43.45273, -22.90996],
   zoom: 10.00,
-  popupInfo: ['Titulo', 'Projeto', 'Bairro', 'Situação'],
+  popupInfo: ['Titulo', 'Projeto', 'Bairro', 'Situação', 'Investimento'],
   filters: [
     {
       type: 'dropdown',
@@ -114,7 +114,7 @@ const config = {
       type: 'checkbox',
       title: '',
       columnHeader: 'Projeto',
-      listItems: ['Morar Carioca', 'Bairro Maravilha', 'Saúde', 'BRT'],
+      listItems: ['Saúde', 'Bairro Maravilha','Morar Carioca', 'BRT'],
     }
   ],
 };

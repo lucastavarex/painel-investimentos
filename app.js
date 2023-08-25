@@ -321,7 +321,8 @@ function createPopup(currentFeature) {
     .setHTML('<h3>' + '<b>' + currentFeature.properties[config.popupInfo[0]] + '</b>' + '</h3>' + '<hr>'
            + '<h3>' + '<b>' + 'Projeto &nbsp' +'</b>'+ currentFeature.properties[config.popupInfo[1]] + '</h3>'
            + '<h3>' + '<b>' + 'Bairro &nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[2]] + '</h3>'
-           + '<h3>' + '<b>' + 'Situação &nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[3]] +'</h3>') 
+           + '<h3>' + '<b>' + 'Situação &nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[3]] +'</h3>' 
+           + '<h3>' + '<b>' + 'Investimento &nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[4]] +'</h3>') 
     .addTo(map);
 }
 
@@ -432,8 +433,8 @@ function buildCheckbox(title, listItems) {
           checkboxDiv.style.backgroundColor = '#4E81A6';
           inputValue.style.color = '#4E81A6';
         } else if (input.value === 'Saúde') {
-          checkboxDiv.style.backgroundColor = '#A6634E';
-          inputValue.style.color = '#A6634E';
+          checkboxDiv.style.backgroundColor = '#754EA6';
+          inputValue.style.color = '#754EA6';
         } else if (input.value === 'BRT') {
           checkboxDiv.style.backgroundColor = '#A68D4E';
           inputValue.style.color = '#A68D4E';
@@ -675,11 +676,10 @@ function makeGeoJSON(csvData) {
           'circle-color': [
             'match',
             ['get', 'Projeto'],
-            'Morar Carioca', '#6FA64E', 
+            'Saúde', '#754EA6',
             'Bairro Maravilha', '#4E81A6',
-            'Saúde', '#A6634E', 
-            'BRT', '#A68D4E',
-            '#448EE4' 
+            'Morar Carioca', '#6FA64E', 
+            'BRT', '#A68D4E','#448EE4' 
           ],
         },
       });
