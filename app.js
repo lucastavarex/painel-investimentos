@@ -17,8 +17,8 @@ fullScreenButton.addEventListener('click', () => {
   // Esconder o botão de entrada em tela cheia
   fullScreenButton.style.display = 'none';
   map.flyTo({
-    center: [-43.62500, -22.83996],
-    zoom: 10.7, 
+    center: [-43.55873, -22.85996],
+    zoom: 10.35, 
   });
 });
 
