@@ -262,6 +262,14 @@
   white-space: nowrap;
 }
 
+.botao button:hover {
+  background-color: white; /* Fundo branco */
+  color: #00BFFF; /* Texto azul claro */
+  border: 2px solid #00BFFF; /* Linha de contorno azul, 2px de espessura */
+  transition: all 0.1s ease; /* Efeito suave com duração de 0.3 segundos */
+  padding: 13px 35px 13px 35px;
+}
+
 .mapboxgl-ctrl-bottom-left{
   display:none;
 }

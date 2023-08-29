@@ -268,19 +268,22 @@ function flyToCentroMapa(currentFeature) {
 function flyToBairro(currentFeature) {
   map.flyTo({
     center: currentFeature,
-    zoom: 12,
+    zoom: 11,
   });
 }
 
-// Defina uma variável global para armazenar a referência à camada da linha de contorno atual
+// Define variáveis globais para armazenar as referências às camadas de contorno e preenchimento atuais
 let boundaryLineLayerId = null;
+let boundaryFillLayerId = null;
 
 function highlightBairro(bairro) {
-  // Remova a camada da linha de contorno anterior, se existir
-  if (boundaryLineLayerId !== null) {
+  // Remova a camada de contorno e preenchimento anterior, se existirem
+  if (boundaryFillLayerId !== null && map.getLayer(boundaryFillLayerId)) {
+    map.removeLayer(boundaryFillLayerId);
+  }
+  if (boundaryLineLayerId !== null && map.getLayer(boundaryLineLayerId)) {
     map.removeLayer(boundaryLineLayerId);
     map.removeSource(boundaryLineLayerId);
-    boundaryLineLayerId = null;
   }
 
   const coordinates = boundaryVertices[bairro];
@@ -301,9 +304,21 @@ function highlightBairro(bairro) {
   };
 
   const newBoundaryLineLayerId = 'boundary-line-layer-' + bairro;
+  const newBoundaryFillLayerId = 'boundary-fill-layer-' + bairro;
+
   map.addSource(newBoundaryLineLayerId, {
     type: 'geojson',
     data: boundaryPolygon
+  });
+
+  map.addLayer({
+    id: newBoundaryFillLayerId,
+    type: 'fill',
+    source: newBoundaryLineLayerId,
+    paint: {
+      'fill-color': '#000000', // Cor de preenchimento azul claro (formato RGBA)
+      'fill-opacity': 0.1 
+    }
   });
 
   map.addLayer({
@@ -311,13 +326,14 @@ function highlightBairro(bairro) {
     type: 'line',
     source: newBoundaryLineLayerId,
     paint: {
-      'line-color': '#000000', // Escolha a cor da linha de contorno
-      'line-width': 4 // Escolha a largura da linha de contorno
+      'line-color': '#000000', // Cor do contorno da linha
+      'line-width': 2 // Largura do contorno da linha
     }
   });
 
-  // Atualize a referência à camada da linha de contorno atual
+  // Atualize as referências às camadas de contorno e preenchimento atuais
   boundaryLineLayerId = newBoundaryLineLayerId;
+  boundaryFillLayerId = newBoundaryFillLayerId;
 }
 
 
@@ -325,7 +341,7 @@ function createPopup(currentFeature) {
   const popups = document.getElementsByClassName('mapboxgl-popup');
   
   if (popups[0]) popups[0].remove();
-  new mapboxgl.Popup({className: "mapa-popup", closeOnClick: true })
+  new mapboxgl.Popup({className: "mapa-popup", closeOnClick: true ,anchor: 'top'})
     .setLngLat(currentFeature.geometry.coordinates)
     .setHTML('<h3>' + '<b>' + currentFeature.properties[config.popupInfo[0]] + '</b>' + '</h3>' + '<hr>'
            + '<h3>' + '<b>' + 'Projeto &nbsp' +'</b>'+ currentFeature.properties[config.popupInfo[1]] + '</h3>'
