@@ -481,5 +481,11 @@
 <script src="config.js"></script>
 <script src="app.js"></script>
 <script src="assets/boundaryVertices.js"></script>
+<script>
+  if (/Mobi|Android/i.test(navigator.userAgent)) {
+    window.location.href = 'index-mobile.html';
+  }
+  </script>
+  
 
 </html>
