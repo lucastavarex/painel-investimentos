@@ -482,11 +482,14 @@
 <script src="app.js"></script>
 <script src="assets/boundaryVertices.js"></script>
 <script>
- if (/Mobi|Android/i.test(navigator.userAgent)) {
-  if (window.location.pathname !== '/index-mobile.html') {
-    window.location.replace('/index-mobile.html');
+  if (/Mobi|Android/i.test(navigator.userAgent)) {
+    var currentUrl = window.location.href;
+    var mobileUrl = currentUrl.replace('/index.html', '/index-mobile.html');
+    
+    if (currentUrl !== mobileUrl) {
+      window.location.replace(mobileUrl);
+    }
   }
-}
 </script>
   
 
