@@ -266,8 +266,9 @@ function isMobileDevice() {
 function flyToCentroMapa(currentFeature) {
   map.flyTo({
     center: currentFeature,
-    zoom: 10,
+    zoom: isMobileDevice() ? 8.60 : config.zoom, // Define o zoom para 8 se for um dispositivo móvel, caso contrário, usa o valor de configuração
   });
+  
 }
 
 

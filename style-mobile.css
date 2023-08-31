@@ -119,6 +119,9 @@ footer {
 .footer-icon{
     padding: 50px;
 }
+#footer-icon{
+    width: 80px;
+}
 
 .separador {
     border-bottom: 1px solid #ccc; /* Define a linha cinza com uma borda inferior */
@@ -215,6 +218,7 @@ footer {
     margin-left:-15px ;
     margin-right: 10px;
   }
+  
   .checkbox-container {
     background-color: white;
     padding-right: 5px;
