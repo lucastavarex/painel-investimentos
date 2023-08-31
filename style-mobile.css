@@ -135,8 +135,8 @@ footer {
 }
  
 .boxmap {
-    width: calc(100% - 50px);
-    height: 500px;
+    width: calc(100% - 30px);
+    height: 480px;
     border-radius: 20px;
     /* position: relative; */
   }
