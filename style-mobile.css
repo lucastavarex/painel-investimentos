@@ -123,19 +123,20 @@ footer {
 }
 
 .separador {
-    border-bottom: 1px solid #ccc; /* Define a linha cinza com uma borda inferior */
-    width: 100%; /* Ocupa a largura total da tela */
-    margin: 20px 0; /* Adiciona espaçamento acima e abaixo do separador */
+    border-bottom: 1px solid #ccc;
+    width: 90%;
+    margin: 5px auto; /* Centraliza horizontalmente com margem automática */
 }
+
 
 .footer-text {
     text-align: center; /* Centraliza o texto horizontalmente */
-    margin: 20px 0; /* Adiciona espaçamento acima e abaixo do texto */
+    margin: 20px ; /* Adiciona espaçamento acima e abaixo do texto */
 }
  
 .boxmap {
     width: calc(100% - 30px);
-    height: 480px;
+    height: 440px;
     border-radius: 20px;
     /* position: relative; */
   }
@@ -163,11 +164,12 @@ footer {
     align-items: center;
    
   }
+  
   /* Adjust the position of the zoom buttons */
 .zoom-buttons {
     position: absolute;
-    top: 20px; /* Adjust the top position as needed */
-    right: 20px; /* Adjust the right position as needed */
+    top: 390px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
     z-index: 2;
   }
   
@@ -281,3 +283,77 @@ footer {
     align-items: center;
   }
  
+  .button-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px black;
+  }
+
+  .button-box {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
+
+  .page-btn .page-btn-saude .active{
+    font-family: 'CeraProRegular', sans-serif;
+  }
+  
+  .button-box button {
+    flex: 1;
+    outline: none;
+  }
+  
+  .button-box button:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .button-box button:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  /* Estilos para os botões de cada categoria */
+.page-btn-saude.active {
+    background-color: #754EA6; /* Vermelho para a categoria "Saúde" */
+  }
+  
+  .page-btn-infra.active {
+    background-color: #4E81A6; /* Azul para a categoria "Infraestrutura" */
+  }
+  
+  .page-btn-habit.active {
+    background-color: #6FA64E; /* Verde para a categoria "Habitação" */
+  }
+  
+  .page-btn-transp.active {
+    background-color: #D2B64B; /* Amarelo para a categoria "Transporte" */
+  }
+  
+  /* Estilo para as letras dos botões ativos */
+  .page-btn.active {
+    color: white;
+  }
+  
+  .page-btn {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 10px 8px 10px;
+    cursor: pointer;
+    font-family: 'CeraProRegular', sans-serif;
+    transition: background-color 0.3s; /* Transição suave para a mudança de cor */
+  }
