@@ -254,7 +254,7 @@ const map = new mapboxgl.Map({
   container: 'map',
   style: config.style,
   center: config.center,
-  zoom: isMobileDevice() ? 8.60 : config.zoom, // Define o zoom para 8 se for um dispositivo móvel, caso contrário, usa o valor de configuração
+  zoom: isMobileDevice() ? 8.35 : config.zoom, // Define o zoom para 8 se for um dispositivo móvel, caso contrário, usa o valor de configuração
 });
 
 // Função para verificar se o dispositivo é móvel
@@ -266,7 +266,7 @@ function isMobileDevice() {
 function flyToCentroMapa(currentFeature) {
   map.flyTo({
     center: currentFeature,
-    zoom: isMobileDevice() ? 8.60 : config.zoom, // Define o zoom para 8 se for um dispositivo móvel, caso contrário, usa o valor de configuração
+    zoom: isMobileDevice() ? 8.35 : config.zoom, // Define o zoom para 8 se for um dispositivo móvel, caso contrário, usa o valor de configuração
   });
   
 }

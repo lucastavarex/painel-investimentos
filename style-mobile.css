@@ -135,7 +135,7 @@ footer {
 }
  
 .boxmap {
-    width: calc(100%);
+    width: calc(100% - 50px);
     height: 500px;
     border-radius: 20px;
     /* position: relative; */
@@ -149,7 +149,7 @@ footer {
   /* Estilos padrão para os filtros */
 .filters {
     position: absolute;
-    left: 20px;
+    left: 10px;
     z-index: 1;
   }
   
