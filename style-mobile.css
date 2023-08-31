@@ -65,11 +65,12 @@
 .cover-content {
     position: absolute; /* Posição absoluta para sobrepor a imagem */
     top: 50%; /* Posiciona o conteúdo no meio vertical */
-    left: 25%; /* Posiciona o conteúdo no meio horizontal */
-    transform: translate(-50%, -50%); /* Centraliza o conteúdo */
+    transform: translate(0%, -50%); /* Centraliza o conteúdo */
     z-index: 1;
     padding: 20px; /* Adicionando um espaçamento interno ao conteúdo */
     color: white;
+    font-size: 40px;
+    font-family: 'CeraProBold', sans-serif;
 }
 
 .cover-content p {
@@ -112,7 +113,11 @@ footer {
 
 
 .text_below_folder{
+    margin-top: 20px;
+    margin-bottom: 45px;
     padding: 20px;
+    font-family: 'CeraProMedium', sans-serif;
+    font-size: 21px;
 }
 
 .footer-icon{
@@ -294,6 +299,13 @@ footer {
     justify-content: center;
     margin-top: 20px;
     border: 1px black;
+  }
+  .text-container {
+    text-align: center;
+    line-height: 120%;
+    font-size: 40px; /* Tamanho do texto */
+    font-family: 'CeraProMedium', sans-serif;
+    color: black;
   }
 
   .button-box {
