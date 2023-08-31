@@ -1,1 +1,104 @@
-OLÁ
+<!DOCTYPE html>
+<html lang="pt">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Mobile Version</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-mobile.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link href='https://api.mapbox.com/mapbox-assembly/v0.24.0/assembly.min.css' rel='stylesheet'>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.2.0/mapbox-gl-geocoder.min.js'></script>
+    <script src='https://npmcdn.com/csv2geojson@latest/csv2geojson.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <img src="assets/img/logo.svg" alt="Imagem do Menu">
+        </div>
+        <div class="navbar-right">
+            <div class="hamburger-menu">
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+            </div>
+            <div class="menu-options">
+                <ul>
+                    <li>Option 1</li>
+                    <li>Option 2</li>
+                    <li>Option 3</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="cover">
+        <div class="cover-content">
+            <p>A GENTE</p>
+            <p>PRIORIZA</p>
+            <p>QUEM MAIS</p>
+            <p>PRECISA</p>
+        </div>
+        <img src="assets/img/cover-mobile.png" alt="cover">
+    </div>
+    <div class="text_below_folder">
+        <span style="display: block;"><span><img src="assets/img/Vector.png" style="width: 15px; margin-top:8px"> </span>Conheça as
+          iniciativas da</span>
+        <span style="display: block;">&nbsp&nbsp prefeitura para aprimorar a</span>
+        <span style="display: block;">&nbsp&nbsp qualidade de vida da população</span>
+    </div> 
+    <div class="botao" id="saiba-mais" style="display: none;">
+        <button style="font-family: 'CeraProBold', sans-serif;"> Saiba mais </button>
+    </div>
+    <div class="map-align">
+    <div class='scroll-hidden boxmap'>
+        <div class='viewport-twothirds map-container' id='map'>
+          <div class="filters">
+            <div class='flex-parent--row'>
+              <form id="filters"></form>
+            </div>
+          </div>
+          <div class="zoom-buttons" style='z-index: 1;'>
+            <button id="zoom-in"><img src="assets/img/zoomin.png" alt="zoom"></button>
+            <button id="zoom-out"><img src="assets/img/zoomout.png" alt="zoom"></button>
+            <button style="display: none;" id="full-screen"><img src="assets/img/fullscreen.svg" alt="fullscreen"></button>
+          </div>
+        </div>
+    </div>
+   </div>
+
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li>
+                    <h2>Mapa de Investimentos</h2>
+                    <p>Bem-vinda(o) ao Mapa de Investimento da Prefeitura da Cidade do Rio de Janeiro</p>
+                </li>
+                <li>
+                    <h2>Sobre</h2>
+                    <p>Página criada e administrada pela Equipe de Visualização de Dados da Prefeitura da Cidade do Rio de Janeiro</p>
+                </li>
+                <li>
+                    <h2>Dados</h2>
+                    <p>As informações apresentadas no Mapa de Investimentos foram fornecidas pelas Equipes de Comunicação da Prefeitura</p>
+                </li>
+            </ul>
+        </div>             
+        <div class="footer-icon">
+            <img src="assets/img/logo-footer-mobile.png" alt="Footer Icon">
+        </div>
+        <div class="separador"></div>
+        <p class="footer-text">
+            © Escritório de Dados da Prefeitura da Cidade do Rio de Janeiro, 2023. Todos os direitos reservados.
+        </p>
+        <img class="redes_sociais_icones" src="assets/img/redes_sociais_icones.png" style="width: 80px;" alt="Ícone de redes sociais">
+    
+    </footer>
+</body>
+<script src="config.js"></script>
+<script src="app.js"></script>
+<script src="assets/boundaryVertices.js"></script>
+</html>

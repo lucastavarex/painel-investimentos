@@ -23,11 +23,6 @@
   font-style: normal;
 }
 
-#filters {
-  display: flex;
-  align-items: center;
-}
-
 .description{
   padding-top: 10px;
   padding-bottom: 20px;
@@ -166,7 +161,6 @@
   margin-right: 4vw;
   background-color: white;
   border-radius: 120px;
- 
 }
 
 .checkbox-label {

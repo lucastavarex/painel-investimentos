@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 
 <head>
   <meta charset='utf-8'>
@@ -483,14 +483,8 @@
 <script src="assets/boundaryVertices.js"></script>
 <script>
   if (/Mobi|Android/i.test(navigator.userAgent)) {
-    var currentUrl = window.location.href;
-    var mobileUrl = currentUrl.replace('/index.html', '/index-mobile.html');
-    
-    if (currentUrl !== mobileUrl) {
-      window.location.replace(mobileUrl);
-    }
+    window.location.href = 'index-mobile.html';
   }
 </script>
-  
 
 </html>
