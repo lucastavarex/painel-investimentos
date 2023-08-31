@@ -1,3 +1,28 @@
+@font-face {
+    font-family: 'CeraProBold';
+    src: url('./assets/fonte/Cera Pro Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'CeraProMedium';
+    src: url('./assets/fonte/Cera Pro Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'CeraProBold';
+    src: url('./assets/fonte/Cera Pro Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'CeraProRegular';
+    src: url('./assets/fonte/Cera Pro Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 
 /* Navbar styles */
 .navbar {
@@ -107,14 +132,14 @@ footer {
 }
  
 .boxmap {
-    width: calc(100% - 80px);
+    width: calc(100%);
+    height: 500px;
     border-radius: 20px;
     /* position: relative; */
   }
   /* Add a class to the map container to adjust its positioning */
 .map-container {
     position: relative; /* Add this line to make it a reference for absolute positioning */
-    max-height: 400px;
     overflow: hidden;
   }
 
@@ -129,7 +154,7 @@ footer {
     flex-direction: column; /* Empilhar verticalmente em dispositivos móveis */
     align-items: stretch; /* Esticar na largura */
   }
-
+  
   .map-align {
     display: flex;
     justify-content: center;
@@ -168,6 +193,14 @@ footer {
     width: 20px !important;
     height: 20px !important;
     border-radius: 50%;
+    margin-top: 8px;
+  }
+  .select.filter-option.cerapromedium{
+    background-color: white;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
   }
   
   .checkbox-label {
@@ -175,14 +208,17 @@ footer {
     align-items: center;
   }
   .checkbox-container {
-    margin-left: 1vw;
+    margin-left: 10px;  
     /* Espaço à esquerda dos checkboxes */
+  }
+  .flex-parent.flex-parent--row.px3{
+    margin-left:-15px ;
+    margin-right: 10px;
   }
   .checkbox-container {
     background-color: white;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
     padding-bottom: 5px;
     border-radius: 20px;
   }  
@@ -230,4 +266,15 @@ footer {
   .select-arrow{
     display:none;
  }
+ .select {
+    font-size: 13.5px;
+    padding-top: 9px;
+    align-items: center;
+    border: none;
+    outline: none;
+    box-shadow: none; 
+    padding-left:20px;
+    padding-bottom:8px;
+    align-items: center;
+  }
  

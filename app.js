@@ -254,8 +254,14 @@ const map = new mapboxgl.Map({
   container: 'map',
   style: config.style,
   center: config.center,
-  zoom: config.zoom,
+  zoom: isMobileDevice() ? 8.60 : config.zoom, // Define o zoom para 8 se for um dispositivo móvel, caso contrário, usa o valor de configuração
 });
+
+// Função para verificar se o dispositivo é móvel
+function isMobileDevice() {
+  return typeof window.orientation !== 'undefined' || navigator.userAgent.indexOf('Mobile') !== -1;
+}
+
 
 function flyToCentroMapa(currentFeature) {
   map.flyTo({
@@ -420,10 +426,6 @@ function buildDropDownList(title, listItems) {
 
   filtersDiv.appendChild(mainDiv);
 }
-
-
-
-
 
 function buildCheckbox(title, listItems) {
   const filtersDiv = document.getElementById('filters');
