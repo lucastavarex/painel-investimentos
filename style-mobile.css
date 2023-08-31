@@ -86,6 +86,7 @@
 footer {
     text-align: center;
     padding: 20px;
+    font-family: 'CeraProMedium', sans-serif;
 }
 
 .footer-links ul {
@@ -102,8 +103,9 @@ footer {
 }
 
 .footer-links h2 {
-    font-size: 18px;
+    font-size: 25px;
     margin-bottom: 5px;
+    font-family: 'CeraProBold', sans-serif;
     text-align: left; /* Alinha os títulos à esquerda */
 }
 
