@@ -218,20 +218,17 @@ footer {
     display: flex;
     align-items: center;
   }
-  .checkbox-container {
-    margin-left: 10px;  
-    /* Espaço à esquerda dos checkboxes */
-  }
+
   .flex-parent.flex-parent--row.px3{
     margin-left:-15px ;
     margin-right: 10px;
   }
   
   .checkbox-container {
+    margin-left: 10px;    /* Espaço à esquerda dos checkboxes */
     background-color: white;
     padding-right: 5px;
     padding-left: 5px;
-    padding-bottom: 5px;
     border-radius: 20px;
   }  
   .mapboxgl-ctrl-geocoder--input {
@@ -371,3 +368,26 @@ footer {
     font-family: 'CeraProRegular', sans-serif;
     transition: background-color 0.3s; /* Transição suave para a mudança de cor */
   }
+
+  /* Adicione esses estilos para personalizar o ícone do Bootstrap */
+.custom-toggler {
+    background-color: transparent;
+    border: none;
+}
+
+.custom-toggler .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    /* padding: 10px; */
+}
+
+.custom-toggler .menu-bar {
+    /* width: 30px;
+    height: 3px; */
+    background-color: black;
+    /* margin: 3px 0; */
+}
+.navbar-toggler{
+    border: none !important;
+}

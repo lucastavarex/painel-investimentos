@@ -18,7 +18,7 @@ fullScreenButton.addEventListener('click', () => {
   fullScreenButton.style.display = 'none';
   map.flyTo({
     center: [-43.55873, -22.85996],
-    zoom: 10.35, 
+    zoom: 10.35,
   });
 });
 
@@ -32,14 +32,14 @@ document.addEventListener('fullscreenchange', () => {
     // Se o mapa não estiver em tela cheia, ajuste o zoom de volta para 10
     map.flyTo({
       center: config.center, // Defina o centro do mapa como necessário
-      zoom: 10, 
+      zoom: 10,
     });
   }
 });
 
 
 //slide antes e depois
-(function() {
+(function () {
   var containers = document.getElementsByClassName('antesDepois');
   for (var i = 0, qtd = containers.length; i < qtd; i++) {
     var container = containers[i];
@@ -62,23 +62,23 @@ function comparaPosicao(e) {
 
 //feature do botão de saiba mais para scrollar para baixo
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   var saibaMaisButton = document.querySelector('.botao button');
   var mapContainer = document.getElementById('map');
 
-  saibaMaisButton.addEventListener('click', function(event) {
+  saibaMaisButton.addEventListener('click', function (event) {
     event.preventDefault();
     mapContainer.scrollIntoView({ behavior: 'smooth' });
   });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   var playButton = document.getElementById("play-button");
   var overlay = document.getElementById("overlay");
   var closeButton = document.getElementById("close-button");
   var player;
 
-  playButton.addEventListener("click", function() {
+  playButton.addEventListener("click", function () {
     overlay.style.display = "flex";
 
     // Criar o player do YouTube quando o botão é clicado
@@ -95,9 +95,9 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 
-  closeButton.addEventListener("click", function() {
+  closeButton.addEventListener("click", function () {
     overlay.style.display = "none";
-    
+
     // Pausar o vídeo quando o modal é fechado
     if (player) {
       player.pauseVideo();
@@ -107,100 +107,100 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   var playButton2 = document.getElementById("play-button2");
   var overlay2 = document.getElementById("overlay2");
   var closeButton2 = document.getElementById("close-button2");
 
-  playButton2.addEventListener("click", function() {
+  playButton2.addEventListener("click", function () {
     overlay2.style.display = "flex";
   });
 
-  closeButton2.addEventListener("click", function() {
+  closeButton2.addEventListener("click", function () {
     overlay2.style.display = "none";
   });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   var playButton3 = document.getElementById("play-button3");
   var overlay3 = document.getElementById("overlay3");
   var closeButton3 = document.getElementById("close-button3");
 
-  playButton3.addEventListener("click", function() {
+  playButton3.addEventListener("click", function () {
     overlay3.style.display = "flex";
   });
 
-  closeButton3.addEventListener("click", function() {
+  closeButton3.addEventListener("click", function () {
     overlay3.style.display = "none";
   });
 });
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   var playButton4 = document.getElementById("play-button4");
   var overlay4 = document.getElementById("overlay4");
   var closeButton4 = document.getElementById("close-button4");
 
-  playButton4.addEventListener("click", function() {
+  playButton4.addEventListener("click", function () {
     overlay4.style.display = "flex";
   });
 
-  closeButton4.addEventListener("click", function() {
+  closeButton4.addEventListener("click", function () {
     overlay4.style.display = "none";
   });
 });
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   var playButton5 = document.getElementById("play-button5");
   var overlay5 = document.getElementById("overlay5");
   var closeButton5 = document.getElementById("close-button5");
 
-  playButton5.addEventListener("click", function() {
+  playButton5.addEventListener("click", function () {
     overlay5.style.display = "flex";
   });
 
-  closeButton5.addEventListener("click", function() {
+  closeButton5.addEventListener("click", function () {
     overlay5.style.display = "none";
   });
 });
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   var playButton6 = document.getElementById("play-button6");
   var overlay6 = document.getElementById("overlay6");
   var closeButton6 = document.getElementById("close-button6");
 
-  playButton6.addEventListener("click", function() {
+  playButton6.addEventListener("click", function () {
     overlay6.style.display = "flex";
   });
 
-  closeButton6.addEventListener("click", function() {
+  closeButton6.addEventListener("click", function () {
     overlay6.style.display = "none";
   });
 });
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   var playButton7 = document.getElementById("play-button7");
   var overlay7 = document.getElementById("overlay7");
   var closeButton7 = document.getElementById("close-button7");
 
-  playButton7.addEventListener("click", function() {
+  playButton7.addEventListener("click", function () {
     overlay7.style.display = "flex";
   });
 
-  closeButton7.addEventListener("click", function() {
+  closeButton7.addEventListener("click", function () {
     overlay7.style.display = "none";
   });
 });
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   var playButton8 = document.getElementById("play-button8");
   var overlay8 = document.getElementById("overlay8");
   var closeButton8 = document.getElementById("close-button8");
 
-  playButton8.addEventListener("click", function() {
+  playButton8.addEventListener("click", function () {
     overlay8.style.display = "flex";
   });
 
-  closeButton8.addEventListener("click", function() {
+  closeButton8.addEventListener("click", function () {
     overlay8.style.display = "none";
   });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   const buttons = document.querySelectorAll('.page-btn');
   const contents = document.querySelectorAll('.content');
   const titles = document.querySelectorAll('.title');
@@ -268,7 +268,7 @@ function flyToCentroMapa(currentFeature) {
     center: currentFeature,
     zoom: isMobileDevice() ? 8.35 : config.zoom, // Define o zoom para 8 se for um dispositivo móvel, caso contrário, usa o valor de configuração
   });
-  
+
 }
 
 
@@ -324,7 +324,7 @@ function highlightBairro(bairro) {
     source: newBoundaryLineLayerId,
     paint: {
       'fill-color': '#000000', // Cor de preenchimento azul claro (formato RGBA)
-      'fill-opacity': 0.1 
+      'fill-opacity': 0.1
     }
   });
 
@@ -346,17 +346,17 @@ function highlightBairro(bairro) {
 
 function createPopup(currentFeature) {
   const popups = document.getElementsByClassName('mapboxgl-popup');
-  
+
   if (popups[0]) popups[0].remove();
-  new mapboxgl.Popup({className: "mapa-popup", closeOnClick: true ,anchor: 'top'})
+  new mapboxgl.Popup({ className: "mapa-popup", closeOnClick: true, anchor: 'top' })
     .setLngLat(currentFeature.geometry.coordinates)
     .setHTML('<h3>' + '<b>' + currentFeature.properties[config.popupInfo[0]] + '</b>' + '</h3>' + '<hr>'
-           + '<h3>' + '<b>' + 'Projeto &nbsp' +'</b>'+ currentFeature.properties[config.popupInfo[1]] + '</h3>'
-           + '<h3>' + '<b>' + 'Órgão &nbsp' +'</b>'+ currentFeature.properties[config.popupInfo[2]] + '</h3>'
-           + '<h3>' + '<b>' + 'Bairro &nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[3]] + '</h3>'
-           + '<h3>' + '<b>' + 'Situação &nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[4]] +'</h3>' 
-           + '<h3>' + '<b>' + 'Investimento &nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[5]] +'</h3>'
-           + '<h3>' + '<b>' + 'Beneficiados &nbsp' +'</b>'+  currentFeature.properties[config.popupInfo[6]] +'</h3>') 
+      + '<h3>' + '<b>' + 'Projeto &nbsp' + '</b>' + currentFeature.properties[config.popupInfo[1]] + '</h3>'
+      + '<h3>' + '<b>' + 'Órgão &nbsp' + '</b>' + currentFeature.properties[config.popupInfo[2]] + '</h3>'
+      + '<h3>' + '<b>' + 'Bairro &nbsp' + '</b>' + currentFeature.properties[config.popupInfo[3]] + '</h3>'
+      + '<h3>' + '<b>' + 'Situação &nbsp' + '</b>' + currentFeature.properties[config.popupInfo[4]] + '</h3>'
+      + '<h3>' + '<b>' + 'Investimento &nbsp' + '</b>' + currentFeature.properties[config.popupInfo[5]] + '</h3>'
+      + '<h3>' + '<b>' + 'Beneficiados &nbsp' + '</b>' + currentFeature.properties[config.popupInfo[6]] + '</h3>')
     .addTo(map);
 }
 
@@ -376,7 +376,7 @@ function buildDropDownList(title, listItems) {
   dropDown.classList.add('select', 'filter-option', 'cerapromedium');
   dropDown.style.width = '270px';
 
-  dropDown.addEventListener('change', function() {
+  dropDown.addEventListener('change', function () {
     const selectedValue = this.value;
 
     if (selectedValue === 'Todos') {
@@ -434,7 +434,7 @@ function buildCheckbox(title, listItems) {
   const filterTitle = document.createElement('div');
   const formatcontainer = document.createElement('div');
 
-  formatcontainer.classList.add('flex-parent', 'flex-parent--row', 'px3'); 
+  formatcontainer.classList.add('flex-parent', 'flex-parent--row', 'px3');
 
   filterTitle.classList.add('center', 'py12', 'txt-bold');
   filterTitle.innerText = title;
@@ -451,14 +451,14 @@ function buildCheckbox(title, listItems) {
     input.setAttribute('id', listItems[i]);
     input.setAttribute('value', listItems[i]);
 
-    if (listItems[i])  {
+    if (listItems[i]) {
       input.setAttribute('checked', 'true');
     }
 
     const checkboxDiv = document.createElement('div');
     const inputValue = document.createElement('p');
     inputValue.innerText = listItems[i];
-    inputValue.classList.add('checkbox-label', 'bold','cerapro');
+    inputValue.classList.add('checkbox-label', 'bold', 'cerapro');
     checkboxDiv.classList.add('checkbox', 'mr6', 'checkbox-label');
 
     container.appendChild(input);
@@ -501,7 +501,7 @@ function buildCheckbox(title, listItems) {
     formatcontainer.appendChild(container);
   }
   filtersDiv.appendChild(mainDiv);
-  
+
 }
 
 
@@ -667,9 +667,9 @@ filters(config.filters);
 
 
 const geocoder = new MapboxGeocoder({
-  accessToken: mapboxgl.accessToken, 
-  mapboxgl: mapboxgl, 
-  marker: true, 
+  accessToken: mapboxgl.accessToken,
+  mapboxgl: mapboxgl,
+  marker: true,
   zoom: 11,
 });
 
@@ -686,98 +686,98 @@ map.on('load', () => {
         makeGeoJSON(csvData);
       },
       error: function (request, status, error) {
-      
+
       },
     });
   });
 
- 
-function makeGeoJSON(csvData) {
-  csv2geojson.csv2geojson(
-    csvData,
-    {
-      latfield: 'Latitude',
-      lonfield: 'Longitude',
-      delimiter: ',',
-    },
-    (err, data) => {
-      data.features.forEach((data, i) => {
-        data.properties.id = i;
-      });
 
-      geojsonData = data;
-      map.addLayer({
-        id: 'locationData',
-        type: 'circle',
-        source: {
-          type: 'geojson',
-          data: geojsonData,
-        },
-        paint: {
-          'circle-radius': 6,
-          'circle-color': [
-            'match',
-            ['get', 'Projeto'],
-            'Saúde', '#754EA6',
-            'Bairro Maravilha', '#4E81A6',
-            'Morar Carioca', '#6FA64E', 
-            'BRT', '#A68D4E','#448EE4' 
-          ],
-        },
-      });
-    }
-  );
-  //zoom enabled only if scrollar
-  map.on("wheel", event => {
-    if (event.originalEvent.ctrlKey) {
-     
-      const mapElement = document.getElementById("map");
-      const messageElement = document.querySelector(".zoom-message");
-      
-      if (messageElement) {
-        messageElement.remove();
+  function makeGeoJSON(csvData) {
+    csv2geojson.csv2geojson(
+      csvData,
+      {
+        latfield: 'Latitude',
+        lonfield: 'Longitude',
+        delimiter: ',',
+      },
+      (err, data) => {
+        data.features.forEach((data, i) => {
+          data.properties.id = i;
+        });
+
+        geojsonData = data;
+        map.addLayer({
+          id: 'locationData',
+          type: 'circle',
+          source: {
+            type: 'geojson',
+            data: geojsonData,
+          },
+          paint: {
+            'circle-radius': 6,
+            'circle-color': [
+              'match',
+              ['get', 'Projeto'],
+              'Saúde', '#754EA6',
+              'Bairro Maravilha', '#4E81A6',
+              'Morar Carioca', '#6FA64E',
+              'BRT', '#A68D4E', '#448EE4'
+            ],
+          },
+        });
       }
-      
-      mapElement.style.filter = "brightness(100%)";
-      return;
-    }
-    
-    if (event.originalEvent.metaKey) {
-      return;
-    }
-    
-    if (event.originalEvent.altKey) {
-      return;
-    }
-    
-    event.preventDefault();
-    
-    // Escurecer a seção do mapa gradualmente
-    const mapElement = document.getElementById("map");
-    mapElement.style.position = "relative";
-    mapElement.style.filter = "brightness(50%)";
-    mapElement.style.transition = "filter 0.5s ease";
-    
-    // Exibir a mensagem no meio do mapa
-    const messageElement = document.createElement("div");
-    messageElement.innerText = "Use Ctrl + scroll para ampliar o mapa";
-    messageElement.classList.add("zoom-message"); 
-    messageElement.style.position = "absolute";
-    messageElement.style.top = "50%";
-    messageElement.style.left = "50%";
-    messageElement.style.transform = "translate(-50%, -50%)";
-    messageElement.style.color = "#2b2727";
-    messageElement.style.fontSize = "20px";
-    mapElement.appendChild(messageElement);
-    
-    // Remover a mensagem após 3 segundos
-    setTimeout(() => {
-      mapElement.style.filter = "brightness(100%)";
+    );
+    //zoom enabled only if scrollar
+    map.on("wheel", event => {
+      if (event.originalEvent.ctrlKey) {
+
+        const mapElement = document.getElementById("map");
+        const messageElement = document.querySelector(".zoom-message");
+
+        if (messageElement) {
+          messageElement.remove();
+        }
+
+        mapElement.style.filter = "brightness(100%)";
+        return;
+      }
+
+      if (event.originalEvent.metaKey) {
+        return;
+      }
+
+      if (event.originalEvent.altKey) {
+        return;
+      }
+
+      event.preventDefault();
+
+      // Escurecer a seção do mapa gradualmente
+      const mapElement = document.getElementById("map");
+      mapElement.style.position = "relative";
+      mapElement.style.filter = "brightness(50%)";
       mapElement.style.transition = "filter 0.5s ease";
-      messageElement.remove();
-    }, 1000);
-  });
-  
+
+      // Exibir a mensagem no meio do mapa
+      const messageElement = document.createElement("div");
+      messageElement.innerText = "Use Ctrl + scroll para ampliar o mapa";
+      messageElement.classList.add("zoom-message");
+      messageElement.style.position = "absolute";
+      messageElement.style.top = "50%";
+      messageElement.style.left = "50%";
+      messageElement.style.transform = "translate(-50%, -50%)";
+      messageElement.style.color = "#2b2727";
+      messageElement.style.fontSize = "20px";
+      mapElement.appendChild(messageElement);
+
+      // Remover a mensagem após 3 segundos
+      setTimeout(() => {
+        mapElement.style.filter = "brightness(100%)";
+        mapElement.style.transition = "filter 0.5s ease";
+        messageElement.remove();
+      }, 1000);
+    });
+
 
     map.on('click', 'locationData', (e) => {
       const features = map.queryRenderedFeatures(e.point, {
@@ -795,16 +795,16 @@ function makeGeoJSON(csvData) {
     });
     const zoomInButton = document.getElementById('zoom-in');
     const zoomOutButton = document.getElementById('zoom-out');
-    
+
     // Evento de clique para zoom in
     zoomInButton.addEventListener('click', () => {
       map.zoomIn();
     });
-    
+
     // Evento de clique para zoom out
     zoomOutButton.addEventListener('click', () => {
       map.zoomOut();
     });
-    
+
   }
 });
