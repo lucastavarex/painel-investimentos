@@ -259,7 +259,7 @@ const map = new mapboxgl.Map({
 
 // Função para verificar se o dispositivo é móvel
 function isMobileDevice() {
-  return typeof window.orientation !== 'undefined' || navigator.userAgent.indexOf('Mobile') !== -1;
+  return window.innerWidth < 768;
 }
 
 

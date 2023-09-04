@@ -391,3 +391,38 @@ footer {
 .navbar-toggler{
     border: none !important;
 }
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
