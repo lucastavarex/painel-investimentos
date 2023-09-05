@@ -541,7 +541,6 @@ div.container {
 
 div.image {
   height: 70%;
-  border-radius: 20px;
   background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
@@ -558,6 +557,7 @@ div.before {
 div.after {
   width: 100%;
   z-index: 1;
+  border-radius: 20px;
 }
 
 input.slider {
@@ -614,7 +614,7 @@ div.slider-button:before {
   position: absolute;
   top: 3px;
   left: 0px;
-  content: "\2B9C";
+  content: "\2190"; /* Código Unicode para a seta para a esquerda */
 }
 
 div.slider-button:after {
@@ -622,5 +622,5 @@ div.slider-button:after {
   position: absolute;
   top: 3px;
   right: 0px;
-  content: "\2B9E";
+  content: "\2192"; /* Código Unicode para a seta para a direita */
 }
