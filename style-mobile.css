@@ -22,7 +22,16 @@
     font-weight: normal;
     font-style: normal;
   }
-  
+
+  .description{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'CeraProRegular', sans-serif;
+  }  
+  .description-title{
+    font-size: 25px;
+    font-family: 'CeraProBold', sans-serif;
+  }  
 
 /* Navbar styles */
 .navbar {
