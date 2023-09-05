@@ -729,7 +729,7 @@ fullScreenButton.addEventListener('click', () => {
     if (window.innerWidth > window.innerHeight) {
       // Centralizar o mapa na posição desejada e definir o zoom para 9
       map.flyTo({
-        center: [-43.45273, -23.13500],
+        center: [-43.45273, -23.10000],
         zoom: 9.2,
         essential: true,
         animate: true,
