@@ -33,6 +33,10 @@
     font-family: 'CeraProBold', sans-serif;
   }  
 
+  p{
+    margin-bottom: 0 !important;
+  }
+
 /* Navbar styles */
 .navbar {
     display: flex;
@@ -484,6 +488,16 @@ footer {
       text-align: center;
       height: 100vh;
   }
+  .checkbox.mr6.checkbox-label{
+    margin-top: 0px;
+  }
+
+  .checkbox-container {
+    margin-left: 10px;    /* Espaço à esquerda dos checkboxes */
+    background-color: white;
+    padding:10px;
+    border-radius: 20px;
+  } 
 
   .cover-content {
       position: absolute;
