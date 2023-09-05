@@ -426,3 +426,46 @@ footer {
   border: none;
   cursor: pointer;
 }
+
+/* Estilo para o overlay de fundo escuro */
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+/* Estilo para o contêiner de vídeo no popup */
+#video-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Estilo para o botão de fechar */
+#close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* Estilo para o iframe do YouTube */
+#youtube-video {
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilo opcional para o botão de reprodução */
+.play-button {
+  /* Adicione estilos personalizados para o botão de reprodução aqui */
+}

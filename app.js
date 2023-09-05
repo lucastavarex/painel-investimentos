@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Criar o player do YouTube quando o botão é clicado
     if (!player) {
-      player = new YT.Player("player", {
+      player = new YT.Player("player-container", {
         videoId: "tXxTIJKBf30",  // ID do vídeo do YouTube
         playerVars: {
           controls: 0,  // Esconder os controles padrão do YouTube
@@ -100,11 +100,39 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Pausar o vídeo quando o modal é fechado
     if (player) {
-      player.pauseVideo();
+      player.stopVideo();
     }
   });
-
 });
+// Função para mostrar o vídeo em tela cheia
+function showVideoInFullscreen(videoId) {
+  const overlay = document.getElementById("overlay");
+  const videoContainer = document.getElementById("video-container");
+  const youtubeVideo = document.getElementById("youtube-video");
+
+  // Configurar o iframe do YouTube para o modo de tela cheia
+  youtubeVideo.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&fs=1`;
+  overlay.style.display = "block";
+
+  // Impedir que a página role enquanto o popup estiver aberto
+  document.body.style.overflow = "hidden";
+
+  // Fechar o popup quando o botão "Fechar" for clicado
+  const closeButton = document.getElementById("close-button");
+  closeButton.addEventListener("click", function () {
+    overlay.style.display = "none";
+    youtubeVideo.src = ""; // Parar o vídeo
+    document.body.style.overflow = "auto"; // Habilitar rolagem novamente
+  });
+}
+
+// Adicionar um evento de clique ao botão de reprodução
+const playButton = document.getElementById("play-button");
+playButton.addEventListener("click", function () {
+  // Substitua 'VIDEO_ID' pelo ID do vídeo do YouTube que você deseja reproduzir em tela cheia
+  showVideoInFullscreen("2-ExbJw6iRE"); // Substitua "VIDEO_ID" pelo ID do vídeo que você deseja reproduzir
+});
+
 
 
 document.addEventListener("DOMContentLoaded", function () {

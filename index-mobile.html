@@ -15,29 +15,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <link rel='stylesheet' href="assets/bootstrap-icons.css" />
     <link rel='stylesheet' href="assets/bootstrap.min.css" />
+    <script src="https://www.youtube.com/iframe_api"></script>
 
 </head>
 
 <body>
-    <!-- <nav class="navbar">
-        <div class="navbar-left">
-            <img src="assets/img/logo.svg" alt="Imagem do Menu">
-        </div>
-        <div class="navbar-right">
-            <div class="hamburger-menu">
-                <div class="menu-bar"></div>
-                <div class="menu-bar"></div>
-                <div class="menu-bar"></div>
-            </div>
-            <div class="menu-options">
-                <ul>
-                    <li>Option 1</li>
-                    <li>Option 2</li>
-                    <li>Option 3</li>
-                </ul>
-            </div>
-        </div>
-    </nav> -->
      <!-- menu header section -->
      <nav class="navbar navbar-expand-md pt-2" style="margin: 20px; margin-top: 20px; margin-bottom: 30px;">
         <div class="navbar-left">
@@ -113,9 +95,18 @@
             </div>
             <div class="image-container" style="margin-bottom: 390px;">
                 <img src="assets/img/medico_senhora.png" alt="Imagem com bordas arredondadas">
-                <button class="play-button"><img src="assets/img/play.png" alt="Botão de player"></button>
+                <button id="play-button" class="play-button"><img src="assets/img/play.png" alt="Botão de player"></button>
                 <img class="overlay-image" src="assets/img/mais_medicos.png">
-            </div>
+              </div>
+              
+              <div id="overlay" style="display: none;">
+                <div id="video-container">
+                  <iframe id="youtube-video" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <button id="close-button">Fechar</button>
+              </div>
+              
+            
 
             <div class="image-container" style="margin-bottom: 50px;">
                 <img src="assets/img/medico_senhora.png" alt="Imagem com bordas arredondadas">
