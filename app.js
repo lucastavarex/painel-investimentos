@@ -290,6 +290,9 @@ function flyToCentroMapa(currentFeature) {
   map.flyTo({
     center: currentFeature,
     zoom: isMobileDevice() ? 8.35 : config.zoom, // Define o zoom para 8 se for um dispositivo móvel, caso contrário, usa o valor de configuração
+    essential: true, // Certifique-se de definir isso como true para garantir que a animação ocorra
+    animate: true,   // Ative a animação
+    duration: 2      // Duração da animação em segundos (ajuste conforme necessário)
   });
 
 }
@@ -299,6 +302,9 @@ function flyToBairro(currentFeature) {
   map.flyTo({
     center: currentFeature,
     zoom: 11,
+    essential: true, 
+    animate: true,  
+    duration: 1000    
   });
 }
 

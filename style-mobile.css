@@ -23,6 +23,15 @@
     font-style: normal;
   }
 
+  .two-elements-per-row {
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  .two-elements-per-row > * {
+    flex-basis: calc(40% );
+    margin-bottom: 10px;
+  }
   .description{
     padding-top: 10px;
     padding-bottom: 20px;
@@ -39,6 +48,24 @@
   h3{
     font-size: 15px !important;
   }
+  .txt-bold{
+    padding-top: 5px !important;
+  }
+  
+  .center{
+    margin-top: 5px;
+  }
+
+  /* Estilo para a fonte maior e em negrito para os itens do menu */
+.navbar-nav .nav-item a {
+  font-size: 15px; /* Tamanho da fonte desejado */
+  color: black !important;
+  font-family: 'CeraProBold', sans-serif;
+}
+.navbar-nav .nav-item:first-child {
+  margin-top: 15px;
+}
+
 
 /* Navbar styles */
 .navbar {
@@ -80,8 +107,8 @@
 
 .cover-content {
     position: absolute; /* Posição absoluta para sobrepor a imagem */
-    top: 50%; /* Posiciona o conteúdo no meio vertical */
-    transform: translate(0%, -50%); /* Centraliza o conteúdo */
+    top: 65%; /* Posiciona o conteúdo no meio vertical */
+    transform: translate(-5%, -50%); /* Centraliza o conteúdo */
     z-index: 1;
     padding: 20px; /* Adicionando um espaçamento interno ao conteúdo */
     color: white;
@@ -220,14 +247,12 @@ footer {
     width: 20px !important;
     height: 20px !important;
     border-radius: 50%;
-    margin-top: 8px;
+    margin-top: -2px
   }
   .select.filter-option.cerapromedium{
     background-color: white;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
   }
   
   .checkbox-label {
@@ -236,15 +261,14 @@ footer {
   }
 
   .flex-parent.flex-parent--row.px3{
-    margin-left:-15px ;
+    margin-left:-18px ;
     margin-right: 10px;
   }
   
   .checkbox-container {
-    margin-left: 10px;    /* Espaço à esquerda dos checkboxes */
+    margin-left: 15px;    /* Espaço à esquerda dos checkboxes */
     background-color: white;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding:6px;
     border-radius: 20px;
   }  
   .mapboxgl-ctrl-geocoder--input {
@@ -480,12 +504,21 @@ footer {
   height: 100%;
 }
 
-/* Estilo opcional para o botão de reprodução */
-.play-button {
-  /* Adicione estilos personalizados para o botão de reprodução aqui */
-}
 /* Estilos para dispositivos em modo paisagem */
 @media screen and (orientation: landscape) {
+
+  .two-elements-per-row {
+    flex-wrap:nowrap; /* Permite que os elementos quebrem para a próxima linha conforme necessário */
+    align-items: center; /* Alinha os elementos verticalmente ao centro */
+    width: 600px;
+  }
+
+  
+
+  .checkbox-container .checkbox {
+    margin-top: -2px !important;
+  }
+
   .cover {
       position: relative;
       text-align: center;
@@ -506,7 +539,7 @@ footer {
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-58%, 23%);
       z-index: 1;
       padding: 20px;
       color: white;
