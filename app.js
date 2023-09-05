@@ -3,6 +3,20 @@ mapboxgl.accessToken = config.accessToken;
 const fullScreenButton = document.getElementById('full-screen');
 const mapContainer = document.getElementById('map');
 
+// Jquery - Slide antes e depois
+$(document).ready(function() {
+
+  $("input.slider").on("input change", function(event) {
+      var element = $(this).parents("div.container");
+      var pos = event.target.value;
+
+      element.find("div.before").css({width: pos + "%"});
+      element.find("div.slider-button").css({left: "calc(" + pos + "% - 18px)"});
+  });
+
+});
+// Fecha slide
+
 fullScreenButton.addEventListener('click', () => {
   if (mapContainer.requestFullscreen) {
     mapContainer.requestFullscreen();
@@ -231,6 +245,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener('DOMContentLoaded', function () {
   const buttons = document.querySelectorAll('.page-btn');
   const contents = document.querySelectorAll('.content');
+  const contentSlides = document.querySelectorAll('.contentSlide');
   const titles = document.querySelectorAll('.title');
 
   // Função para mostrar o conteúdo de cada aba
@@ -240,6 +255,13 @@ document.addEventListener('DOMContentLoaded', function () {
         content.style.display = 'block';
       } else {
         content.style.display = 'none';
+      }
+    });
+    contentSlides.forEach(contentSlide => {
+      if (contentSlide.id === target) {
+        contentSlide.style.display = 'block';
+      } else {
+        contentSlide.style.display = 'none';
       }
     });
   }

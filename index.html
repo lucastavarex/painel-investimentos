@@ -17,6 +17,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <link rel='stylesheet' href="style.css" />
   <script src="https://www.youtube.com/iframe_api"></script>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
 </head>
 
 <body style="margin: 0; display: flex; justify-content: center; align-items: center; ">
@@ -160,15 +161,13 @@
               a Saúde Pública Carioca tá diferente.
               </div>
             </div>
-
-            <div class="content content-thumbs" style="background-image: url('./assets/img/foto3.jpg');" id="content1">
-              <div class="antesDepois" data-width="100%">
-                <img>
-                <div class="depois" data-src="assets/img/medico.png"></div>
-              </div>
+            
+            <div class="contentSlide container" id="content1">
+              <div class="image before" style="background-image:url('./assets/img/foto3.jpg');"></div>
+              <div class="image after" style="background-image:url('assets/img/medico.png');"></div>
+              <input type="range" class="slider" min="1" max="100" value="50" />
+              <div class="slider-button"></div>
             </div>
-            
-            
           </div>
 
         </div>
@@ -486,5 +485,6 @@
     window.location.href = 'index-mobile.html';
   }
 </script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </html>
