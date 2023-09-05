@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
-    
+
 <head>
     <meta charset="UTF-8">
     <title>Mobile Version</title>
@@ -10,7 +10,8 @@
     <link href='https://api.mapbox.com/mapbox-assembly/v0.24.0/assembly.min.css' rel='stylesheet'>
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
-    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.2.0/mapbox-gl-geocoder.min.js'></script>
+    <script
+        src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.2.0/mapbox-gl-geocoder.min.js'></script>
     <script src='https://npmcdn.com/csv2geojson@latest/csv2geojson.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <link rel='stylesheet' href="assets/bootstrap-icons.css" />
@@ -20,14 +21,15 @@
 </head>
 
 <body>
-     <!-- menu header section -->
-     <nav class="navbar navbar-expand-md pt-2" style="margin: 20px; margin-top: 20px; margin-bottom: 30px;">
+    <!-- menu header section -->
+    <nav class="navbar navbar-expand-md pt-2" style="margin: 20px; margin-top: 20px; margin-bottom: 30px;">
         <div class="navbar-left">
             <img src="assets/img/logo.svg" alt="Imagem do Menu">
         </div>
         <!--collapsed button  -->
-        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <div class="hamburger-menu">
                 <div class="menu-bar"></div>
                 <div class="menu-bar"></div>
@@ -37,12 +39,14 @@
         <!--menu elements  -->
         <div class="collapse navbar-collapse justify-content-end mx-auto text-center" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link nav-item text-black-50" href="https://prefeitura.rio/">Prefeitura.rio</a></li>
-                <li class="nav-item"><a class="nav-link nav-item text-black-50" href="https://www.dados.rio/">Dados.rio</a></li>
+                <li class="nav-item"><a class="nav-link nav-item text-black-50"
+                        href="https://prefeitura.rio/">Prefeitura.rio</a></li>
+                <li class="nav-item"><a class="nav-link nav-item text-black-50"
+                        href="https://www.dados.rio/">Dados.rio</a></li>
             </ul>
         </div>
     </nav>
-    
+
     <div class="cover">
         <div class="cover-content">
             <span style="display: block;line-height: 120%;">A <span style="color:#00BFFF">SERVIÇO </span>DE </span>
@@ -54,137 +58,134 @@
         </span>Conheça as iniciativas da </span>
         <span style="display: block;"> prefeitura para aprimorar a</span>
         <span style="display: block;"> qualidade de vida </span>
-        <span style="display: block;"> da população <span> <img src="assets/img/Vector.png" style="width: 15px; margin-top:8px;display: inline;"> </span>
-    </div> 
+        <span style="display: block;"> da população <span> <img src="assets/img/Vector.png"
+                    style="width: 15px; margin-top:8px;display: inline;"> </span>
+    </div>
     <div class="botao" id="saiba-mais" style="display: none;">
         <button style="font-family: 'CeraProBold', sans-serif;"> Saiba mais </button>
     </div>
     <div class="map-align">
-    <div class='scroll-hidden boxmap'>
-        <div class='viewport-twothirds map-container' id='map'>
-          <div class="filters">
-            <div class='flex-parent--row'>
-              <form id="filters"></form>
+        <div class='scroll-hidden boxmap'>
+            <div class='viewport-twothirds map-container' id='map'>
+                <div class="filters">
+                    <div class='flex-parent--row'>
+                        <form id="filters"></form>
+                    </div>
+                </div>
+                <div class="zoom-buttons" style='z-index: 1;'>
+                    <button id="zoom-in" style="display: none;"><img src="assets/img/zoomin.png" alt="zoom"></button>
+                    <button id="zoom-out" style="display: none;"><img src="assets/img/zoomout.png" alt="zoom"></button>
+                    <button id="full-screen"><img src="assets/img/fullscreen.svg" alt="fullscreen"></button>
+                </div>
             </div>
-          </div>
-          <div class="zoom-buttons" style='z-index: 1;'>
-            <button id="zoom-in" style="display: none;"><img src="assets/img/zoomin.png" alt="zoom"></button>
-            <button id="zoom-out" style="display: none;"><img src="assets/img/zoomout.png" alt="zoom"></button>
-            <button id="full-screen"><img src="assets/img/fullscreen.svg" alt="fullscreen"></button>
-          </div>
         </div>
     </div>
-   </div>
-   <div class="separador" style="margin-top: 100px;"></div>
+    <div class="separador" style="margin-top: 100px;"></div>
 
-   
+
     <div class="button-container">
-      <div class="pagination button-box">
-        <button class="page-btn page-btn-saude active" data-target="content1" style="margin-left: 0px;">Saúde</button>
-        <button class="page-btn page-btn-infra" data-target="content2">Infraestrutura</button>
-        <button class="page-btn page-btn-habit" data-target="content3">Habitação</button>
-        <button class="page-btn page-btn-transp" data-target="content4" style="margin-right: 0px;">Transporte</button>
-      </div>
+        <div class="pagination button-box">
+            <button class="page-btn page-btn-saude active" data-target="content1"
+                style="margin-left: 0px;">Saúde</button>
+            <button class="page-btn page-btn-infra" data-target="content2">Infraestrutura</button>
+            <button class="page-btn page-btn-habit" data-target="content3">Habitação</button>
+            <button class="page-btn page-btn-transp" data-target="content4"
+                style="margin-right: 0px;">Transporte</button>
+        </div>
     </div>
 
     <div>
         <div class="saude" style="font-family: 'CeraProBold', sans-serif;">
-            <div  class="title" id="content1">
-            <div class="text-container centered-div" style="text-align: center; margin: 50px; padding-top: 50px;">
-                A gente prioriza quem <br> mais precisa
-            </div>
-            <div class="image-container" style="margin-bottom: 390px;">
-                <img src="assets/img/medico_senhora.png" alt="Imagem com bordas arredondadas">
-                <button id="play-button" class="play-button"><img src="assets/img/play.png" alt="Botão de player"></button>
-                <img class="overlay-image" src="assets/img/mais_medicos.png">
-              </div>
-              
-              <div id="overlay" style="display: none;">
-                <div id="video-container">
-                  <iframe id="youtube-video" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+            <div class="title" id="content1">
+                <div class="text-container centered-div" style="text-align: center; margin: 50px; padding-top: 50px;">
+                    A gente prioriza quem <br> mais precisa
                 </div>
-                <button id="close-button">Fechar</button>
-              </div>
-              
-            
-
-            <div class="image-container" style="margin-bottom: 50px;">
-                <img src="assets/img/medico_senhora.png" alt="Imagem com bordas arredondadas">
-                <button class="play-button"><img src="assets/img/play.png" alt="Botão de player"></button>
-            </div>
-
-            <div class="content content-texto" style="margin: 20px;margin-bottom: 50px;" id="content1">
-                <span style="color: #754EA6;"> —— Super Cento Carioca de Saúde </span><br><br>
-                <span > O maior e <span style="color: #754EA6;">mais
-                    moderno</span> complexo
-                  de Saúde da América Latina </span><br><br>
-                <div class="description">
-                  O Super Centro Carioca de Saúde ajudou a
-                  reduzir em 50% o tempo de espera por exames,
-                  consultas e cirurgias na fila do SISREG.<br><br>
+                <div class="image-container landscape" style="margin-bottom: 390px;">
+                    <img src="assets/img/medico_senhora.png" alt="Imagem com bordas arredondadas">
+                    <button id="play-button" class="play-button"><img src="assets/img/play.png"
+                            alt="Botão de player"></button>
+                    <img class="overlay-image" src="assets/img/mais_medicos.png">
                 </div>
-                <img src="assets/img/purple_check.png"> 113 mil consultas e
-                procedimentos por mês<br>
-  
-                <img src="assets/img/purple_check.png"> São 520
-                médicos especialistas
-                contratados<br>
-  
-                <img src="assets/img/purple_check.png"> Filas zeradas para
-                diversos
-                exames e procedimentos<br>
-  
-            </div>
 
-            <div class="image-container" style="margin-bottom: 100px;">
-                <img src="assets/img/medico_senhora.png" alt="Imagem com bordas arredondadas">
-                <img class="overlay-image" style=" top: 105%;" src="assets/img/1289.png">
-            </div>
-            <div class="content content-texto" style="margin: 20px;margin-bottom: 50px;" id="content1">
-                <span style="color: #754EA6;"> —— Hospital Ronaldo Gazolla </span><br><br>
-                <span > Saúde de qualidade <span style="color: #754EA6;">pra</span> quem mais precisa</span><br><br>
-                <div class="description">
-                    Super Centro Carioca de Saúde, Clínicas <br>
-                    da Família recuperadas, mais médicos<br>
-                    nas UPAs e hospitais municipais… Ainda <br>
-                    não tá bom, mas quem precisa sabe que <br>
-                    a Saúde Pública Carioca tá diferente.<br><br>
+                <div id="overlay" style="display: none;">
+                    <div id="video-container">
+                        <iframe id="youtube-video" width="560" height="315" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    <button id="close-button">Fechar</button>
                 </div>
-                <img src="assets/img/purple_check.png"> 113 mil consultas e
-                procedimentos por mês<br>
-  
-                <img src="assets/img/purple_check.png"> São 520
-                médicos especialistas
-                contratados<br>
-  
-                <img src="assets/img/purple_check.png"> Filas zeradas para
-                diversos
-                exames e procedimentos<br>
-  
+
+                <div class="image-container landscape" style="margin-bottom: 50px;">
+                    <img src="assets/img/medico_senhora.png" alt="Imagem com bordas arredondadas">
+                    <button class="play-button"><img src="assets/img/play.png" alt="Botão de player"></button>
+                </div>
+                <div class="container-text">
+                <div class="content content-texto landscape" style="margin: 20px; margin-bottom: 50px;" id="content1">
+                    <span style="color: #754EA6;"> —— Super Cento Carioca de Saúde </span><br><br>
+                    <span> O maior e <span style="color: #754EA6;">mais moderno</span> complexo de Saúde da América
+                        Latina </span><br><br>
+                    <div class="description">
+                        O Super Centro Carioca de Saúde ajudou a reduzir em 50% o tempo de espera por exames,
+                        consultas e cirurgias na fila do SISREG.<br><br>
+                    </div>
+                    <img src="assets/img/purple_check.png"> 113 mil consultas e procedimentos por mês<br>
+
+                    <img src="assets/img/purple_check.png"> São 520 médicos especialistas contratados<br>
+
+                    <img src="assets/img/purple_check.png"> Filas zeradas para diversos exames e procedimentos<br>
+
+                </div>
+                </div>
+
+                <div class="image-container landscape" style="margin-bottom: 100px;">
+                    <img src="assets/img/medico_senhora.png" alt="Imagem com bordas arredondadas">
+                    <img class="overlay-image" style=" top: 105%;" src="assets/img/1289.png">
+                </div>
+                <div class="container-text">
+                    <div class="content content-texto landscape" style="margin: 20px; margin-bottom: 50px;"
+                        id="content1">
+                        <span style="color: #754EA6;"> —— Hospital Ronaldo Gazolla </span><br><br>
+                        <span> Saúde de qualidade <span style="color: #754EA6;">pra</span> quem mais
+                            precisa</span><br><br>
+                        <div class="description">
+                            Super Centro Carioca de Saúde, Clínicas da Família recuperadas, mais médicos nas UPAs e
+                            hospitais municipais…
+                            Ainda não tá bom, mas quem precisa sabe que a Saúde Pública Carioca tá diferente.<br><br>
+                        </div>
+                        <img src="assets/img/purple_check.png"> 113 mil consultas e procedimentos por mês<br>
+
+                        <img src="assets/img/purple_check.png"> São 520 médicos especialistas contratados<br>
+
+                        <img src="assets/img/purple_check.png"> Filas zeradas para diversos exames e procedimentos<br>
+
+                    </div>
+                </div>
+
+
             </div>
-            
-           
-        </div>
         </div>
 
         <div class="infraestrutura" style="font-family: 'CeraProBold', sans-serif;">
-            <div class="title text-container centered-div"  id="content2" style="text-align: center; margin: 50px; padding-top: 50px;">
-              Da Zona Norte à Zona Oeste,<br>tem Bairro Maravilha!
-           </div>
-        </div>  
+            <div class="title text-container centered-div" id="content2"
+                style="text-align: center; margin: 50px; padding-top: 50px;">
+                Da Zona Norte à Zona Oeste,<br>tem Bairro Maravilha!
+            </div>
+        </div>
 
         <div class="habitacao" style="font-family: 'CeraProBold', sans-serif;">
-            <div class="title text-container centered-div"  id="content3" style="text-align: center; margin: 50px; padding-top: 50px;">
-              Escrevendo uma nova <br><span> história com o Morar Carioca</span>
-           </div>
+            <div class="title text-container centered-div" id="content3"
+                style="text-align: center; margin: 50px; padding-top: 50px;">
+                Escrevendo uma nova <br><span> história com o Morar Carioca</span>
+            </div>
         </div>
 
         <div class="transporte" style="font-family: 'CeraProBold', sans-serif;">
-            <div class="title text-container centered-div"  id="content4" style="text-align: center; margin: 50px; padding-top: 50px;">   
-              A nova era do transporte <br>público carioca começou!    
-           </div>
-        </div> 
-        
+            <div class="title text-container centered-div" id="content4"
+                style="text-align: center; margin: 50px; padding-top: 50px;">
+                A nova era do transporte <br>público carioca começou!
+            </div>
+        </div>
+
     </div>
     <div class="separador" style="margin-top: 100px;margin-bottom: 50px;"></div>
 
@@ -197,31 +198,35 @@
                 </li>
                 <li>
                     <h2>Sobre</h2>
-                    <p>Página criada e administrada pela Equipe de Visualização de Dados da Prefeitura da Cidade do Rio de Janeiro</p>
+                    <p>Página criada e administrada pela Equipe de Visualização de Dados da Prefeitura da Cidade do Rio
+                        de Janeiro</p>
                 </li>
                 <li>
                     <h2>Dados</h2>
-                    <p>As informações apresentadas no Mapa de Investimentos foram fornecidas pelas Equipes de Comunicação da Prefeitura</p>
+                    <p>As informações apresentadas no Mapa de Investimentos foram fornecidas pelas Equipes de
+                        Comunicação da Prefeitura</p>
                 </li>
             </ul>
-        </div>             
+        </div>
         <div class="footer-icon">
             <img src="assets/img/logo-footer-mobile.png" id="footer-icon" alt="Footer Icon">
         </div>
         <div class="separador"></div>
         <div style="margin-bottom: 100px;">
-        <p class="footer-text">
-            © Escritório de Dados da Prefeitura da Cidade do Rio de Janeiro, 2023. Todos os direitos reservados.
-        </p>
-        <img class="redes_sociais_icones" src="assets/img/redes_sociais_icones.png" style="width: 80px;" alt="Ícone de redes sociais">
-         </div>
+            <p class="footer-text">
+                © Escritório de Dados da Prefeitura da Cidade do Rio de Janeiro, 2023. Todos os direitos reservados.
+            </p>
+            <img class="redes_sociais_icones" src="assets/img/redes_sociais_icones.png" style="width: 80px;"
+                alt="Ícone de redes sociais">
+        </div>
     </footer>
     <!-- bootstrap requirement-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 <script src="config.js"></script>
 <script src="app.js"></script>
 <script src="assets/boundaryVertices.js"></script>
+
 </html>
