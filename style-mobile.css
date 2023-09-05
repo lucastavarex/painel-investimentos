@@ -383,10 +383,7 @@ footer {
 }
 
 .custom-toggler .menu-bar {
-    /* width: 30px;
-    height: 3px; */
     background-color: black;
-    /* margin: 3px 0; */
 }
 .navbar-toggler{
     border: none !important;
@@ -552,6 +549,7 @@ div.image {
 div.before {
   width: 50%;
   z-index: 2;
+  border-radius: 20px;
 }
 
 div.after {
