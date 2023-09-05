@@ -17,6 +17,7 @@
     <link rel='stylesheet' href="assets/bootstrap-icons.css" />
     <link rel='stylesheet' href="assets/bootstrap.min.css" />
     <script src="https://www.youtube.com/iframe_api"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
 
 </head>
 
@@ -137,10 +138,18 @@
                 </div>
                 </div>
 
-                <div class="image-container landscape" style="margin-bottom: 100px;">
+                <!-- <div class="image-container landscape" style="margin-bottom: 100px;">
                     <img src="assets/img/medico_senhora.png" alt="Imagem com bordas arredondadas">
                     <img class="overlay-image" style=" top: 105%;" src="assets/img/1289.png">
+                </div> -->
+                
+                <div class="contentSlide container landscape" id="content1">
+                    <div class="image after" style="background-image:url('assets/img/medico.png');"></div>
+                    <div class="image before" style="background-image:url('assets/img/vacina.png');"></div>
+                    <input type="range" class="slider" min="1" max="100" value="50" />
+                    <div class="slider-button"></div>
                 </div>
+
                 <div class="container-text">
                     <div class="content content-texto landscape" style="margin: 20px; margin-bottom: 50px;"
                         id="content1">
@@ -228,5 +237,6 @@
 <script src="config.js"></script>
 <script src="app.js"></script>
 <script src="assets/boundaryVertices.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </html>
