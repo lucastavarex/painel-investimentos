@@ -449,11 +449,13 @@ footer {
   position: absolute;
   top: 10px;
   right: 10px;
-  background-color: #fff;
+  background-color: #FF0000; /* Cor de fundo vermelha */
+  color: #FFFFFF; /* Cor do texto (branco) para legibilidade */
   padding: 5px 10px;
   border: none;
   cursor: pointer;
   z-index: 1001;
+  border-radius: 20px;
 }
 
 /* Estilo para o iframe do YouTube */

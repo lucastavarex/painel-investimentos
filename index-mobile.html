@@ -101,6 +101,7 @@
                 <div class="text-container centered-div" style="text-align: center; margin: 50px; padding-top: 20px;">
                     A gente prioriza quem <br> mais precisa
                 </div>
+
                 <div class="image-container landscape" style="margin-bottom: 390px;">
                     <img src="assets/img/medico_senhora.png" alt="Imagem com bordas arredondadas">
                     <button id="play-button" class="play-button"><img src="assets/img/play.png"
@@ -110,8 +111,7 @@
 
                 <div id="overlay" style="display: none;">
                     <div id="video-container">
-                        <iframe id="youtube-video" width="560" height="315" src="" frameborder="0"
-                            allowfullscreen></iframe>
+                        <div class="player" id="player-container"></div> <!-- Adicione este elemento -->
                     </div>
                     <button id="close-button">Fechar</button>
                 </div>
@@ -237,6 +237,7 @@
 </body>
 <script src="config.js"></script>
 <script src="app.js"></script>
+<script src="app-mobile.js"></script>
 <script src="assets/boundaryVertices.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 

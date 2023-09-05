@@ -764,7 +764,7 @@ font-family: 'CeraProMedium', sans-serif;
 
 .modal {
   position: relative;
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 20px;
   padding: 30px;
   text-align: center; /* Centralize o conteúdo do modal */
