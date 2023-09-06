@@ -756,7 +756,9 @@ fullScreenButton.addEventListener('click', () => {
     } else if (mapContainer.mozRequestFullScreen) {
         mapContainer.mozRequestFullScreen();
     } else if (mapContainer.webkitRequestFullscreen) {
-        mapContainer.webkitRequestFullscreen();
+        if (mapContainer.webkitRequestFullscreen) {
+            mapContainer.webkitRequestFullscreen();
+        }
     } else if (mapContainer.msRequestFullscreen) {
         mapContainer.msRequestFullscreen();
     }
