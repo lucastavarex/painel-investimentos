@@ -553,67 +553,76 @@ map.on('load', () => {
       }
     );
     //zoom enabled only if scrollar
+    let timeoutId;
+
     map.on("touchstart", event => {
-        const touches = event.originalEvent.touches;
-        if (touches.length === 2) {
-          const mapElement = document.getElementById("map");
-          const messageElement = document.querySelector(".zoom-message");
-      
-          if (messageElement) {
-            messageElement.remove();
-          }
-      
+      const touches = event.originalEvent.touches;
+      const mapElement = document.getElementById("map");
+    
+      if (touches.length === 2) {
+        const messageElement = document.querySelector(".zoom-message");
+    
+        if (messageElement) {
+          messageElement.remove();
+        }
+    
+        mapElement.style.filter = "brightness(100%)";
+      } else {
+        event.preventDefault();
+    
+        // Exibir a mensagem no meio do mapa
+        const messageElement = document.createElement("div");
+        messageElement.innerText = "Use dois dedos para mover o mapa";
+        messageElement.classList.add("zoom-message");
+        messageElement.style.position = "absolute";
+        messageElement.style.top = "40%";
+        messageElement.style.left = "50%";
+        messageElement.style.transform = "translate(-50%, -50%)";
+        messageElement.style.color = "#2b2727";
+        messageElement.style.fontSize = "20px";
+        messageElement.style.fontWeight = "bold";
+        messageElement.style.textAlign = "center";
+        mapElement.appendChild(messageElement);
+    
+        // Escurecer a seção do mapa gradualmente e depois voltar ao normal
+        mapElement.style.position = "relative";
+        mapElement.style.filter = "brightness(50%)";
+        mapElement.style.transition = "filter 0.5s ease";
+    
+        // Agendar a função para voltar ao normal após 3 segundos
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(() => {
           mapElement.style.filter = "brightness(100%)";
-        } else {
-          event.preventDefault();
-      
-          // Exibir a mensagem no meio do mapa
-          const mapElement = document.getElementById("map");
-          const messageElement = document.createElement("div");
-          messageElement.innerText = "Use dois dedos para mover o mapa";
-          messageElement.classList.add("zoom-message");
-          messageElement.style.position = "absolute";
-          messageElement.style.top = "50%";
-          messageElement.style.left = "50%";
-          messageElement.style.transform = "translate(-50%, -50%)";
-          messageElement.style.color = "#2b2727";
-          messageElement.style.fontSize = "20px";
-          messageElement.style.fontWeight = "bold";
-          messageElement.style.textAlign = "center";
-          mapElement.appendChild(messageElement);
-      
-          // Remover a mensagem após 3 segundos
-          setTimeout(() => {
-            messageElement.remove();
-          }, 3000);
-        }
-      });
-      
-      map.on("touchmove", event => {
-        const touches = event.originalEvent.touches;
-        if (touches.length === 1) {
-          event.preventDefault();
-        }
-      });
-      
-      map.on("touchend", event => {
-        const touches = event.originalEvent.touches;
-        if (touches.length === 0) {
-          event.preventDefault();
-      
-          const mapElement = document.getElementById("map");
-          const messageElement = document.querySelector(".zoom-message");
-      
           if (messageElement) {
             messageElement.remove();
           }
-      
-          // Escurecer a seção do mapa gradualmente
-          mapElement.style.position = "relative";
-          mapElement.style.filter = "brightness(50%)";
-          mapElement.style.transition = "filter 0.5s ease";
+        }, 3000);
+      }
+    });
+    
+    map.on("touchmove", event => {
+      const touches = event.originalEvent.touches;
+      if (touches.length === 1) {
+        event.preventDefault();
+      }
+    });
+    
+    map.on("touchend", event => {
+      const touches = event.originalEvent.touches;
+      if (touches.length === 0) {
+        event.preventDefault();
+    
+        const mapElement = document.getElementById("map");
+        const messageElement = document.querySelector(".zoom-message");
+    
+        if (messageElement) {
+          messageElement.remove();
         }
-      });
+    
+        clearTimeout(timeoutId);
+        mapElement.style.filter = "brightness(100%)";
+      }
+    });
 
     map.on('click', 'locationData', (e) => {
       const features = map.queryRenderedFeatures(e.point, {
