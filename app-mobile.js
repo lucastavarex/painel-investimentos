@@ -553,52 +553,55 @@ map.on('load', () => {
       }
     );
     //zoom enabled only if scrollar
-    map.on("touchstart", event => {
-        if (event.touches.length === 2) {
-          const mapElement = document.getElementById("map");
-          const messageElement = document.querySelector(".zoom-message");
-      
-          if (messageElement) {
-            messageElement.remove();
-          }
-      
-          mapElement.style.filter = "brightness(100%)";
-          return;
-        }
-      
-        event.preventDefault();
-      
-        // Escurecer a seção do mapa gradualmente
+    map.on("wheel", event => {
+      if (event.originalEvent.ctrlKey) {
+
         const mapElement = document.getElementById("map");
-        mapElement.style.position = "relative";
-        mapElement.style.filter = "brightness(50%)";
-        mapElement.style.transition = "filter 0.5s ease";
-      
-        // Exibir a mensagem no meio do mapa
-        const messageElement = document.createElement("div");
-        messageElement.innerText = "Use dois dedos para mover o mapa";
-        messageElement.classList.add("zoom-message");
-        messageElement.style.position = "absolute";
-        messageElement.style.top = "50%";
-        messageElement.style.left = "50%";
-        messageElement.style.transform = "translate(-50%, -50%)";
-        messageElement.style.color = "#2b2727";
-        messageElement.style.fontSize = "20px";
-        mapElement.appendChild(messageElement);
-      
-        // Remover a mensagem após 3 segundos
-        setTimeout(() => {
-          mapElement.style.filter = "brightness(100%)";
-          mapElement.style.transition = "filter 0.5s ease";
+        const messageElement = document.querySelector(".zoom-message");
+
+        if (messageElement) {
           messageElement.remove();
-        }, 3000);
-      });
-      
-      map.on("touchmove", event => {
-        if (event.touches.length === 2) {
-          event.preventDefault();
         }
-      });
+
+        mapElement.style.filter = "brightness(100%)";
+        return;
+      }
+
+      if (event.originalEvent.metaKey) {
+        return;
+      }
+
+      if (event.originalEvent.altKey) {
+        return;
+      }
+
+      event.preventDefault();
+
+      // Escurecer a seção do mapa gradualmente
+      const mapElement = document.getElementById("map");
+      mapElement.style.position = "relative";
+      mapElement.style.filter = "brightness(50%)";
+      mapElement.style.transition = "filter 0.5s ease";
+
+      // Exibir a mensagem no meio do mapa
+      const messageElement = document.createElement("div");
+      messageElement.innerText = "Use Ctrl + scroll para ampliar o mapa";
+      messageElement.classList.add("zoom-message");
+      messageElement.style.position = "absolute";
+      messageElement.style.top = "50%";
+      messageElement.style.left = "50%";
+      messageElement.style.transform = "translate(-50%, -50%)";
+      messageElement.style.color = "#2b2727";
+      messageElement.style.fontSize = "20px";
+      mapElement.appendChild(messageElement);
+
+      // Remover a mensagem após 3 segundos
+      setTimeout(() => {
+        mapElement.style.filter = "brightness(100%)";
+        mapElement.style.transition = "filter 0.5s ease";
+        messageElement.remove();
+      }, 1000);
+    });
 
 
     map.on('click', 'locationData', (e) => {

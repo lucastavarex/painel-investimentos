@@ -180,8 +180,14 @@ footer {
 
 
 .footer-text {
-    text-align: center; /* Centraliza o texto horizontalmente */
-    margin: 20px ; /* Adiciona espaçamento acima e abaixo do texto */
+    text-align: left; /* Alinha o texto à esquerda */
+    margin: 20px; /* Adiciona espaçamento acima e abaixo do texto */
+    display: inline-block; /* Permite que o texto ocupe o espaço ao lado da imagem */
+}
+#redes_sociais_icones{
+  /* margin-right: 200px !important; */
+  text-align: left !important;
+  margin: 20px;
 }
  
 .boxmap {
