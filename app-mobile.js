@@ -655,8 +655,8 @@ document.addEventListener("DOMContentLoaded", function () {
             controls: 1,
             autoplay: 1
           },
-        //   width: 1000,
-        //   height: 700
+          width: 350,
+          height: 620
         });
       } else {
         player.loadVideoById(videoId); // Carrega o vídeo pelo ID
@@ -672,6 +672,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   
     closeButton.addEventListener("click", function () {
+      closeVideo();
+    });
+  
+    overlay.addEventListener("click", function (event) {
+      // Verifica se o clique foi fora do vídeo
+      if (event.target === overlay) {
+        closeVideo();
+      }
+    });
+  
+    function closeVideo() {
       overlay.style.display = "none";
   
       if (player) {
@@ -680,7 +691,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (player2) {
         player2.stopVideo();
       }
-    });
+    }
   });
   
 // Jquery - Slide antes e depois
