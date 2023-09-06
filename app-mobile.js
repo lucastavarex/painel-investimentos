@@ -539,7 +539,7 @@ map.on('load', () => {
                         data: geojsonData,
                     },
                     paint: {
-                        'circle-radius': 3.5,
+                        'circle-radius': 5,
                         'circle-color': [
                             'match',
                             ['get', 'Projeto'],
@@ -603,7 +603,7 @@ map.on('load', () => {
                 messageElement.style.textAlign = "center";
                 mapElement.appendChild(messageElement);
 
-                // Atualizar a cor da mensagem com base na orientação do dispositivo
+                // Atualizar a locazalização da mensagem com base na orientação do dispositivo
                 updateMessageLocation();
 
                 // Escurecer a seção do mapa gradualmente e depois voltar ao normal
@@ -641,7 +641,8 @@ map.on('load', () => {
             }
         });
 
-        // Ouça as mudanças na orientação do dispositivo e atualize a cor da mensagem
+        // Ouve as mudanças na orientação do dispositivo e atualiza a posição da mensagem
+        // Isso foi uma gambiarra para posicionar melhora a mensagem pois não consegui centralizar o texto na tela
         window.addEventListener("orientationchange", updateMessageLocation);
 
 

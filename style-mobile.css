@@ -29,9 +29,10 @@
   }
   
   .two-elements-per-row > * {
-    flex-basis: calc(40% );
+    /* flex-basis: calc(40% ); */
     margin-bottom: 10px;
   }
+  
   .description{
     padding-top: 10px;
     padding-bottom: 20px;
@@ -41,6 +42,12 @@
     font-size: 25px;
     font-family: 'CeraProBold', sans-serif;
   }  
+
+  .checkbox-label.bold.cerapro{
+ 
+   font-size: 14px;
+    font-family: 'CeraProRegular', sans-serif;
+  }
 
   p{
     margin-bottom: 0 !important;
@@ -263,6 +270,8 @@ footer {
     background-color: white;
     padding-right: 20px;
     border-radius: 20px;
+    font-family: 'CeraProRegular', sans-serif;
+    font-size: 14px;
   }
   
   .checkbox-label {
@@ -279,6 +288,7 @@ footer {
     margin-left: 15px;    /* Espaço à esquerda dos checkboxes */
     background-color: white;
     padding:6px;
+    padding-right:10px;
     border-radius: 20px;
   }  
   .mapboxgl-ctrl-geocoder--input {
