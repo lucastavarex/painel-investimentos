@@ -671,9 +671,9 @@ document.addEventListener("DOMContentLoaded", function () {
       openVideo("tXxTIJKBf30"); // ID do segundo vídeo
     });
   
-    closeButton.addEventListener("click", function () {
-      closeVideo();
-    });
+    // closeButton.addEventListener("click", function () {
+    //   closeVideo();
+    // });
   
     overlay.addEventListener("click", function (event) {
       // Verifica se o clique foi fora do vídeo
