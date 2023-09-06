@@ -751,16 +751,18 @@ $(document).ready(function () {
 // Fecha slide
 
 fullScreenButton.addEventListener('click', () => {
-    if (mapContainer.requestFullscreen) {
-        mapContainer.requestFullscreen();
-    } else if (mapContainer.mozRequestFullScreen) {
-        mapContainer.mozRequestFullScreen();
-    } else if (mapContainer.webkitRequestFullscreen) {
-        if (mapContainer.webkitRequestFullscreen) {
-            mapContainer.webkitRequestFullscreen();
+    const elem = mapContainer;
+
+    if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+    } else if (elem.mozRequestFullScreen) {
+        elem.mozRequestFullScreen();
+    } else if (elem.webkitRequestFullscreen) {
+        if (elem.webkitRequestFullscreen) {
+            elem.webkitRequestFullscreen();
         }
-    } else if (mapContainer.msRequestFullscreen) {
-        mapContainer.msRequestFullscreen();
+    } else if (elem.msRequestFullscreen) {
+        elem.msRequestFullscreen();
     }
 
     // Esconder o botão de entrada em tela cheia
@@ -796,7 +798,7 @@ fullScreenButton.addEventListener('click', () => {
 
 document.addEventListener('fullscreenchange', () => {
     // Verifique o estado de tela cheia e ajuste a visibilidade do botão de entrada em tela cheia
-    if (document.fullscreenElement) {
+    if (document.fullscreenElement || document.webkitFullscreenElement) {
         fullScreenButton.style.display = 'none';
     } else {
         fullScreenButton.style.display = 'block';
@@ -808,6 +810,7 @@ document.addEventListener('fullscreenchange', () => {
         });
     }
 });
+
 
 
 //slide antes e depois
