@@ -192,7 +192,7 @@ function buildDropDownList(title, listItems) {
 
   const dropDown = document.createElement('select');
   dropDown.classList.add('select', 'filter-option', 'cerapromedium');
-  dropDown.style.width = '298px';
+  dropDown.style.width = '246px';
 
   dropDown.addEventListener('change', function () {
     const selectedValue = this.value;

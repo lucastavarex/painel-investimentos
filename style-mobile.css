@@ -178,6 +178,9 @@ footer {
     margin: 5px auto; /* Centraliza horizontalmente com margem automática */
 }
 
+.select{
+  box-shadow: none !important; 
+}
 
 .footer-text {
     text-align: left; /* Alinha o texto à esquerda */
